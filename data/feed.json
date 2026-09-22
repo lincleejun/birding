@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-22T06:17:47.912413+00:00",
+  "generated_at": "2026-09-22T06:18:33.595416+00:00",
   "retention_days": 30,
   "order": "reported_at descending; source wall time, timezone unspecified",
   "sources": {
     "sialia": {
       "status": "ok",
-      "last_attempt_at": "2026-09-22T06:17:47.912413+00:00",
-      "last_success_at": "2026-09-22T06:17:47.912413+00:00",
+      "last_attempt_at": "2026-09-22T06:18:33.595416+00:00",
+      "last_success_at": "2026-09-22T06:18:33.595416+00:00",
       "fetched_days": [
         "2026-09-21",
         "2026-09-20"
