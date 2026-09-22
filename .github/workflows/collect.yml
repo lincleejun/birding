@@ -1,0 +1,58 @@
+name: Collect birding reports
+on:
+  schedule:
+    - cron: '17 * * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['scripts/**', 'tests/**', '.github/workflows/**']
+
+concurrency:
+  group: birding-collect-publish
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Test
+        run: python -m unittest discover -s tests -v
+      - name: Collect
+        id: collect
+        continue-on-error: true
+        run: python scripts/collect.py
+      - name: Commit feed and source status
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/
+          if ! git diff --cached --quiet; then
+            git commit -m 'data: refresh birding feed'
+            git push origin HEAD:main
+          fi
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: data
+      - uses: actions/deploy-pages@v4
+        id: deployment
+      - name: Surface source failures after publishing status
+        if: steps.collect.outcome == 'failure'
+        run: |
+          echo 'Collection failed or was partial. Retained feed and failure status were published.'
+          exit 1

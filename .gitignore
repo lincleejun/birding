@@ -1,0 +1,13 @@
+.env
+.env.*
+__pycache__/
+*.pyc
+.DS_Store
+.venv/
+data/*.tmp
+.preview/
+samples/
+# Local exploratory notes and manually inspected source material.
+Context.md
+RESEARCH.md
+research-source-feasibility.md
