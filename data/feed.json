@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-22T12:39:49.653550+00:00",
+  "generated_at": "2026-09-22T17:39:37.229156+00:00",
   "retention_days": 30,
   "order": "reported_at descending; source wall time, timezone unspecified",
   "sources": {
     "sialia": {
       "status": "ok",
-      "last_attempt_at": "2026-09-22T12:39:49.653550+00:00",
-      "last_success_at": "2026-09-22T12:39:49.653550+00:00",
+      "last_attempt_at": "2026-09-22T17:39:37.229156+00:00",
+      "last_success_at": "2026-09-22T17:39:37.229156+00:00",
       "fetched_days": [
         "2026-09-22",
         "2026-09-21"
@@ -28,10 +28,58 @@
     }
   },
   "stats": {
-    "total": 78,
-    "new_this_run": 0
+    "total": 82,
+    "new_this_run": 4
   },
   "items": [
+    {
+      "id": "sialia:1913692",
+      "title": "Pt. Reyes, Mendoza Ranch, Yellow-green Vireo, Baird's Sandpipers",
+      "source": "sialia",
+      "list": "northbaybirds",
+      "area": "North Bay",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1913692",
+      "reported_at": "2026-09-22T09:27:00",
+      "reported_at_display": "9/22/26 9:27 am",
+      "kind": "reply",
+      "first_seen_at": "2026-09-22T17:39:37.229156+00:00"
+    },
+    {
+      "id": "sialia:1913691",
+      "title": "FOS Golden & White crown Sparrows in Sonoma",
+      "source": "sialia",
+      "list": "northbaybirds",
+      "area": "North Bay",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1913691",
+      "reported_at": "2026-09-22T09:06:00",
+      "reported_at_display": "9/22/26 9:06 am",
+      "kind": "post",
+      "first_seen_at": "2026-09-22T17:39:37.229156+00:00"
+    },
+    {
+      "id": "sialia:1913689",
+      "title": "HALF MOON BAY State Beach - question",
+      "source": "sialia",
+      "list": "peninsula-birding",
+      "area": "Peninsula",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1913689",
+      "reported_at": "2026-09-22T07:45:00",
+      "reported_at_display": "9/22/26 7:45 am",
+      "kind": "reply",
+      "first_seen_at": "2026-09-22T17:39:37.229156+00:00"
+    },
+    {
+      "id": "sialia:1913686",
+      "title": "Evening Grosbeaks",
+      "source": "sialia",
+      "list": "SFBirds",
+      "area": "San Francisco",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1913686",
+      "reported_at": "2026-09-22T07:44:00",
+      "reported_at_display": "9/22/26 7:44 am",
+      "kind": "post",
+      "first_seen_at": "2026-09-22T17:39:37.229156+00:00"
+    },
     {
       "id": "sialia:1913681",
       "title": "Pt. Reyes, Mendoza Ranch, Yellow-green Vireo, Baird's Sandpipers",
