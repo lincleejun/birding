@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-22T17:39:37.229156+00:00",
+  "generated_at": "2026-09-22T21:25:01.941104+00:00",
   "retention_days": 30,
   "order": "reported_at descending; source wall time, timezone unspecified",
   "sources": {
     "sialia": {
       "status": "ok",
-      "last_attempt_at": "2026-09-22T17:39:37.229156+00:00",
-      "last_success_at": "2026-09-22T17:39:37.229156+00:00",
+      "last_attempt_at": "2026-09-22T21:25:01.941104+00:00",
+      "last_success_at": "2026-09-22T21:25:01.941104+00:00",
       "fetched_days": [
         "2026-09-22",
         "2026-09-21"
@@ -28,10 +28,94 @@
     }
   },
   "stats": {
-    "total": 82,
-    "new_this_run": 4
+    "total": 89,
+    "new_this_run": 7
   },
   "items": [
+    {
+      "id": "sialia:1913720",
+      "title": "Parula, (cont.) Tennessee and Rose-breasted Grosbeaks, Orange-crowns",
+      "source": "sialia",
+      "list": "SFBirds",
+      "area": "San Francisco",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1913720",
+      "reported_at": "2026-09-22T14:12:00",
+      "reported_at_display": "9/22/26 2:12 pm",
+      "kind": "post",
+      "first_seen_at": "2026-09-22T21:25:01.941104+00:00"
+    },
+    {
+      "id": "sialia:1913716",
+      "title": "CNPS and SCVBA Field Trip on the First Day of Fall to Lake Cunningham, 9-20-2026, Sunday",
+      "source": "sialia",
+      "list": "SouthBayBirds",
+      "area": "South Bay",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1913716",
+      "reported_at": "2026-09-22T13:41:00",
+      "reported_at_display": "9/22/26 1:41 pm",
+      "kind": "post",
+      "first_seen_at": "2026-09-22T21:25:01.941104+00:00"
+    },
+    {
+      "id": "sialia:1913715",
+      "title": "White faced ibis at Alviso EEC entrance road",
+      "source": "sialia",
+      "list": "SouthBayBirds",
+      "area": "South Bay",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1913715",
+      "reported_at": "2026-09-22T13:27:00",
+      "reported_at_display": "9/22/26 1:27 pm",
+      "kind": "reply",
+      "first_seen_at": "2026-09-22T21:25:01.941104+00:00"
+    },
+    {
+      "id": "sialia:1913714",
+      "title": "Common murres",
+      "source": "sialia",
+      "list": "peninsula-birding",
+      "area": "Peninsula",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1913714",
+      "reported_at": "2026-09-22T13:22:00",
+      "reported_at_display": "9/22/26 1:22 pm",
+      "kind": "reply",
+      "first_seen_at": "2026-09-22T21:25:01.941104+00:00"
+    },
+    {
+      "id": "sialia:1913710",
+      "title": "Common murres",
+      "source": "sialia",
+      "list": "peninsula-birding",
+      "area": "Peninsula",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1913710",
+      "reported_at": "2026-09-22T12:54:00",
+      "reported_at_display": "9/22/26 12:54 pm",
+      "kind": "reply",
+      "first_seen_at": "2026-09-22T21:25:01.941104+00:00"
+    },
+    {
+      "id": "sialia:1913706",
+      "title": "Evening Grosbeak",
+      "source": "sialia",
+      "list": "SFBirds",
+      "area": "San Francisco",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1913706",
+      "reported_at": "2026-09-22T12:31:00",
+      "reported_at_display": "9/22/26 12:31 pm",
+      "kind": "reply",
+      "first_seen_at": "2026-09-22T21:25:01.941104+00:00"
+    },
+    {
+      "id": "sialia:1913704",
+      "title": "Common murres",
+      "source": "sialia",
+      "list": "peninsula-birding",
+      "area": "Peninsula",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1913704",
+      "reported_at": "2026-09-22T12:22:00",
+      "reported_at_display": "9/22/26 12:22 pm",
+      "kind": "post",
+      "first_seen_at": "2026-09-22T21:25:01.941104+00:00"
+    },
     {
       "id": "sialia:1913692",
       "title": "Pt. Reyes, Mendoza Ranch, Yellow-green Vireo, Baird's Sandpipers",
