@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-22T21:25:01.941104+00:00",
+  "generated_at": "2026-09-23T00:39:38.768550+00:00",
   "retention_days": 30,
   "order": "reported_at descending; source wall time, timezone unspecified",
   "sources": {
     "sialia": {
       "status": "ok",
-      "last_attempt_at": "2026-09-22T21:25:01.941104+00:00",
-      "last_success_at": "2026-09-22T21:25:01.941104+00:00",
+      "last_attempt_at": "2026-09-23T00:39:38.768550+00:00",
+      "last_success_at": "2026-09-23T00:39:38.768550+00:00",
       "fetched_days": [
         "2026-09-22",
         "2026-09-21"
@@ -28,10 +28,22 @@
     }
   },
   "stats": {
-    "total": 89,
-    "new_this_run": 7
+    "total": 90,
+    "new_this_run": 1
   },
   "items": [
+    {
+      "id": "sialia:1913731",
+      "title": "Common murres",
+      "source": "sialia",
+      "list": "peninsula-birding",
+      "area": "Peninsula",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1913731",
+      "reported_at": "2026-09-22T15:17:00",
+      "reported_at_display": "9/22/26 3:17 pm",
+      "kind": "reply",
+      "first_seen_at": "2026-09-23T00:39:38.768550+00:00"
+    },
     {
       "id": "sialia:1913720",
       "title": "Parula, (cont.) Tennessee and Rose-breasted Grosbeaks, Orange-crowns",
