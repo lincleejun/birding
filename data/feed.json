@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-23T11:47:00.035157+00:00",
+  "generated_at": "2026-09-23T17:11:12.584366+00:00",
   "retention_days": 30,
   "order": "reported_at descending; source wall time, timezone unspecified",
   "sources": {
     "sialia": {
       "status": "ok",
-      "last_attempt_at": "2026-09-23T11:47:00.035157+00:00",
-      "last_success_at": "2026-09-23T11:47:00.035157+00:00",
+      "last_attempt_at": "2026-09-23T17:11:12.584366+00:00",
+      "last_success_at": "2026-09-23T17:11:12.584366+00:00",
       "fetched_days": [
         "2026-09-23",
         "2026-09-22"
@@ -28,10 +28,22 @@
     }
   },
   "stats": {
-    "total": 93,
-    "new_this_run": 0
+    "total": 94,
+    "new_this_run": 1
   },
   "items": [
+    {
+      "id": "sialia:1913775",
+      "title": "AMRE",
+      "source": "sialia",
+      "list": "SFBirds",
+      "area": "San Francisco",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1913775",
+      "reported_at": "2026-09-23T09:26:00",
+      "reported_at_display": "9/23/26 9:26 am",
+      "kind": "post",
+      "first_seen_at": "2026-09-23T17:11:12.584366+00:00"
+    },
     {
       "id": "sialia:1913752",
       "title": "Tennessee warbler at Shollenberger Park in Petaluma",
