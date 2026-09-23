@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-23T00:39:38.768550+00:00",
+  "generated_at": "2026-09-23T06:03:48.622637+00:00",
   "retention_days": 30,
   "order": "reported_at descending; source wall time, timezone unspecified",
   "sources": {
     "sialia": {
       "status": "ok",
-      "last_attempt_at": "2026-09-23T00:39:38.768550+00:00",
-      "last_success_at": "2026-09-23T00:39:38.768550+00:00",
+      "last_attempt_at": "2026-09-23T06:03:48.622637+00:00",
+      "last_success_at": "2026-09-23T06:03:48.622637+00:00",
       "fetched_days": [
         "2026-09-22",
         "2026-09-21"
@@ -28,10 +28,46 @@
     }
   },
   "stats": {
-    "total": 90,
-    "new_this_run": 1
+    "total": 93,
+    "new_this_run": 3
   },
   "items": [
+    {
+      "id": "sialia:1913752",
+      "title": "Tennessee warbler at Shollenberger Park in Petaluma",
+      "source": "sialia",
+      "list": "northbaybirds",
+      "area": "North Bay",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1913752",
+      "reported_at": "2026-09-22T18:57:00",
+      "reported_at_display": "9/22/26 6:57 pm",
+      "kind": "post",
+      "first_seen_at": "2026-09-23T06:03:48.622637+00:00"
+    },
+    {
+      "id": "sialia:1913751",
+      "title": "Common murres",
+      "source": "sialia",
+      "list": "peninsula-birding",
+      "area": "Peninsula",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1913751",
+      "reported_at": "2026-09-22T18:45:00",
+      "reported_at_display": "9/22/26 6:45 pm",
+      "kind": "reply",
+      "first_seen_at": "2026-09-23T06:03:48.622637+00:00"
+    },
+    {
+      "id": "sialia:1913744",
+      "title": "San Mateo County Cumulative Year-list Report for --- August 2026",
+      "source": "sialia",
+      "list": "peninsula-birding",
+      "area": "Peninsula",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1913744",
+      "reported_at": "2026-09-22T17:38:00",
+      "reported_at_display": "9/22/26 5:38 pm",
+      "kind": "post",
+      "first_seen_at": "2026-09-23T06:03:48.622637+00:00"
+    },
     {
       "id": "sialia:1913731",
       "title": "Common murres",
