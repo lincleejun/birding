@@ -1,22 +1,18 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-24T10:08:03.737046+00:00",
+  "generated_at": "2026-09-24T15:13:03.627842+00:00",
   "retention_days": 30,
   "order": "reported_at descending; source wall time, timezone unspecified",
   "sources": {
     "sialia": {
-      "status": "partial",
-      "last_attempt_at": "2026-09-24T10:08:03.737046+00:00",
-      "last_success_at": "2026-09-24T05:00:04.247294+00:00",
+      "status": "ok",
+      "last_attempt_at": "2026-09-24T15:13:03.627842+00:00",
+      "last_success_at": "2026-09-24T15:13:03.627842+00:00",
       "fetched_days": [
+        "2026-09-24",
         "2026-09-23"
       ],
-      "errors": [
-        {
-          "date": "2026-09-24",
-          "error": "ValueError: Unrecognized Sialia index layout"
-        }
-      ],
+      "errors": [],
       "lists": [
         "SouthBayBirds",
         "peninsula-birding",
@@ -32,10 +28,22 @@
     }
   },
   "stats": {
-    "total": 98,
-    "new_this_run": 0
+    "total": 99,
+    "new_this_run": 1
   },
   "items": [
+    {
+      "id": "sialia:1913858",
+      "title": "Chestnut-sided Warbler, Yellow-breasted Chat and other migrants 9/22",
+      "source": "sialia",
+      "list": "peninsula-birding",
+      "area": "Peninsula",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1913858",
+      "reported_at": "2026-09-24T06:14:00",
+      "reported_at_display": "9/24/26 6:14 am",
+      "kind": "post",
+      "first_seen_at": "2026-09-24T15:13:03.627842+00:00"
+    },
     {
       "id": "sialia:1913818",
       "title": "Sierra Vista OSP, September 23",
