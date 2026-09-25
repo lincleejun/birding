@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-25T18:42:11.269352+00:00",
+  "generated_at": "2026-09-25T22:27:41.005519+00:00",
   "retention_days": 30,
   "order": "reported_at descending; source wall time, timezone unspecified",
   "sources": {
     "sialia": {
       "status": "ok",
-      "last_attempt_at": "2026-09-25T18:42:11.269352+00:00",
-      "last_success_at": "2026-09-25T18:42:11.269352+00:00",
+      "last_attempt_at": "2026-09-25T22:27:41.005519+00:00",
+      "last_success_at": "2026-09-25T22:27:41.005519+00:00",
       "fetched_days": [
         "2026-09-25",
         "2026-09-24"
@@ -28,10 +28,22 @@
     }
   },
   "stats": {
-    "total": 115,
-    "new_this_run": 4
+    "total": 116,
+    "new_this_run": 1
   },
   "items": [
+    {
+      "id": "sialia:1913968",
+      "title": "Yellow-bellied Sapsucker at Wunderlich Park",
+      "source": "sialia",
+      "list": "peninsula-birding",
+      "area": "Peninsula",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1913968",
+      "reported_at": "2026-09-25T11:37:00",
+      "reported_at_display": "9/25/26 11:37 am",
+      "kind": "reply",
+      "first_seen_at": "2026-09-25T22:27:41.005519+00:00"
+    },
     {
       "id": "sialia:1913960",
       "title": "Cassin’s Finches and good flight day at Hawk Hill",
