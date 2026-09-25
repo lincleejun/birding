@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-24T22:32:36.467693+00:00",
+  "generated_at": "2026-09-25T01:36:05.005291+00:00",
   "retention_days": 30,
   "order": "reported_at descending; source wall time, timezone unspecified",
   "sources": {
     "sialia": {
       "status": "ok",
-      "last_attempt_at": "2026-09-24T22:32:36.467693+00:00",
-      "last_success_at": "2026-09-24T22:32:36.467693+00:00",
+      "last_attempt_at": "2026-09-25T01:36:05.005291+00:00",
+      "last_success_at": "2026-09-25T01:36:05.005291+00:00",
       "fetched_days": [
         "2026-09-24",
         "2026-09-23"
@@ -28,10 +28,34 @@
     }
   },
   "stats": {
-    "total": 107,
-    "new_this_run": 4
+    "total": 109,
+    "new_this_run": 2
   },
   "items": [
+    {
+      "id": "sialia:1913927",
+      "title": "Cassin’s Finches and good flight day at Hawk Hill",
+      "source": "sialia",
+      "list": "northbaybirds",
+      "area": "North Bay",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1913927",
+      "reported_at": "2026-09-24T18:17:00",
+      "reported_at_display": "9/24/26 6:17 pm",
+      "kind": "post",
+      "first_seen_at": "2026-09-25T01:36:05.005291+00:00"
+    },
+    {
+      "id": "sialia:1913925",
+      "title": "Montane Bird Irruptions",
+      "source": "sialia",
+      "list": "northbaybirds",
+      "area": "North Bay",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1913925",
+      "reported_at": "2026-09-24T17:49:00",
+      "reported_at_display": "9/24/26 5:49 pm",
+      "kind": "post",
+      "first_seen_at": "2026-09-25T01:36:05.005291+00:00"
+    },
     {
       "id": "sialia:1913902",
       "title": "Christmas Bird Counts",
