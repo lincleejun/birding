@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-25T13:54:41.061354+00:00",
+  "generated_at": "2026-09-25T18:42:11.269352+00:00",
   "retention_days": 30,
   "order": "reported_at descending; source wall time, timezone unspecified",
   "sources": {
     "sialia": {
       "status": "ok",
-      "last_attempt_at": "2026-09-25T13:54:41.061354+00:00",
-      "last_success_at": "2026-09-25T13:54:41.061354+00:00",
+      "last_attempt_at": "2026-09-25T18:42:11.269352+00:00",
+      "last_success_at": "2026-09-25T18:42:11.269352+00:00",
       "fetched_days": [
         "2026-09-25",
         "2026-09-24"
@@ -28,10 +28,58 @@
     }
   },
   "stats": {
-    "total": 111,
-    "new_this_run": 0
+    "total": 115,
+    "new_this_run": 4
   },
   "items": [
+    {
+      "id": "sialia:1913960",
+      "title": "Cassin’s Finches and good flight day at Hawk Hill",
+      "source": "sialia",
+      "list": "northbaybirds",
+      "area": "North Bay",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1913960",
+      "reported_at": "2026-09-25T10:11:00",
+      "reported_at_display": "9/25/26 10:11 am",
+      "kind": "reply",
+      "first_seen_at": "2026-09-25T18:42:11.269352+00:00"
+    },
+    {
+      "id": "sialia:1913961",
+      "title": "Hermit Warbler Penitencia Creek Trail",
+      "source": "sialia",
+      "list": "SouthBayBirds",
+      "area": "South Bay",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1913961",
+      "reported_at": "2026-09-25T10:03:00",
+      "reported_at_display": "9/25/26 10:03 am",
+      "kind": "post",
+      "first_seen_at": "2026-09-25T18:42:11.269352+00:00"
+    },
+    {
+      "id": "sialia:1913959",
+      "title": "Yellow-bellied Sapsucker at Wunderlich Park",
+      "source": "sialia",
+      "list": "peninsula-birding",
+      "area": "Peninsula",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1913959",
+      "reported_at": "2026-09-25T09:51:00",
+      "reported_at_display": "9/25/26 9:51 am",
+      "kind": "post",
+      "first_seen_at": "2026-09-25T18:42:11.269352+00:00"
+    },
+    {
+      "id": "sialia:1913955",
+      "title": "Cocos Booby cont. Crissy",
+      "source": "sialia",
+      "list": "SFBirds",
+      "area": "San Francisco",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1913955",
+      "reported_at": "2026-09-25T08:31:00",
+      "reported_at_display": "9/25/26 8:31 am",
+      "kind": "post",
+      "first_seen_at": "2026-09-25T18:42:11.269352+00:00"
+    },
     {
       "id": "sialia:1913936",
       "title": "Recent notes: Red-eyed Vireo, Blackpoll, Redstart, etc.",
