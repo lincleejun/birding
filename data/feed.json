@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-26T19:57:00.726573+00:00",
+  "generated_at": "2026-09-26T22:56:41.403964+00:00",
   "retention_days": 30,
   "order": "reported_at descending; source wall time, timezone unspecified",
   "sources": {
     "sialia": {
       "status": "ok",
-      "last_attempt_at": "2026-09-26T19:57:00.726573+00:00",
-      "last_success_at": "2026-09-26T19:57:00.726573+00:00",
+      "last_attempt_at": "2026-09-26T22:56:41.403964+00:00",
+      "last_success_at": "2026-09-26T22:56:41.403964+00:00",
       "fetched_days": [
         "2026-09-26",
         "2026-09-25"
@@ -28,10 +28,46 @@
     }
   },
   "stats": {
-    "total": 117,
-    "new_this_run": 0
+    "total": 120,
+    "new_this_run": 3
   },
   "items": [
+    {
+      "id": "sialia:1914072",
+      "title": "Vesper Sparrow Lincoln Park GC",
+      "source": "sialia",
+      "list": "SFBirds",
+      "area": "San Francisco",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1914072",
+      "reported_at": "2026-09-26T14:52:00",
+      "reported_at_display": "9/26/26 2:52 pm",
+      "kind": "post",
+      "first_seen_at": "2026-09-26T22:56:41.403964+00:00"
+    },
+    {
+      "id": "sialia:1914064",
+      "title": "FOS Hermit Thrush",
+      "source": "sialia",
+      "list": "SouthBayBirds",
+      "area": "South Bay",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1914064",
+      "reported_at": "2026-09-26T13:32:00",
+      "reported_at_display": "9/26/26 1:32 pm",
+      "kind": "post",
+      "first_seen_at": "2026-09-26T22:56:41.403964+00:00"
+    },
+    {
+      "id": "sialia:1914061",
+      "title": "Field Notes: SCVBA trip to Vasona Lake CP",
+      "source": "sialia",
+      "list": "SouthBayBirds",
+      "area": "South Bay",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1914061",
+      "reported_at": "2026-09-26T13:21:00",
+      "reported_at_display": "9/26/26 1:21 pm",
+      "kind": "post",
+      "first_seen_at": "2026-09-26T22:56:41.403964+00:00"
+    },
     {
       "id": "sialia:1914017",
       "title": "Cassin’s Finches and good flight day at Hawk Hill",
