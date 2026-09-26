@@ -1,18 +1,22 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-26T01:39:00.357179+00:00",
+  "generated_at": "2026-09-26T07:49:10.660227+00:00",
   "retention_days": 30,
   "order": "reported_at descending; source wall time, timezone unspecified",
   "sources": {
     "sialia": {
-      "status": "ok",
-      "last_attempt_at": "2026-09-26T01:39:00.357179+00:00",
+      "status": "partial",
+      "last_attempt_at": "2026-09-26T07:49:10.660227+00:00",
       "last_success_at": "2026-09-26T01:39:00.357179+00:00",
       "fetched_days": [
-        "2026-09-25",
-        "2026-09-24"
+        "2026-09-25"
       ],
-      "errors": [],
+      "errors": [
+        {
+          "date": "2026-09-26",
+          "error": "ValueError: Unrecognized Sialia index layout"
+        }
+      ],
       "lists": [
         "SouthBayBirds",
         "peninsula-birding",
@@ -28,10 +32,22 @@
     }
   },
   "stats": {
-    "total": 116,
-    "new_this_run": 0
+    "total": 117,
+    "new_this_run": 1
   },
   "items": [
+    {
+      "id": "sialia:1914017",
+      "title": "Cassin’s Finches and good flight day at Hawk Hill",
+      "source": "sialia",
+      "list": "northbaybirds",
+      "area": "North Bay",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1914017",
+      "reported_at": "2026-09-25T23:08:00",
+      "reported_at_display": "9/25/26 11:08 pm",
+      "kind": "reply",
+      "first_seen_at": "2026-09-26T07:49:10.660227+00:00"
+    },
     {
       "id": "sialia:1913968",
       "title": "Yellow-bellied Sapsucker at Wunderlich Park",
