@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-27T14:44:17.433521+00:00",
+  "generated_at": "2026-09-27T19:01:08.921578+00:00",
   "retention_days": 30,
   "order": "reported_at descending; source wall time, timezone unspecified",
   "sources": {
     "sialia": {
       "status": "ok",
-      "last_attempt_at": "2026-09-27T14:44:17.433521+00:00",
-      "last_success_at": "2026-09-27T14:44:17.433521+00:00",
+      "last_attempt_at": "2026-09-27T19:01:08.921578+00:00",
+      "last_success_at": "2026-09-27T19:01:08.921578+00:00",
       "fetched_days": [
         "2026-09-27",
         "2026-09-26"
@@ -28,10 +28,94 @@
     }
   },
   "stats": {
-    "total": 125,
-    "new_this_run": 0
+    "total": 132,
+    "new_this_run": 7
   },
   "items": [
+    {
+      "id": "sialia:1914149",
+      "title": "Yellow-throated Vireo at Rengstorff House",
+      "source": "sialia",
+      "list": "SouthBayBirds",
+      "area": "South Bay",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1914149",
+      "reported_at": "2026-09-27T11:27:00",
+      "reported_at_display": "9/27/26 11:27 am",
+      "kind": "reply",
+      "first_seen_at": "2026-09-27T19:01:08.921578+00:00"
+    },
+    {
+      "id": "sialia:1914141",
+      "title": "Evening Grosbeak & Blue-headed Vireo - Penitencia Ponds",
+      "source": "sialia",
+      "list": "SouthBayBirds",
+      "area": "South Bay",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1914141",
+      "reported_at": "2026-09-27T10:40:00",
+      "reported_at_display": "9/27/26 10:40 am",
+      "kind": "post",
+      "first_seen_at": "2026-09-27T19:01:08.921578+00:00"
+    },
+    {
+      "id": "sialia:1914143",
+      "title": "Evening Grosbeak & Blue-headed Vireo",
+      "source": "sialia",
+      "list": "SouthBayBirds",
+      "area": "South Bay",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1914143",
+      "reported_at": "2026-09-27T10:38:00",
+      "reported_at_display": "9/27/26 10:38 am",
+      "kind": "post",
+      "first_seen_at": "2026-09-27T19:01:08.921578+00:00"
+    },
+    {
+      "id": "sialia:1914130",
+      "title": "Vesper Sparrow Lincoln Park GC",
+      "source": "sialia",
+      "list": "SFBirds",
+      "area": "San Francisco",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1914130",
+      "reported_at": "2026-09-27T08:44:00",
+      "reported_at_display": "9/27/26 8:44 am",
+      "kind": "reply",
+      "first_seen_at": "2026-09-27T19:01:08.921578+00:00"
+    },
+    {
+      "id": "sialia:1914128",
+      "title": "Yellow-throated Vireo at Rengstorff House",
+      "source": "sialia",
+      "list": "SouthBayBirds",
+      "area": "South Bay",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1914128",
+      "reported_at": "2026-09-27T08:40:00",
+      "reported_at_display": "9/27/26 8:40 am",
+      "kind": "post",
+      "first_seen_at": "2026-09-27T19:01:08.921578+00:00"
+    },
+    {
+      "id": "sialia:1914125",
+      "title": "Selasphorus hummer Occidental 9/27",
+      "source": "sialia",
+      "list": "northbaybirds",
+      "area": "North Bay",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1914125",
+      "reported_at": "2026-09-27T08:13:00",
+      "reported_at_display": "9/27/26 8:13 am",
+      "kind": "post",
+      "first_seen_at": "2026-09-27T19:01:08.921578+00:00"
+    },
+    {
+      "id": "sialia:1914124",
+      "title": "AUGUST 2026 Cumulative Bird Report for Santa Clara County",
+      "source": "sialia",
+      "list": "SouthBayBirds",
+      "area": "South Bay",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1914124",
+      "reported_at": "2026-09-27T08:02:00",
+      "reported_at_display": "9/27/26 8:02 am",
+      "kind": "post",
+      "first_seen_at": "2026-09-27T19:01:08.921578+00:00"
+    },
     {
       "id": "sialia:1914088",
       "title": "Bald eagle at Penitencia Creek Trail",
