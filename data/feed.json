@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-27T22:17:25.769078+00:00",
+  "generated_at": "2026-09-28T01:44:07.032668+00:00",
   "retention_days": 30,
   "order": "reported_at descending; source wall time, timezone unspecified",
   "sources": {
     "sialia": {
       "status": "ok",
-      "last_attempt_at": "2026-09-27T22:17:25.769078+00:00",
-      "last_success_at": "2026-09-27T22:17:25.769078+00:00",
+      "last_attempt_at": "2026-09-28T01:44:07.032668+00:00",
+      "last_success_at": "2026-09-28T01:44:07.032668+00:00",
       "fetched_days": [
         "2026-09-27",
         "2026-09-26"
@@ -28,10 +28,34 @@
     }
   },
   "stats": {
-    "total": 134,
+    "total": 136,
     "new_this_run": 2
   },
   "items": [
+    {
+      "id": "sialia:1914173",
+      "title": "Yellow-throated Vireo at Rengstorff House",
+      "source": "sialia",
+      "list": "SouthBayBirds",
+      "area": "South Bay",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1914173",
+      "reported_at": "2026-09-27T17:10:00",
+      "reported_at_display": "9/27/26 5:10 pm",
+      "kind": "reply",
+      "first_seen_at": "2026-09-28T01:44:07.032668+00:00"
+    },
+    {
+      "id": "sialia:1914165",
+      "title": "Yellow-throated Vireo at Rengstorff House",
+      "source": "sialia",
+      "list": "SouthBayBirds",
+      "area": "South Bay",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1914165",
+      "reported_at": "2026-09-27T15:27:00",
+      "reported_at_display": "9/27/26 3:27 pm",
+      "kind": "reply",
+      "first_seen_at": "2026-09-28T01:44:07.032668+00:00"
+    },
     {
       "id": "sialia:1914162",
       "title": "2nd hand Williamsons Sapsucker",
