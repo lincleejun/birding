@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-28T17:42:15.140995+00:00",
+  "generated_at": "2026-09-28T23:21:05.824694+00:00",
   "retention_days": 30,
   "order": "reported_at descending; source wall time, timezone unspecified",
   "sources": {
     "sialia": {
       "status": "ok",
-      "last_attempt_at": "2026-09-28T17:42:15.140995+00:00",
-      "last_success_at": "2026-09-28T17:42:15.140995+00:00",
+      "last_attempt_at": "2026-09-28T23:21:05.824694+00:00",
+      "last_success_at": "2026-09-28T23:21:05.824694+00:00",
       "fetched_days": [
         "2026-09-28",
         "2026-09-27"
@@ -28,10 +28,22 @@
     }
   },
   "stats": {
-    "total": 137,
-    "new_this_run": 0
+    "total": 138,
+    "new_this_run": 1
   },
   "items": [
+    {
+      "id": "sialia:1914245",
+      "title": "Eurasian Wigeon, Common Tern",
+      "source": "sialia",
+      "list": "peninsula-birding",
+      "area": "Peninsula",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1914245",
+      "reported_at": "2026-09-28T14:58:00",
+      "reported_at_display": "9/28/26 2:58 pm",
+      "kind": "post",
+      "first_seen_at": "2026-09-28T23:21:05.824694+00:00"
+    },
     {
       "id": "sialia:1914185",
       "title": "Community meeting: Plans for Golden Gate Fields Race Track site in Albany/Berkeley",
