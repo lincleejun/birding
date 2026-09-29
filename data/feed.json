@@ -1,18 +1,22 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-29T05:50:36.733948+00:00",
+  "generated_at": "2026-09-29T13:02:06.368573+00:00",
   "retention_days": 30,
   "order": "reported_at descending; source wall time, timezone unspecified",
   "sources": {
     "sialia": {
-      "status": "ok",
-      "last_attempt_at": "2026-09-29T05:50:36.733948+00:00",
+      "status": "partial",
+      "last_attempt_at": "2026-09-29T13:02:06.368573+00:00",
       "last_success_at": "2026-09-29T05:50:36.733948+00:00",
       "fetched_days": [
-        "2026-09-28",
-        "2026-09-27"
+        "2026-09-28"
       ],
-      "errors": [],
+      "errors": [
+        {
+          "date": "2026-09-29",
+          "error": "ValueError: Unrecognized Sialia index layout"
+        }
+      ],
       "lists": [
         "SouthBayBirds",
         "peninsula-birding",
