@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-29T23:00:10.410892+00:00",
+  "generated_at": "2026-09-30T02:10:32.648323+00:00",
   "retention_days": 30,
   "order": "reported_at descending; source wall time, timezone unspecified",
   "sources": {
     "sialia": {
       "status": "ok",
-      "last_attempt_at": "2026-09-29T23:00:10.410892+00:00",
-      "last_success_at": "2026-09-29T23:00:10.410892+00:00",
+      "last_attempt_at": "2026-09-30T02:10:32.648323+00:00",
+      "last_success_at": "2026-09-30T02:10:32.648323+00:00",
       "fetched_days": [
         "2026-09-29",
         "2026-09-28"
@@ -28,10 +28,22 @@
     }
   },
   "stats": {
-    "total": 138,
-    "new_this_run": 0
+    "total": 139,
+    "new_this_run": 1
   },
   "items": [
+    {
+      "id": "sialia:1914329",
+      "title": "Blackpoll Warbler at Vasona",
+      "source": "sialia",
+      "list": "SouthBayBirds",
+      "area": "South Bay",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1914329",
+      "reported_at": "2026-09-29T16:36:00",
+      "reported_at_display": "9/29/26 4:36 pm",
+      "kind": "post",
+      "first_seen_at": "2026-09-30T02:10:32.648323+00:00"
+    },
     {
       "id": "sialia:1914245",
       "title": "Eurasian Wigeon, Common Tern",
