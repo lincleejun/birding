@@ -1,20 +1,22 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-01T00:35:45.743039+00:00",
+  "generated_at": "2026-10-01T07:13:23.722007+00:00",
   "retention_days": 30,
   "order": "reported_at descending; source wall time, timezone unspecified",
   "sources": {
     "sialia": {
-      "status": "partial",
-      "last_attempt_at": "2026-10-01T00:35:45.743039+00:00",
+      "status": "error",
+      "last_attempt_at": "2026-10-01T07:13:23.722007+00:00",
       "last_success_at": "2026-09-30T15:57:51.345237+00:00",
-      "fetched_days": [
-        "2026-09-29"
-      ],
+      "fetched_days": [],
       "errors": [
         {
+          "date": "2026-10-01",
+          "error": "ValueError: Unrecognized Sialia index layout"
+        },
+        {
           "date": "2026-09-30",
-          "error": "UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf1 in position 13102: invalid continuation byte"
+          "error": "UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf1 in position 14787: invalid continuation byte"
         }
       ],
       "lists": [
