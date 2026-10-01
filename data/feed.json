@@ -1,19 +1,17 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-01T07:13:23.722007+00:00",
+  "generated_at": "2026-10-01T14:34:09.123183+00:00",
   "retention_days": 30,
   "order": "reported_at descending; source wall time, timezone unspecified",
   "sources": {
     "sialia": {
-      "status": "error",
-      "last_attempt_at": "2026-10-01T07:13:23.722007+00:00",
+      "status": "partial",
+      "last_attempt_at": "2026-10-01T14:34:09.123183+00:00",
       "last_success_at": "2026-09-30T15:57:51.345237+00:00",
-      "fetched_days": [],
+      "fetched_days": [
+        "2026-10-01"
+      ],
       "errors": [
-        {
-          "date": "2026-10-01",
-          "error": "ValueError: Unrecognized Sialia index layout"
-        },
         {
           "date": "2026-09-30",
           "error": "UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf1 in position 14787: invalid continuation byte"
@@ -34,10 +32,22 @@
     }
   },
   "stats": {
-    "total": 141,
-    "new_this_run": 0
+    "total": 142,
+    "new_this_run": 1
   },
   "items": [
+    {
+      "id": "sialia:1914442",
+      "title": "South Bay Birds Monthly Reminder #guidelines-notice",
+      "source": "sialia",
+      "list": "SouthBayBirds",
+      "area": "South Bay",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1914442",
+      "reported_at": "2026-10-01T05:32:00",
+      "reported_at_display": "10/1/26 5:32 am",
+      "kind": "post",
+      "first_seen_at": "2026-10-01T14:34:09.123183+00:00"
+    },
     {
       "id": "sialia:1914349",
       "title": "Evening Grosbeaks at Purisima Creek Redwoods OSP 9/29",
