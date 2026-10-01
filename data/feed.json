@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-01T14:34:09.123183+00:00",
+  "generated_at": "2026-10-01T20:22:45.656900+00:00",
   "retention_days": 30,
   "order": "reported_at descending; source wall time, timezone unspecified",
   "sources": {
     "sialia": {
       "status": "partial",
-      "last_attempt_at": "2026-10-01T14:34:09.123183+00:00",
+      "last_attempt_at": "2026-10-01T20:22:45.656900+00:00",
       "last_success_at": "2026-09-30T15:57:51.345237+00:00",
       "fetched_days": [
         "2026-10-01"
@@ -32,10 +32,82 @@
     }
   },
   "stats": {
-    "total": 142,
-    "new_this_run": 1
+    "total": 148,
+    "new_this_run": 6
   },
   "items": [
+    {
+      "id": "sialia:1914481",
+      "title": "VESPER Sparrow Corona Hill 10/1/2026",
+      "source": "sialia",
+      "list": "SFBirds",
+      "area": "San Francisco",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1914481",
+      "reported_at": "2026-10-01T13:14:00",
+      "reported_at_display": "10/1/26 1:14 pm",
+      "kind": "post",
+      "first_seen_at": "2026-10-01T20:22:45.656900+00:00"
+    },
+    {
+      "id": "sialia:1914480",
+      "title": "Evening Grosbeaks & Clark's Nutcrackers",
+      "source": "sialia",
+      "list": "northbaybirds",
+      "area": "North Bay",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1914480",
+      "reported_at": "2026-10-01T12:42:00",
+      "reported_at_display": "10/1/26 12:42 pm",
+      "kind": "reply",
+      "first_seen_at": "2026-10-01T20:22:45.656900+00:00"
+    },
+    {
+      "id": "sialia:1914478",
+      "title": "Red-breasted Nuthatch in Redwood City",
+      "source": "sialia",
+      "list": "peninsula-birding",
+      "area": "Peninsula",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1914478",
+      "reported_at": "2026-10-01T12:37:00",
+      "reported_at_display": "10/1/26 12:37 pm",
+      "kind": "post",
+      "first_seen_at": "2026-10-01T20:22:45.656900+00:00"
+    },
+    {
+      "id": "sialia:1914471",
+      "title": "Pacific Wren, Pacific Shores",
+      "source": "sialia",
+      "list": "peninsula-birding",
+      "area": "Peninsula",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1914471",
+      "reported_at": "2026-10-01T11:38:00",
+      "reported_at_display": "10/1/26 11:38 am",
+      "kind": "post",
+      "first_seen_at": "2026-10-01T20:22:45.656900+00:00"
+    },
+    {
+      "id": "sialia:1914467",
+      "title": "Pillar Point",
+      "source": "sialia",
+      "list": "peninsula-birding",
+      "area": "Peninsula",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1914467",
+      "reported_at": "2026-10-01T11:27:00",
+      "reported_at_display": "10/1/26 11:27 am",
+      "kind": "post",
+      "first_seen_at": "2026-10-01T20:22:45.656900+00:00"
+    },
+    {
+      "id": "sialia:1914459",
+      "title": "Recent notes: Prairie, Blackpoll, Magnolia, etc.",
+      "source": "sialia",
+      "list": "peninsula-birding",
+      "area": "Peninsula",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1914459",
+      "reported_at": "2026-10-01T10:17:00",
+      "reported_at_display": "10/1/26 10:17 am",
+      "kind": "post",
+      "first_seen_at": "2026-10-01T20:22:45.656900+00:00"
+    },
     {
       "id": "sialia:1914442",
       "title": "South Bay Birds Monthly Reminder #guidelines-notice",
