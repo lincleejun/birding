@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-02T19:23:00.831672+00:00",
+  "generated_at": "2026-10-02T23:50:15.518667+00:00",
   "retention_days": 30,
   "order": "reported_at descending; source wall time, timezone unspecified",
   "sources": {
     "sialia": {
       "status": "ok",
-      "last_attempt_at": "2026-10-02T19:23:00.831672+00:00",
-      "last_success_at": "2026-10-02T19:23:00.831672+00:00",
+      "last_attempt_at": "2026-10-02T23:50:15.518667+00:00",
+      "last_success_at": "2026-10-02T23:50:15.518667+00:00",
       "fetched_days": [
         "2026-10-02",
         "2026-10-01"
@@ -28,10 +28,46 @@
     }
   },
   "stats": {
-    "total": 154,
-    "new_this_run": 1
+    "total": 157,
+    "new_this_run": 3
   },
   "items": [
+    {
+      "id": "sialia:1914581",
+      "title": "RED-THROATED PIPIT Crissy Field 10/2/2026",
+      "source": "sialia",
+      "list": "SFBirds",
+      "area": "San Francisco",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1914581",
+      "reported_at": "2026-10-02T16:38:00",
+      "reported_at_display": "10/2/26 4:38 pm",
+      "kind": "reply",
+      "first_seen_at": "2026-10-02T23:50:15.518667+00:00"
+    },
+    {
+      "id": "sialia:1914565",
+      "title": "RED-THROATED PIPIT Crissy Field 10/2/2026",
+      "source": "sialia",
+      "list": "SFBirds",
+      "area": "San Francisco",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1914565",
+      "reported_at": "2026-10-02T14:24:00",
+      "reported_at_display": "10/2/26 2:24 pm",
+      "kind": "reply",
+      "first_seen_at": "2026-10-02T23:50:15.518667+00:00"
+    },
+    {
+      "id": "sialia:1914563",
+      "title": "RED-THROATED PIPIT Crissy Field 10/2/2026",
+      "source": "sialia",
+      "list": "SFBirds",
+      "area": "San Francisco",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1914563",
+      "reported_at": "2026-10-02T13:30:00",
+      "reported_at_display": "10/2/26 1:30 pm",
+      "kind": "post",
+      "first_seen_at": "2026-10-02T23:50:15.518667+00:00"
+    },
     {
       "id": "sialia:1914548",
       "title": "Interested in more Evening Grosbeak information?",
