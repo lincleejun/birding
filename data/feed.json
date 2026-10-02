@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-02T13:55:40.913985+00:00",
+  "generated_at": "2026-10-02T19:23:00.831672+00:00",
   "retention_days": 30,
   "order": "reported_at descending; source wall time, timezone unspecified",
   "sources": {
     "sialia": {
       "status": "ok",
-      "last_attempt_at": "2026-10-02T13:55:40.913985+00:00",
-      "last_success_at": "2026-10-02T13:55:40.913985+00:00",
+      "last_attempt_at": "2026-10-02T19:23:00.831672+00:00",
+      "last_success_at": "2026-10-02T19:23:00.831672+00:00",
       "fetched_days": [
         "2026-10-02",
         "2026-10-01"
@@ -28,10 +28,22 @@
     }
   },
   "stats": {
-    "total": 153,
-    "new_this_run": 0
+    "total": 154,
+    "new_this_run": 1
   },
   "items": [
+    {
+      "id": "sialia:1914548",
+      "title": "Interested in more Evening Grosbeak information?",
+      "source": "sialia",
+      "list": "northbaybirds",
+      "area": "North Bay",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1914548",
+      "reported_at": "2026-10-02T11:50:00",
+      "reported_at_display": "10/2/26 11:50 am",
+      "kind": "post",
+      "first_seen_at": "2026-10-02T19:23:00.831672+00:00"
+    },
     {
       "id": "sialia:1914513",
       "title": "Blackpoll Warbler at the Nob Hill Pond",
