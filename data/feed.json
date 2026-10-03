@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-03T16:28:22.440688+00:00",
+  "generated_at": "2026-10-03T19:58:23.128331+00:00",
   "retention_days": 30,
   "order": "reported_at descending; source wall time, timezone unspecified",
   "sources": {
     "sialia": {
       "status": "ok",
-      "last_attempt_at": "2026-10-03T16:28:22.440688+00:00",
-      "last_success_at": "2026-10-03T16:28:22.440688+00:00",
+      "last_attempt_at": "2026-10-03T19:58:23.128331+00:00",
+      "last_success_at": "2026-10-03T19:58:23.128331+00:00",
       "fetched_days": [
         "2026-10-03",
         "2026-10-02"
@@ -28,10 +28,22 @@
     }
   },
   "stats": {
-    "total": 157,
-    "new_this_run": 0
+    "total": 158,
+    "new_this_run": 1
   },
   "items": [
+    {
+      "id": "sialia:1914635",
+      "title": "Yellow Rumped warblers",
+      "source": "sialia",
+      "list": "EBB-Sightings",
+      "area": "East Bay",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1914635",
+      "reported_at": "2026-10-03T10:48:00",
+      "reported_at_display": "10/3/26 10:48 am",
+      "kind": "post",
+      "first_seen_at": "2026-10-03T19:58:23.128331+00:00"
+    },
     {
       "id": "sialia:1914581",
       "title": "RED-THROATED PIPIT Crissy Field 10/2/2026",
