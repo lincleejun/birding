@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-04T15:24:43.670665+00:00",
+  "generated_at": "2026-10-04T19:41:37.771785+00:00",
   "retention_days": 30,
   "order": "reported_at descending; source wall time, timezone unspecified",
   "sources": {
     "sialia": {
       "status": "ok",
-      "last_attempt_at": "2026-10-04T15:24:43.670665+00:00",
-      "last_success_at": "2026-10-04T15:24:43.670665+00:00",
+      "last_attempt_at": "2026-10-04T19:41:37.771785+00:00",
+      "last_success_at": "2026-10-04T19:41:37.771785+00:00",
       "fetched_days": [
         "2026-10-04",
         "2026-10-03"
@@ -28,10 +28,34 @@
     }
   },
   "stats": {
-    "total": 158,
-    "new_this_run": 0
+    "total": 160,
+    "new_this_run": 2
   },
   "items": [
+    {
+      "id": "sialia:1914730",
+      "title": "BLACK & WHITE WARBLER in Colma",
+      "source": "sialia",
+      "list": "peninsula-birding",
+      "area": "Peninsula",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1914730",
+      "reported_at": "2026-10-04T11:23:00",
+      "reported_at_display": "10/4/26 11:23 am",
+      "kind": "post",
+      "first_seen_at": "2026-10-04T19:41:37.771785+00:00"
+    },
+    {
+      "id": "sialia:1914724",
+      "title": "SCVBA Field Trip to Hellyer CP 10/3",
+      "source": "sialia",
+      "list": "SouthBayBirds",
+      "area": "South Bay",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1914724",
+      "reported_at": "2026-10-04T10:09:00",
+      "reported_at_display": "10/4/26 10:09 am",
+      "kind": "post",
+      "first_seen_at": "2026-10-04T19:41:37.771785+00:00"
+    },
     {
       "id": "sialia:1914635",
       "title": "Yellow Rumped warblers",
