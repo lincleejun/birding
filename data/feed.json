@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-04T23:15:58.319909+00:00",
+  "generated_at": "2026-10-05T02:07:10.371865+00:00",
   "retention_days": 30,
   "order": "reported_at descending; source wall time, timezone unspecified",
   "sources": {
     "sialia": {
       "status": "ok",
-      "last_attempt_at": "2026-10-04T23:15:58.319909+00:00",
-      "last_success_at": "2026-10-04T23:15:58.319909+00:00",
+      "last_attempt_at": "2026-10-05T02:07:10.371865+00:00",
+      "last_success_at": "2026-10-05T02:07:10.371865+00:00",
       "fetched_days": [
         "2026-10-04",
         "2026-10-03"
@@ -28,10 +28,22 @@
     }
   },
   "stats": {
-    "total": 160,
-    "new_this_run": 0
+    "total": 161,
+    "new_this_run": 1
   },
   "items": [
+    {
+      "id": "sialia:1914762",
+      "title": "Today's Burlingame yard birds",
+      "source": "sialia",
+      "list": "peninsula-birding",
+      "area": "Peninsula",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1914762",
+      "reported_at": "2026-10-04T16:16:00",
+      "reported_at_display": "10/4/26 4:16 pm",
+      "kind": "post",
+      "first_seen_at": "2026-10-05T02:07:10.371865+00:00"
+    },
     {
       "id": "sialia:1914730",
       "title": "BLACK & WHITE WARBLER in Colma",
