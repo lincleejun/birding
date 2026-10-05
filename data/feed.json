@@ -1,18 +1,22 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-05T02:07:10.371865+00:00",
+  "generated_at": "2026-10-05T09:11:56.248282+00:00",
   "retention_days": 30,
   "order": "reported_at descending; source wall time, timezone unspecified",
   "sources": {
     "sialia": {
-      "status": "ok",
-      "last_attempt_at": "2026-10-05T02:07:10.371865+00:00",
+      "status": "partial",
+      "last_attempt_at": "2026-10-05T09:11:56.248282+00:00",
       "last_success_at": "2026-10-05T02:07:10.371865+00:00",
       "fetched_days": [
-        "2026-10-04",
-        "2026-10-03"
+        "2026-10-04"
       ],
-      "errors": [],
+      "errors": [
+        {
+          "date": "2026-10-05",
+          "error": "ValueError: Unrecognized Sialia index layout"
+        }
+      ],
       "lists": [
         "SouthBayBirds",
         "peninsula-birding",
@@ -28,10 +32,34 @@
     }
   },
   "stats": {
-    "total": 161,
-    "new_this_run": 1
+    "total": 163,
+    "new_this_run": 2
   },
   "items": [
+    {
+      "id": "sialia:1914785",
+      "title": "Am Redstart & Chestnut-sided Warbler at Pine Lake park",
+      "source": "sialia",
+      "list": "SFBirds",
+      "area": "San Francisco",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1914785",
+      "reported_at": "2026-10-04T20:06:00",
+      "reported_at_display": "10/4/26 8:06 pm",
+      "kind": "post",
+      "first_seen_at": "2026-10-05T09:11:56.248282+00:00"
+    },
+    {
+      "id": "sialia:1914781",
+      "title": "South SM Coast birding today",
+      "source": "sialia",
+      "list": "peninsula-birding",
+      "area": "Peninsula",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1914781",
+      "reported_at": "2026-10-04T19:45:00",
+      "reported_at_display": "10/4/26 7:45 pm",
+      "kind": "post",
+      "first_seen_at": "2026-10-05T09:11:56.248282+00:00"
+    },
     {
       "id": "sialia:1914762",
       "title": "Today's Burlingame yard birds",
