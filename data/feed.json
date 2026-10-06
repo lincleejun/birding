@@ -1,22 +1,18 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-06T15:16:22.306124+00:00",
+  "generated_at": "2026-10-06T20:24:19.135181+00:00",
   "retention_days": 30,
   "order": "reported_at descending; source wall time, timezone unspecified",
   "sources": {
     "sialia": {
-      "status": "partial",
-      "last_attempt_at": "2026-10-06T15:16:22.306124+00:00",
-      "last_success_at": "2026-10-06T00:51:20.104846+00:00",
+      "status": "ok",
+      "last_attempt_at": "2026-10-06T20:24:19.135181+00:00",
+      "last_success_at": "2026-10-06T20:24:19.135181+00:00",
       "fetched_days": [
+        "2026-10-06",
         "2026-10-05"
       ],
-      "errors": [
-        {
-          "date": "2026-10-06",
-          "error": "ValueError: Unrecognized Sialia index layout"
-        }
-      ],
+      "errors": [],
       "lists": [
         "SouthBayBirds",
         "peninsula-birding",
@@ -32,10 +28,46 @@
     }
   },
   "stats": {
-    "total": 168,
-    "new_this_run": 0
+    "total": 171,
+    "new_this_run": 3
   },
   "items": [
+    {
+      "id": "sialia:1914904",
+      "title": "Swinhoe’s White-eye SCU",
+      "source": "sialia",
+      "list": "SouthBayBirds",
+      "area": "South Bay",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1914904",
+      "reported_at": "2026-10-06T12:04:00",
+      "reported_at_display": "10/6/26 12:04 pm",
+      "kind": "reply",
+      "first_seen_at": "2026-10-06T20:24:19.135181+00:00"
+    },
+    {
+      "id": "sialia:1914897",
+      "title": "Swinhoe’s White-eye SCU",
+      "source": "sialia",
+      "list": "SouthBayBirds",
+      "area": "South Bay",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1914897",
+      "reported_at": "2026-10-06T10:38:00",
+      "reported_at_display": "10/6/26 10:38 am",
+      "kind": "post",
+      "first_seen_at": "2026-10-06T20:24:19.135181+00:00"
+    },
+    {
+      "id": "sialia:1914889",
+      "title": "PAINTED REDSTART",
+      "source": "sialia",
+      "list": "peninsula-birding",
+      "area": "Peninsula",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1914889",
+      "reported_at": "2026-10-06T09:41:00",
+      "reported_at_display": "10/6/26 9:41 am",
+      "kind": "post",
+      "first_seen_at": "2026-10-06T20:24:19.135181+00:00"
+    },
     {
       "id": "sialia:1914849",
       "title": "Eurasian Wigeon, Swainson's, Hawk, Brewer's Sparrow",
