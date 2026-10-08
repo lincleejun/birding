@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-08T16:35:23.429778+00:00",
+  "generated_at": "2026-10-08T22:09:51.223539+00:00",
   "retention_days": 30,
   "order": "reported_at descending; source wall time, timezone unspecified",
   "sources": {
     "sialia": {
       "status": "ok",
-      "last_attempt_at": "2026-10-08T16:35:23.429778+00:00",
-      "last_success_at": "2026-10-08T16:35:23.429778+00:00",
+      "last_attempt_at": "2026-10-08T22:09:51.223539+00:00",
+      "last_success_at": "2026-10-08T22:09:51.223539+00:00",
       "fetched_days": [
         "2026-10-08",
         "2026-10-07"
@@ -28,10 +28,82 @@
     }
   },
   "stats": {
-    "total": 177,
-    "new_this_run": 0
+    "total": 183,
+    "new_this_run": 6
   },
   "items": [
+    {
+      "id": "sialia:1915106",
+      "title": "Sausalito Pelagic with the Yolo Bird Alliance - SUNDAY, OCTOBER 18TH",
+      "source": "sialia",
+      "list": "SFBirds",
+      "area": "San Francisco",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1915106",
+      "reported_at": "2026-10-08T14:11:00",
+      "reported_at_display": "10/8/26 2:11 pm",
+      "kind": "post",
+      "first_seen_at": "2026-10-08T22:09:51.223539+00:00"
+    },
+    {
+      "id": "sialia:1915092",
+      "title": "Raptor Migration Spectacle",
+      "source": "sialia",
+      "list": "SouthBayBirds",
+      "area": "South Bay",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1915092",
+      "reported_at": "2026-10-08T12:37:00",
+      "reported_at_display": "10/8/26 12:37 pm",
+      "kind": "post",
+      "first_seen_at": "2026-10-08T22:09:51.223539+00:00"
+    },
+    {
+      "id": "sialia:1915088",
+      "title": "Sulphur-bellied continues 10/8/26 has moved to North Lake",
+      "source": "sialia",
+      "list": "SFBirds",
+      "area": "San Francisco",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1915088",
+      "reported_at": "2026-10-08T11:51:00",
+      "reported_at_display": "10/8/26 11:51 am",
+      "kind": "post",
+      "first_seen_at": "2026-10-08T22:09:51.223539+00:00"
+    },
+    {
+      "id": "sialia:1915085",
+      "title": "Sausalito Pelagic with the Yolo Bird Alliance - SUNDAY, OCTOBER 18TH",
+      "source": "sialia",
+      "list": "northbaybirds",
+      "area": "North Bay",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1915085",
+      "reported_at": "2026-10-08T11:40:00",
+      "reported_at_display": "10/8/26 11:40 am",
+      "kind": "reply",
+      "first_seen_at": "2026-10-08T22:09:51.223539+00:00"
+    },
+    {
+      "id": "sialia:1915082",
+      "title": "Sausalito Pelagic with the Yolo Bird Alliance - SUNDAY, OCTOBER 18TH",
+      "source": "sialia",
+      "list": "northbaybirds",
+      "area": "North Bay",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1915082",
+      "reported_at": "2026-10-08T11:21:00",
+      "reported_at_display": "10/8/26 11:21 am",
+      "kind": "post",
+      "first_seen_at": "2026-10-08T22:09:51.223539+00:00"
+    },
+    {
+      "id": "sialia:1915079",
+      "title": "Sulphur-bellied Flycatcher continues this morning 10/7/26",
+      "source": "sialia",
+      "list": "SFBirds",
+      "area": "San Francisco",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1915079",
+      "reported_at": "2026-10-08T10:54:00",
+      "reported_at_display": "10/8/26 10:54 am",
+      "kind": "post",
+      "first_seen_at": "2026-10-08T22:09:51.223539+00:00"
+    },
     {
       "id": "sialia:1915028",
       "title": "2nd Hand Report of Pinyon Jays 10/7/2026",
