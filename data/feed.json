@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-07T21:21:00.444294+00:00",
+  "generated_at": "2026-10-08T02:01:50.321463+00:00",
   "retention_days": 30,
   "order": "reported_at descending; source wall time, timezone unspecified",
   "sources": {
     "sialia": {
       "status": "ok",
-      "last_attempt_at": "2026-10-07T21:21:00.444294+00:00",
-      "last_success_at": "2026-10-07T21:21:00.444294+00:00",
+      "last_attempt_at": "2026-10-08T02:01:50.321463+00:00",
+      "last_success_at": "2026-10-08T02:01:50.321463+00:00",
       "fetched_days": [
         "2026-10-07",
         "2026-10-06"
@@ -28,10 +28,34 @@
     }
   },
   "stats": {
-    "total": 175,
+    "total": 177,
     "new_this_run": 2
   },
   "items": [
+    {
+      "id": "sialia:1915028",
+      "title": "2nd Hand Report of Pinyon Jays 10/7/2026",
+      "source": "sialia",
+      "list": "peninsula-birding",
+      "area": "Peninsula",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1915028",
+      "reported_at": "2026-10-07T16:23:00",
+      "reported_at_display": "10/7/26 4:23 pm",
+      "kind": "post",
+      "first_seen_at": "2026-10-08T02:01:50.321463+00:00"
+    },
+    {
+      "id": "sialia:1915022",
+      "title": "Osprey at Shoreline",
+      "source": "sialia",
+      "list": "SouthBayBirds",
+      "area": "South Bay",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1915022",
+      "reported_at": "2026-10-07T15:56:00",
+      "reported_at_display": "10/7/26 3:56 pm",
+      "kind": "post",
+      "first_seen_at": "2026-10-08T02:01:50.321463+00:00"
+    },
     {
       "id": "sialia:1915003",
       "title": "Sulphur-bellied Flycatcher continues this morning 10/7/26",
