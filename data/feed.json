@@ -1,22 +1,18 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-09T09:17:06.841424+00:00",
+  "generated_at": "2026-10-09T16:22:19.088648+00:00",
   "retention_days": 30,
   "order": "reported_at descending; source wall time, timezone unspecified",
   "sources": {
     "sialia": {
-      "status": "partial",
-      "last_attempt_at": "2026-10-09T09:17:06.841424+00:00",
-      "last_success_at": "2026-10-09T02:15:33.435365+00:00",
+      "status": "ok",
+      "last_attempt_at": "2026-10-09T16:22:19.088648+00:00",
+      "last_success_at": "2026-10-09T16:22:19.088648+00:00",
       "fetched_days": [
+        "2026-10-09",
         "2026-10-08"
       ],
-      "errors": [
-        {
-          "date": "2026-10-09",
-          "error": "ValueError: Unrecognized Sialia index layout"
-        }
-      ],
+      "errors": [],
       "lists": [
         "SouthBayBirds",
         "peninsula-birding",
@@ -32,10 +28,34 @@
     }
   },
   "stats": {
-    "total": 184,
-    "new_this_run": 1
+    "total": 186,
+    "new_this_run": 2
   },
   "items": [
+    {
+      "id": "sialia:1915162",
+      "title": "Peregrine Falcon at Sunnyvale Baylands",
+      "source": "sialia",
+      "list": "SouthBayBirds",
+      "area": "South Bay",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1915162",
+      "reported_at": "2026-10-09T08:19:00",
+      "reported_at_display": "10/9/26 8:19 am",
+      "kind": "post",
+      "first_seen_at": "2026-10-09T16:22:19.088648+00:00"
+    },
+    {
+      "id": "sialia:1915159",
+      "title": "Painted Bunting on Pillar Point Bluff",
+      "source": "sialia",
+      "list": "peninsula-birding",
+      "area": "Peninsula",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1915159",
+      "reported_at": "2026-10-09T07:42:00",
+      "reported_at_display": "10/9/26 7:42 am",
+      "kind": "post",
+      "first_seen_at": "2026-10-09T16:22:19.088648+00:00"
+    },
     {
       "id": "sialia:1915146",
       "title": "Recent notes: Blackburnian, Magnolia, Prairie, etc.",
