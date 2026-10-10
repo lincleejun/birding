@@ -1,22 +1,18 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-10T08:36:32.594813+00:00",
+  "generated_at": "2026-10-10T15:26:33.147784+00:00",
   "retention_days": 30,
   "order": "reported_at descending; source wall time, timezone unspecified",
   "sources": {
     "sialia": {
-      "status": "partial",
-      "last_attempt_at": "2026-10-10T08:36:32.594813+00:00",
-      "last_success_at": "2026-10-10T01:47:47.105790+00:00",
+      "status": "ok",
+      "last_attempt_at": "2026-10-10T15:26:33.147784+00:00",
+      "last_success_at": "2026-10-10T15:26:33.147784+00:00",
       "fetched_days": [
+        "2026-10-10",
         "2026-10-09"
       ],
-      "errors": [
-        {
-          "date": "2026-10-10",
-          "error": "ValueError: Unrecognized Sialia index layout"
-        }
-      ],
+      "errors": [],
       "lists": [
         "SouthBayBirds",
         "peninsula-birding",
@@ -32,10 +28,22 @@
     }
   },
   "stats": {
-    "total": 186,
-    "new_this_run": 0
+    "total": 187,
+    "new_this_run": 1
   },
   "items": [
+    {
+      "id": "sialia:1915260",
+      "title": "Noyo Pelagics -August 3rd",
+      "source": "sialia",
+      "list": "northbaybirds",
+      "area": "North Bay",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1915260",
+      "reported_at": "2026-10-10T07:29:00",
+      "reported_at_display": "10/10/26 7:29 am",
+      "kind": "reply",
+      "first_seen_at": "2026-10-10T15:26:33.147784+00:00"
+    },
     {
       "id": "sialia:1915162",
       "title": "Peregrine Falcon at Sunnyvale Baylands",
