@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-10T15:26:33.147784+00:00",
+  "generated_at": "2026-10-10T20:08:15.919897+00:00",
   "retention_days": 30,
   "order": "reported_at descending; source wall time, timezone unspecified",
   "sources": {
     "sialia": {
       "status": "ok",
-      "last_attempt_at": "2026-10-10T15:26:33.147784+00:00",
-      "last_success_at": "2026-10-10T15:26:33.147784+00:00",
+      "last_attempt_at": "2026-10-10T20:08:15.919897+00:00",
+      "last_success_at": "2026-10-10T20:08:15.919897+00:00",
       "fetched_days": [
         "2026-10-10",
         "2026-10-09"
@@ -28,10 +28,58 @@
     }
   },
   "stats": {
-    "total": 187,
-    "new_this_run": 1
+    "total": 191,
+    "new_this_run": 4
   },
   "items": [
+    {
+      "id": "sialia:1915285",
+      "title": "Corona HIll sightings",
+      "source": "sialia",
+      "list": "SFBirds",
+      "area": "San Francisco",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1915285",
+      "reported_at": "2026-10-10T12:09:00",
+      "reported_at_display": "10/10/26 12:09 pm",
+      "kind": "post",
+      "first_seen_at": "2026-10-10T20:08:15.919897+00:00"
+    },
+    {
+      "id": "sialia:1915281",
+      "title": "Big Sit.",
+      "source": "sialia",
+      "list": "peninsula-birding",
+      "area": "Peninsula",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1915281",
+      "reported_at": "2026-10-10T10:41:00",
+      "reported_at_display": "10/10/26 10:41 am",
+      "kind": "reply",
+      "first_seen_at": "2026-10-10T20:08:15.919897+00:00"
+    },
+    {
+      "id": "sialia:1915272",
+      "title": "Big Sit.",
+      "source": "sialia",
+      "list": "peninsula-birding",
+      "area": "Peninsula",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1915272",
+      "reported_at": "2026-10-10T09:25:00",
+      "reported_at_display": "10/10/26 9:25 am",
+      "kind": "post",
+      "first_seen_at": "2026-10-10T20:08:15.919897+00:00"
+    },
+    {
+      "id": "sialia:1915270",
+      "title": "Sulphur-bellied continues 10/8/26 has moved to North Lake",
+      "source": "sialia",
+      "list": "SFBirds",
+      "area": "San Francisco",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1915270",
+      "reported_at": "2026-10-10T08:59:00",
+      "reported_at_display": "10/10/26 8:59 am",
+      "kind": "reply",
+      "first_seen_at": "2026-10-10T20:08:15.919897+00:00"
+    },
     {
       "id": "sialia:1915260",
       "title": "Noyo Pelagics -August 3rd",
