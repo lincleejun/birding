@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-11T18:08:41.153940+00:00",
+  "generated_at": "2026-10-11T22:05:26.908297+00:00",
   "retention_days": 30,
   "order": "reported_at descending; source wall time, timezone unspecified",
   "sources": {
     "sialia": {
       "status": "ok",
-      "last_attempt_at": "2026-10-11T18:08:41.153940+00:00",
-      "last_success_at": "2026-10-11T18:08:41.153940+00:00",
+      "last_attempt_at": "2026-10-11T22:05:26.908297+00:00",
+      "last_success_at": "2026-10-11T22:05:26.908297+00:00",
       "fetched_days": [
         "2026-10-11",
         "2026-10-10"
@@ -28,10 +28,22 @@
     }
   },
   "stats": {
-    "total": 195,
-    "new_this_run": 3
+    "total": 196,
+    "new_this_run": 1
   },
   "items": [
+    {
+      "id": "sialia:1915371",
+      "title": "sulphur bellied flycatcher still at middle lake",
+      "source": "sialia",
+      "list": "SFBirds",
+      "area": "San Francisco",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1915371",
+      "reported_at": "2026-10-11T12:55:00",
+      "reported_at_display": "10/11/26 12:55 pm",
+      "kind": "post",
+      "first_seen_at": "2026-10-11T22:05:26.908297+00:00"
+    },
     {
       "id": "sialia:1915359",
       "title": "Williamson's Sapsucker at Loma Prieta",
