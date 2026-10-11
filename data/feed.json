@@ -1,22 +1,18 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-11T13:01:56.882596+00:00",
+  "generated_at": "2026-10-11T18:08:41.153940+00:00",
   "retention_days": 30,
   "order": "reported_at descending; source wall time, timezone unspecified",
   "sources": {
     "sialia": {
-      "status": "partial",
-      "last_attempt_at": "2026-10-11T13:01:56.882596+00:00",
-      "last_success_at": "2026-10-11T05:57:10.962225+00:00",
+      "status": "ok",
+      "last_attempt_at": "2026-10-11T18:08:41.153940+00:00",
+      "last_success_at": "2026-10-11T18:08:41.153940+00:00",
       "fetched_days": [
+        "2026-10-11",
         "2026-10-10"
       ],
-      "errors": [
-        {
-          "date": "2026-10-11",
-          "error": "ValueError: Unrecognized Sialia index layout"
-        }
-      ],
+      "errors": [],
       "lists": [
         "SouthBayBirds",
         "peninsula-birding",
@@ -32,10 +28,46 @@
     }
   },
   "stats": {
-    "total": 192,
-    "new_this_run": 0
+    "total": 195,
+    "new_this_run": 3
   },
   "items": [
+    {
+      "id": "sialia:1915359",
+      "title": "Williamson's Sapsucker at Loma Prieta",
+      "source": "sialia",
+      "list": "SouthBayBirds",
+      "area": "South Bay",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1915359",
+      "reported_at": "2026-10-11T10:24:00",
+      "reported_at_display": "10/11/26 10:24 am",
+      "kind": "post",
+      "first_seen_at": "2026-10-11T18:08:41.153940+00:00"
+    },
+    {
+      "id": "sialia:1915358",
+      "title": "Palm Warbler at Fort Mason",
+      "source": "sialia",
+      "list": "SFBirds",
+      "area": "San Francisco",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1915358",
+      "reported_at": "2026-10-11T10:15:00",
+      "reported_at_display": "10/11/26 10:15 am",
+      "kind": "post",
+      "first_seen_at": "2026-10-11T18:08:41.153940+00:00"
+    },
+    {
+      "id": "sialia:1915356",
+      "title": "Big Sit today",
+      "source": "sialia",
+      "list": "peninsula-birding",
+      "area": "Peninsula",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1915356",
+      "reported_at": "2026-10-11T10:06:00",
+      "reported_at_display": "10/11/26 10:06 am",
+      "kind": "post",
+      "first_seen_at": "2026-10-11T18:08:41.153940+00:00"
+    },
     {
       "id": "sialia:1915344",
       "title": "Today misc.",
