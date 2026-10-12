@@ -1,22 +1,18 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-12T09:21:41.536729+00:00",
+  "generated_at": "2026-10-12T19:51:39.909027+00:00",
   "retention_days": 30,
   "order": "reported_at descending; source wall time, timezone unspecified",
   "sources": {
     "sialia": {
-      "status": "partial",
-      "last_attempt_at": "2026-10-12T09:21:41.536729+00:00",
-      "last_success_at": "2026-10-12T01:23:55.005106+00:00",
+      "status": "ok",
+      "last_attempt_at": "2026-10-12T19:51:39.909027+00:00",
+      "last_success_at": "2026-10-12T19:51:39.909027+00:00",
       "fetched_days": [
+        "2026-10-12",
         "2026-10-11"
       ],
-      "errors": [
-        {
-          "date": "2026-10-12",
-          "error": "ValueError: Unrecognized Sialia index layout"
-        }
-      ],
+      "errors": [],
       "lists": [
         "SouthBayBirds",
         "peninsula-birding",
@@ -32,10 +28,46 @@
     }
   },
   "stats": {
-    "total": 196,
-    "new_this_run": 0
+    "total": 199,
+    "new_this_run": 3
   },
   "items": [
+    {
+      "id": "sialia:1915426",
+      "title": "White-headed Woodpecker",
+      "source": "sialia",
+      "list": "northbaybirds",
+      "area": "North Bay",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1915426",
+      "reported_at": "2026-10-12T09:50:00",
+      "reported_at_display": "10/12/26 9:50 am",
+      "kind": "reply",
+      "first_seen_at": "2026-10-12T19:51:39.909027+00:00"
+    },
+    {
+      "id": "sialia:1915421",
+      "title": "Field Notes: Moss Landing Beach and Jetty Road",
+      "source": "sialia",
+      "list": "SouthBayBirds",
+      "area": "South Bay",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1915421",
+      "reported_at": "2026-10-12T09:27:00",
+      "reported_at_display": "10/12/26 9:27 am",
+      "kind": "post",
+      "first_seen_at": "2026-10-12T19:51:39.909027+00:00"
+    },
+    {
+      "id": "sialia:1915417",
+      "title": "American White Pelicans",
+      "source": "sialia",
+      "list": "SFBirds",
+      "area": "San Francisco",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1915417",
+      "reported_at": "2026-10-12T08:27:00",
+      "reported_at_display": "10/12/26 8:27 am",
+      "kind": "post",
+      "first_seen_at": "2026-10-12T19:51:39.909027+00:00"
+    },
     {
       "id": "sialia:1915371",
       "title": "sulphur bellied flycatcher still at middle lake",
