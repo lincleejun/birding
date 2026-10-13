@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-13T17:38:47.276209+00:00",
+  "generated_at": "2026-10-13T22:52:33.062821+00:00",
   "retention_days": 30,
   "order": "reported_at descending; source wall time, timezone unspecified",
   "sources": {
     "sialia": {
       "status": "ok",
-      "last_attempt_at": "2026-10-13T17:38:47.276209+00:00",
-      "last_success_at": "2026-10-13T17:38:47.276209+00:00",
+      "last_attempt_at": "2026-10-13T22:52:33.062821+00:00",
+      "last_success_at": "2026-10-13T22:52:33.062821+00:00",
       "fetched_days": [
         "2026-10-13",
         "2026-10-12"
@@ -28,10 +28,22 @@
     }
   },
   "stats": {
-    "total": 207,
-    "new_this_run": 7
+    "total": 208,
+    "new_this_run": 1
   },
   "items": [
+    {
+      "id": "sialia:1915527",
+      "title": "Eurasian Wigeon Candkestick",
+      "source": "sialia",
+      "list": "SFBirds",
+      "area": "San Francisco",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1915527",
+      "reported_at": "2026-10-13T11:26:00",
+      "reported_at_display": "10/13/26 11:26 am",
+      "kind": "post",
+      "first_seen_at": "2026-10-13T22:52:33.062821+00:00"
+    },
     {
       "id": "sialia:1915522",
       "title": "Williamson's Sapsucker in Inverness",
