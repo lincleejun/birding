@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-12T19:51:39.909027+00:00",
+  "generated_at": "2026-10-13T02:05:09.869090+00:00",
   "retention_days": 30,
   "order": "reported_at descending; source wall time, timezone unspecified",
   "sources": {
     "sialia": {
       "status": "ok",
-      "last_attempt_at": "2026-10-12T19:51:39.909027+00:00",
-      "last_success_at": "2026-10-12T19:51:39.909027+00:00",
+      "last_attempt_at": "2026-10-13T02:05:09.869090+00:00",
+      "last_success_at": "2026-10-13T02:05:09.869090+00:00",
       "fetched_days": [
         "2026-10-12",
         "2026-10-11"
@@ -28,10 +28,22 @@
     }
   },
   "stats": {
-    "total": 199,
-    "new_this_run": 3
+    "total": 200,
+    "new_this_run": 1
   },
   "items": [
+    {
+      "id": "sialia:1915451",
+      "title": "Common Murre, Arrowhead Marsh",
+      "source": "sialia",
+      "list": "EBB-Sightings",
+      "area": "East Bay",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1915451",
+      "reported_at": "2026-10-12T14:36:00",
+      "reported_at_display": "10/12/26 2:36 pm",
+      "kind": "post",
+      "first_seen_at": "2026-10-13T02:05:09.869090+00:00"
+    },
     {
       "id": "sialia:1915426",
       "title": "White-headed Woodpecker",
