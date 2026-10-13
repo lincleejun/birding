@@ -1,22 +1,18 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-13T09:31:30.248929+00:00",
+  "generated_at": "2026-10-13T17:38:47.276209+00:00",
   "retention_days": 30,
   "order": "reported_at descending; source wall time, timezone unspecified",
   "sources": {
     "sialia": {
-      "status": "partial",
-      "last_attempt_at": "2026-10-13T09:31:30.248929+00:00",
-      "last_success_at": "2026-10-13T02:05:09.869090+00:00",
+      "status": "ok",
+      "last_attempt_at": "2026-10-13T17:38:47.276209+00:00",
+      "last_success_at": "2026-10-13T17:38:47.276209+00:00",
       "fetched_days": [
+        "2026-10-13",
         "2026-10-12"
       ],
-      "errors": [
-        {
-          "date": "2026-10-13",
-          "error": "ValueError: Unrecognized Sialia index layout"
-        }
-      ],
+      "errors": [],
       "lists": [
         "SouthBayBirds",
         "peninsula-birding",
@@ -32,10 +28,94 @@
     }
   },
   "stats": {
-    "total": 200,
-    "new_this_run": 0
+    "total": 207,
+    "new_this_run": 7
   },
   "items": [
+    {
+      "id": "sialia:1915522",
+      "title": "Williamson's Sapsucker in Inverness",
+      "source": "sialia",
+      "list": "northbaybirds",
+      "area": "North Bay",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1915522",
+      "reported_at": "2026-10-13T10:20:00",
+      "reported_at_display": "10/13/26 10:20 am",
+      "kind": "post",
+      "first_seen_at": "2026-10-13T17:38:47.276209+00:00"
+    },
+    {
+      "id": "sialia:1915519",
+      "title": "Pinyon Jay at SCU",
+      "source": "sialia",
+      "list": "SouthBayBirds",
+      "area": "South Bay",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1915519",
+      "reported_at": "2026-10-13T09:33:00",
+      "reported_at_display": "10/13/26 9:33 am",
+      "kind": "post",
+      "first_seen_at": "2026-10-13T17:38:47.276209+00:00"
+    },
+    {
+      "id": "sialia:1915517",
+      "title": "Loma Prieta neighbor threatened birders with rifle",
+      "source": "sialia",
+      "list": "SouthBayBirds",
+      "area": "South Bay",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1915517",
+      "reported_at": "2026-10-13T09:28:00",
+      "reported_at_display": "10/13/26 9:28 am",
+      "kind": "reply",
+      "first_seen_at": "2026-10-13T17:38:47.276209+00:00"
+    },
+    {
+      "id": "sialia:1915516",
+      "title": "Loma Prieta neighbor threatened birders with rifle",
+      "source": "sialia",
+      "list": "SouthBayBirds",
+      "area": "South Bay",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1915516",
+      "reported_at": "2026-10-13T09:16:00",
+      "reported_at_display": "10/13/26 9:16 am",
+      "kind": "post",
+      "first_seen_at": "2026-10-13T17:38:47.276209+00:00"
+    },
+    {
+      "id": "sialia:1915514",
+      "title": "Possible Pinyon Jay",
+      "source": "sialia",
+      "list": "SouthBayBirds",
+      "area": "South Bay",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1915514",
+      "reported_at": "2026-10-13T09:02:00",
+      "reported_at_display": "10/13/26 9:02 am",
+      "kind": "reply",
+      "first_seen_at": "2026-10-13T17:38:47.276209+00:00"
+    },
+    {
+      "id": "sialia:1915513",
+      "title": "Possible Pinyon Jay",
+      "source": "sialia",
+      "list": "SouthBayBirds",
+      "area": "South Bay",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1915513",
+      "reported_at": "2026-10-13T08:47:00",
+      "reported_at_display": "10/13/26 8:47 am",
+      "kind": "post",
+      "first_seen_at": "2026-10-13T17:38:47.276209+00:00"
+    },
+    {
+      "id": "sialia:1915506",
+      "title": "Skywatch sightings, Prairie Falcon, Mountain Bluebird 10/12",
+      "source": "sialia",
+      "list": "peninsula-birding",
+      "area": "Peninsula",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1915506",
+      "reported_at": "2026-10-13T06:54:00",
+      "reported_at_display": "10/13/26 6:54 am",
+      "kind": "post",
+      "first_seen_at": "2026-10-13T17:38:47.276209+00:00"
+    },
     {
       "id": "sialia:1915451",
       "title": "Common Murre, Arrowhead Marsh",
