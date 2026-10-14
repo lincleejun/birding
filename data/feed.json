@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-14T18:42:12.101799+00:00",
+  "generated_at": "2026-10-14T22:21:14.124381+00:00",
   "retention_days": 30,
   "order": "reported_at descending; source wall time, timezone unspecified",
   "sources": {
     "sialia": {
       "status": "ok",
-      "last_attempt_at": "2026-10-14T18:42:12.101799+00:00",
-      "last_success_at": "2026-10-14T18:42:12.101799+00:00",
+      "last_attempt_at": "2026-10-14T22:21:14.124381+00:00",
+      "last_success_at": "2026-10-14T22:21:14.124381+00:00",
       "fetched_days": [
         "2026-10-14",
         "2026-10-13"
@@ -28,10 +28,46 @@
     }
   },
   "stats": {
-    "total": 210,
-    "new_this_run": 1
+    "total": 213,
+    "new_this_run": 3
   },
   "items": [
+    {
+      "id": "sialia:1915611",
+      "title": "American White Pelicans",
+      "source": "sialia",
+      "list": "SFBirds",
+      "area": "San Francisco",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1915611",
+      "reported_at": "2026-10-14T13:51:00",
+      "reported_at_display": "10/14/26 1:51 pm",
+      "kind": "reply",
+      "first_seen_at": "2026-10-14T22:21:14.124381+00:00"
+    },
+    {
+      "id": "sialia:1915610",
+      "title": "American White Pelicans",
+      "source": "sialia",
+      "list": "SFBirds",
+      "area": "San Francisco",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1915610",
+      "reported_at": "2026-10-14T13:50:00",
+      "reported_at_display": "10/14/26 1:50 pm",
+      "kind": "reply",
+      "first_seen_at": "2026-10-14T22:21:14.124381+00:00"
+    },
+    {
+      "id": "sialia:1915608",
+      "title": "10/14, RE: Still there. Red Cross-bills at the Tilden Botanical Garden",
+      "source": "sialia",
+      "list": "EBB-Sightings",
+      "area": "East Bay",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1915608",
+      "reported_at": "2026-10-14T13:40:00",
+      "reported_at_display": "10/14/26 1:40 pm",
+      "kind": "post",
+      "first_seen_at": "2026-10-14T22:21:14.124381+00:00"
+    },
     {
       "id": "sialia:1915591",
       "title": "San Mateo County Cumulative Year-list Report for --- September 2026",
