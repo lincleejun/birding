@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-15T18:21:58.414453+00:00",
+  "generated_at": "2026-10-15T22:25:40.255096+00:00",
   "retention_days": 30,
   "order": "reported_at descending; source wall time, timezone unspecified",
   "sources": {
     "sialia": {
       "status": "ok",
-      "last_attempt_at": "2026-10-15T18:21:58.414453+00:00",
-      "last_success_at": "2026-10-15T18:21:58.414453+00:00",
+      "last_attempt_at": "2026-10-15T22:25:40.255096+00:00",
+      "last_success_at": "2026-10-15T22:25:40.255096+00:00",
       "fetched_days": [
         "2026-10-15",
         "2026-10-14"
@@ -28,10 +28,106 @@
     }
   },
   "stats": {
-    "total": 214,
-    "new_this_run": 1
+    "total": 222,
+    "new_this_run": 8
   },
   "items": [
+    {
+      "id": "sialia:1915702",
+      "title": "Prairie Falcon",
+      "source": "sialia",
+      "list": "SFBirds",
+      "area": "San Francisco",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1915702",
+      "reported_at": "2026-10-15T14:51:00",
+      "reported_at_display": "10/15/26 2:51 pm",
+      "kind": "reply",
+      "first_seen_at": "2026-10-15T22:25:40.255096+00:00"
+    },
+    {
+      "id": "sialia:1915699",
+      "title": "Prairie Falcon",
+      "source": "sialia",
+      "list": "SFBirds",
+      "area": "San Francisco",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1915699",
+      "reported_at": "2026-10-15T14:29:00",
+      "reported_at_display": "10/15/26 2:29 pm",
+      "kind": "reply",
+      "first_seen_at": "2026-10-15T22:25:40.255096+00:00"
+    },
+    {
+      "id": "sialia:1915700",
+      "title": "Prairie Falcon",
+      "source": "sialia",
+      "list": "SFBirds",
+      "area": "San Francisco",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1915700",
+      "reported_at": "2026-10-15T14:24:00",
+      "reported_at_display": "10/15/26 2:24 pm",
+      "kind": "reply",
+      "first_seen_at": "2026-10-15T22:25:40.255096+00:00"
+    },
+    {
+      "id": "sialia:1915698",
+      "title": "Prairie Falcon",
+      "source": "sialia",
+      "list": "SFBirds",
+      "area": "San Francisco",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1915698",
+      "reported_at": "2026-10-15T14:17:00",
+      "reported_at_display": "10/15/26 2:17 pm",
+      "kind": "reply",
+      "first_seen_at": "2026-10-15T22:25:40.255096+00:00"
+    },
+    {
+      "id": "sialia:1915697",
+      "title": "Prairie Falcon",
+      "source": "sialia",
+      "list": "SFBirds",
+      "area": "San Francisco",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1915697",
+      "reported_at": "2026-10-15T14:07:00",
+      "reported_at_display": "10/15/26 2:07 pm",
+      "kind": "post",
+      "first_seen_at": "2026-10-15T22:25:40.255096+00:00"
+    },
+    {
+      "id": "sialia:1915692",
+      "title": "LEWIS's WOODPECKER Corona Hill 10/15/26",
+      "source": "sialia",
+      "list": "SFBirds",
+      "area": "San Francisco",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1915692",
+      "reported_at": "2026-10-15T13:08:00",
+      "reported_at_display": "10/15/26 1:08 pm",
+      "kind": "post",
+      "first_seen_at": "2026-10-15T22:25:40.255096+00:00"
+    },
+    {
+      "id": "sialia:1915690",
+      "title": "Moss Beach seawatch 10/14",
+      "source": "sialia",
+      "list": "peninsula-birding",
+      "area": "Peninsula",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1915690",
+      "reported_at": "2026-10-15T12:39:00",
+      "reported_at_display": "10/15/26 12:39 pm",
+      "kind": "reply",
+      "first_seen_at": "2026-10-15T22:25:40.255096+00:00"
+    },
+    {
+      "id": "sialia:1915688",
+      "title": "Moss Beach seawatch 10/14",
+      "source": "sialia",
+      "list": "peninsula-birding",
+      "area": "Peninsula",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1915688",
+      "reported_at": "2026-10-15T11:48:00",
+      "reported_at_display": "10/15/26 11:48 am",
+      "kind": "post",
+      "first_seen_at": "2026-10-15T22:25:40.255096+00:00"
+    },
     {
       "id": "sialia:1915685",
       "title": "Lewis’s Woodpecker at Fort Mason",
