@@ -1,18 +1,22 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-16T01:27:33.326363+00:00",
+  "generated_at": "2026-10-16T07:17:40.912907+00:00",
   "retention_days": 30,
   "order": "reported_at descending; source wall time, timezone unspecified",
   "sources": {
     "sialia": {
-      "status": "ok",
-      "last_attempt_at": "2026-10-16T01:27:33.326363+00:00",
+      "status": "partial",
+      "last_attempt_at": "2026-10-16T07:17:40.912907+00:00",
       "last_success_at": "2026-10-16T01:27:33.326363+00:00",
       "fetched_days": [
-        "2026-10-15",
-        "2026-10-14"
+        "2026-10-15"
       ],
-      "errors": [],
+      "errors": [
+        {
+          "date": "2026-10-16",
+          "error": "ValueError: Unrecognized Sialia index layout"
+        }
+      ],
       "lists": [
         "SouthBayBirds",
         "peninsula-birding",
@@ -28,10 +32,22 @@
     }
   },
   "stats": {
-    "total": 225,
-    "new_this_run": 3
+    "total": 219,
+    "new_this_run": 1
   },
   "items": [
+    {
+      "id": "sialia:1915746",
+      "title": "House Finch with a deformed beak?",
+      "source": "sialia",
+      "list": "peninsula-birding",
+      "area": "Peninsula",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1915746",
+      "reported_at": "2026-10-15T22:11:00",
+      "reported_at_display": "10/15/26 10:11 pm",
+      "kind": "reply",
+      "first_seen_at": "2026-10-16T07:17:40.912907+00:00"
+    },
     {
       "id": "sialia:1915732",
       "title": "House Finch with a deformed beak?",
@@ -2645,90 +2661,6 @@
       "source_url": "https://digest-test.sialia.com/?rm=message;id=1913071",
       "reported_at": "2026-09-16T06:22:00",
       "reported_at_display": "9/16/26 6:22 am",
-      "kind": "post",
-      "first_seen_at": "2026-09-22T06:12:24.441840+00:00"
-    },
-    {
-      "id": "sialia:1913065",
-      "title": "White-crowned Sparrows and Red-breasted Nuthatches",
-      "source": "sialia",
-      "list": "SouthBayBirds",
-      "area": "South Bay",
-      "source_url": "https://digest-test.sialia.com/?rm=message;id=1913065",
-      "reported_at": "2026-09-15T23:51:00",
-      "reported_at_display": "9/15/26 11:51 pm",
-      "kind": "reply",
-      "first_seen_at": "2026-09-22T06:12:24.441840+00:00"
-    },
-    {
-      "id": "sialia:1913062",
-      "title": "White-crowned Sparrows and Red-breasted Nuthatches",
-      "source": "sialia",
-      "list": "SouthBayBirds",
-      "area": "South Bay",
-      "source_url": "https://digest-test.sialia.com/?rm=message;id=1913062",
-      "reported_at": "2026-09-15T22:13:00",
-      "reported_at_display": "9/15/26 10:13 pm",
-      "kind": "reply",
-      "first_seen_at": "2026-09-22T06:12:24.441840+00:00"
-    },
-    {
-      "id": "sialia:1913061",
-      "title": "White-crowned Sparrows and Red-breasted Nuthatches",
-      "source": "sialia",
-      "list": "SouthBayBirds",
-      "area": "South Bay",
-      "source_url": "https://digest-test.sialia.com/?rm=message;id=1913061",
-      "reported_at": "2026-09-15T21:59:00",
-      "reported_at_display": "9/15/26 9:59 pm",
-      "kind": "reply",
-      "first_seen_at": "2026-09-22T06:12:24.441840+00:00"
-    },
-    {
-      "id": "sialia:1913025",
-      "title": "White-crowned Sparrows and Red-breasted Nuthatches",
-      "source": "sialia",
-      "list": "SouthBayBirds",
-      "area": "South Bay",
-      "source_url": "https://digest-test.sialia.com/?rm=message;id=1913025",
-      "reported_at": "2026-09-15T15:55:00",
-      "reported_at_display": "9/15/26 3:55 pm",
-      "kind": "post",
-      "first_seen_at": "2026-09-22T06:12:24.441840+00:00"
-    },
-    {
-      "id": "sialia:1913018",
-      "title": "Selasphorus question (Occidental)",
-      "source": "sialia",
-      "list": "northbaybirds",
-      "area": "North Bay",
-      "source_url": "https://digest-test.sialia.com/?rm=message;id=1913018",
-      "reported_at": "2026-09-15T14:55:00",
-      "reported_at_display": "9/15/26 2:55 pm",
-      "kind": "post",
-      "first_seen_at": "2026-09-22T06:12:24.441840+00:00"
-    },
-    {
-      "id": "sialia:1913010",
-      "title": "Nazca Booby - Pigeon Point Lighthouse 9/15/26",
-      "source": "sialia",
-      "list": "peninsula-birding",
-      "area": "Peninsula",
-      "source_url": "https://digest-test.sialia.com/?rm=message;id=1913010",
-      "reported_at": "2026-09-15T13:02:00",
-      "reported_at_display": "9/15/26 1:02 pm",
-      "kind": "post",
-      "first_seen_at": "2026-09-22T06:12:24.441840+00:00"
-    },
-    {
-      "id": "sialia:1912995",
-      "title": "another Northern Waterthrush",
-      "source": "sialia",
-      "list": "SFBirds",
-      "area": "San Francisco",
-      "source_url": "https://digest-test.sialia.com/?rm=message;id=1912995",
-      "reported_at": "2026-09-15T09:43:00",
-      "reported_at_display": "9/15/26 9:43 am",
       "kind": "post",
       "first_seen_at": "2026-09-22T06:12:24.441840+00:00"
     }
