@@ -1,22 +1,18 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-16T13:18:41.823938+00:00",
+  "generated_at": "2026-10-16T18:08:10.389143+00:00",
   "retention_days": 30,
   "order": "reported_at descending; source wall time, timezone unspecified",
   "sources": {
     "sialia": {
-      "status": "partial",
-      "last_attempt_at": "2026-10-16T13:18:41.823938+00:00",
-      "last_success_at": "2026-10-16T01:27:33.326363+00:00",
+      "status": "ok",
+      "last_attempt_at": "2026-10-16T18:08:10.389143+00:00",
+      "last_success_at": "2026-10-16T18:08:10.389143+00:00",
       "fetched_days": [
+        "2026-10-16",
         "2026-10-15"
       ],
-      "errors": [
-        {
-          "date": "2026-10-16",
-          "error": "ValueError: Unrecognized Sialia index layout"
-        }
-      ],
+      "errors": [],
       "lists": [
         "SouthBayBirds",
         "peninsula-birding",
@@ -32,10 +28,22 @@
     }
   },
   "stats": {
-    "total": 219,
-    "new_this_run": 0
+    "total": 220,
+    "new_this_run": 1
   },
   "items": [
+    {
+      "id": "sialia:1915764",
+      "title": "Hooded Warbler",
+      "source": "sialia",
+      "list": "peninsula-birding",
+      "area": "Peninsula",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1915764",
+      "reported_at": "2026-10-16T07:59:00",
+      "reported_at_display": "10/16/26 7:59 am",
+      "kind": "post",
+      "first_seen_at": "2026-10-16T18:08:10.389143+00:00"
+    },
     {
       "id": "sialia:1915746",
       "title": "House Finch with a deformed beak?",
