@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-16T07:17:40.912907+00:00",
+  "generated_at": "2026-10-16T13:18:41.823938+00:00",
   "retention_days": 30,
   "order": "reported_at descending; source wall time, timezone unspecified",
   "sources": {
     "sialia": {
       "status": "partial",
-      "last_attempt_at": "2026-10-16T07:17:40.912907+00:00",
+      "last_attempt_at": "2026-10-16T13:18:41.823938+00:00",
       "last_success_at": "2026-10-16T01:27:33.326363+00:00",
       "fetched_days": [
         "2026-10-15"
@@ -33,7 +33,7 @@
   },
   "stats": {
     "total": 219,
-    "new_this_run": 1
+    "new_this_run": 0
   },
   "items": [
     {
