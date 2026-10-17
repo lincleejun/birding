@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-16T21:19:13.454824+00:00",
+  "generated_at": "2026-10-17T00:33:16.899172+00:00",
   "retention_days": 30,
   "order": "reported_at descending; source wall time, timezone unspecified",
   "sources": {
     "sialia": {
       "status": "ok",
-      "last_attempt_at": "2026-10-16T21:19:13.454824+00:00",
-      "last_success_at": "2026-10-16T21:19:13.454824+00:00",
+      "last_attempt_at": "2026-10-17T00:33:16.899172+00:00",
+      "last_success_at": "2026-10-17T00:33:16.899172+00:00",
       "fetched_days": [
         "2026-10-16",
         "2026-10-15"
@@ -28,10 +28,34 @@
     }
   },
   "stats": {
-    "total": 221,
-    "new_this_run": 1
+    "total": 223,
+    "new_this_run": 2
   },
   "items": [
+    {
+      "id": "sialia:1915823",
+      "title": "City List hits 302 through September, setting another record",
+      "source": "sialia",
+      "list": "SFBirds",
+      "area": "San Francisco",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1915823",
+      "reported_at": "2026-10-16T16:29:00",
+      "reported_at_display": "10/16/26 4:29 pm",
+      "kind": "post",
+      "first_seen_at": "2026-10-17T00:33:16.899172+00:00"
+    },
+    {
+      "id": "sialia:1915821",
+      "title": "Lewis's Woodpecker in Belmont",
+      "source": "sialia",
+      "list": "peninsula-birding",
+      "area": "Peninsula",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1915821",
+      "reported_at": "2026-10-16T16:10:00",
+      "reported_at_display": "10/16/26 4:10 pm",
+      "kind": "post",
+      "first_seen_at": "2026-10-17T00:33:16.899172+00:00"
+    },
     {
       "id": "sialia:1915797",
       "title": "Sandhill Crane at Battery Godfrey",
