@@ -1,18 +1,22 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-17T05:39:18.366256+00:00",
+  "generated_at": "2026-10-17T10:53:38.452540+00:00",
   "retention_days": 30,
   "order": "reported_at descending; source wall time, timezone unspecified",
   "sources": {
     "sialia": {
-      "status": "ok",
-      "last_attempt_at": "2026-10-17T05:39:18.366256+00:00",
+      "status": "partial",
+      "last_attempt_at": "2026-10-17T10:53:38.452540+00:00",
       "last_success_at": "2026-10-17T05:39:18.366256+00:00",
       "fetched_days": [
-        "2026-10-16",
-        "2026-10-15"
+        "2026-10-16"
       ],
-      "errors": [],
+      "errors": [
+        {
+          "date": "2026-10-17",
+          "error": "ValueError: Unrecognized Sialia index layout"
+        }
+      ],
       "lists": [
         "SouthBayBirds",
         "peninsula-birding",
@@ -28,10 +32,22 @@
     }
   },
   "stats": {
-    "total": 223,
-    "new_this_run": 0
+    "total": 214,
+    "new_this_run": 1
   },
   "items": [
+    {
+      "id": "sialia:1915842",
+      "title": "Flat tires, heroes, and amazing peope-Birding Arrowhead Marsh",
+      "source": "sialia",
+      "list": "SouthBayBirds",
+      "area": "South Bay",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1915842",
+      "reported_at": "2026-10-16T23:10:00",
+      "reported_at_display": "10/16/26 11:10 pm",
+      "kind": "post",
+      "first_seen_at": "2026-10-17T10:53:38.452540+00:00"
+    },
     {
       "id": "sialia:1915823",
       "title": "City List hits 302 through September, setting another record",
@@ -2585,126 +2601,6 @@
       "source_url": "https://digest-test.sialia.com/?rm=message;id=1913200",
       "reported_at": "2026-09-17T08:36:00",
       "reported_at_display": "9/17/26 8:36 am",
-      "kind": "post",
-      "first_seen_at": "2026-09-22T06:12:24.441840+00:00"
-    },
-    {
-      "id": "sialia:1913186",
-      "title": "Black-vented Shearwater",
-      "source": "sialia",
-      "list": "SFBirds",
-      "area": "San Francisco",
-      "source_url": "https://digest-test.sialia.com/?rm=message;id=1913186",
-      "reported_at": "2026-09-16T22:52:00",
-      "reported_at_display": "9/16/26 10:52 pm",
-      "kind": "reply",
-      "first_seen_at": "2026-09-22T06:12:24.441840+00:00"
-    },
-    {
-      "id": "sialia:1913184",
-      "title": "Black-throated Gray Warblers - Where to find?",
-      "source": "sialia",
-      "list": "SouthBayBirds",
-      "area": "South Bay",
-      "source_url": "https://digest-test.sialia.com/?rm=message;id=1913184",
-      "reported_at": "2026-09-16T22:27:00",
-      "reported_at_display": "9/16/26 10:27 pm",
-      "kind": "post",
-      "first_seen_at": "2026-09-22T06:12:24.441840+00:00"
-    },
-    {
-      "id": "sialia:1913154",
-      "title": "Black-vented Shearwater",
-      "source": "sialia",
-      "list": "SFBirds",
-      "area": "San Francisco",
-      "source_url": "https://digest-test.sialia.com/?rm=message;id=1913154",
-      "reported_at": "2026-09-16T17:28:00",
-      "reported_at_display": "9/16/26 5:28 pm",
-      "kind": "reply",
-      "first_seen_at": "2026-09-22T06:12:24.441840+00:00"
-    },
-    {
-      "id": "sialia:1913119",
-      "title": "SCVBA Trip to Vasona",
-      "source": "sialia",
-      "list": "SouthBayBirds",
-      "area": "South Bay",
-      "source_url": "https://digest-test.sialia.com/?rm=message;id=1913119",
-      "reported_at": "2026-09-16T13:57:00",
-      "reported_at_display": "9/16/26 1:57 pm",
-      "kind": "post",
-      "first_seen_at": "2026-09-22T06:12:24.441840+00:00"
-    },
-    {
-      "id": "sialia:1913090",
-      "title": "Chestnut-sided Warbler at Dragonfly Creek",
-      "source": "sialia",
-      "list": "SFBirds",
-      "area": "San Francisco",
-      "source_url": "https://digest-test.sialia.com/?rm=message;id=1913090",
-      "reported_at": "2026-09-16T10:30:00",
-      "reported_at_display": "9/16/26 10:30 am",
-      "kind": "post",
-      "first_seen_at": "2026-09-22T06:12:24.441840+00:00"
-    },
-    {
-      "id": "sialia:1913084",
-      "title": "Pelagic Cormorant, A2W",
-      "source": "sialia",
-      "list": "SouthBayBirds",
-      "area": "South Bay",
-      "source_url": "https://digest-test.sialia.com/?rm=message;id=1913084",
-      "reported_at": "2026-09-16T09:34:00",
-      "reported_at_display": "9/16/26 9:34 am",
-      "kind": "post",
-      "first_seen_at": "2026-09-22T06:12:24.441840+00:00"
-    },
-    {
-      "id": "sialia:1913083",
-      "title": "Corona Hill 9/16/26 - Dusky Orange-crowned Warbler, Rose-breasted Grosbeak, bird walk this Saturday",
-      "source": "sialia",
-      "list": "SFBirds",
-      "area": "San Francisco",
-      "source_url": "https://digest-test.sialia.com/?rm=message;id=1913083",
-      "reported_at": "2026-09-16T09:02:00",
-      "reported_at_display": "9/16/26 9:02 am",
-      "kind": "post",
-      "first_seen_at": "2026-09-22T06:12:24.441840+00:00"
-    },
-    {
-      "id": "sialia:1913075",
-      "title": "Black-vented Shearwater",
-      "source": "sialia",
-      "list": "SFBirds",
-      "area": "San Francisco",
-      "source_url": "https://digest-test.sialia.com/?rm=message;id=1913075",
-      "reported_at": "2026-09-16T08:10:00",
-      "reported_at_display": "9/16/26 8:10 am",
-      "kind": "post",
-      "first_seen_at": "2026-09-22T06:12:24.441840+00:00"
-    },
-    {
-      "id": "sialia:1913078",
-      "title": "White-crowned Sparrows and Red-breasted Nuthatches",
-      "source": "sialia",
-      "list": "SouthBayBirds",
-      "area": "South Bay",
-      "source_url": "https://digest-test.sialia.com/?rm=message;id=1913078",
-      "reported_at": "2026-09-16T08:01:00",
-      "reported_at_display": "9/16/26 8:01 am",
-      "kind": "reply",
-      "first_seen_at": "2026-09-22T06:12:24.441840+00:00"
-    },
-    {
-      "id": "sialia:1913071",
-      "title": "FOS WCS Sunnyvale Baylands",
-      "source": "sialia",
-      "list": "SouthBayBirds",
-      "area": "South Bay",
-      "source_url": "https://digest-test.sialia.com/?rm=message;id=1913071",
-      "reported_at": "2026-09-16T06:22:00",
-      "reported_at_display": "9/16/26 6:22 am",
       "kind": "post",
       "first_seen_at": "2026-09-22T06:12:24.441840+00:00"
     }
