@@ -1,18 +1,24 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-17T20:42:15.340658+00:00",
+  "generated_at": "2026-10-17T23:11:22.583706+00:00",
   "retention_days": 30,
   "order": "reported_at descending; source wall time, timezone unspecified",
   "sources": {
     "sialia": {
-      "status": "ok",
-      "last_attempt_at": "2026-10-17T20:42:15.340658+00:00",
+      "status": "error",
+      "last_attempt_at": "2026-10-17T23:11:22.583706+00:00",
       "last_success_at": "2026-10-17T20:42:15.340658+00:00",
-      "fetched_days": [
-        "2026-10-17",
-        "2026-10-16"
+      "fetched_days": [],
+      "errors": [
+        {
+          "date": "2026-10-17",
+          "error": "TimeoutError: The read operation timed out"
+        },
+        {
+          "date": "2026-10-16",
+          "error": "TimeoutError: The read operation timed out"
+        }
       ],
-      "errors": [],
       "lists": [
         "SouthBayBirds",
         "peninsula-birding",
