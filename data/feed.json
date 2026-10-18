@@ -1,16 +1,16 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-18T06:00:24.998440+00:00",
+  "generated_at": "2026-10-18T11:18:49.263131+00:00",
   "retention_days": 30,
   "order": "reported_at descending; source wall time, timezone unspecified",
   "sources": {
     "sialia": {
       "status": "ok",
-      "last_attempt_at": "2026-10-18T06:00:24.998440+00:00",
-      "last_success_at": "2026-10-18T06:00:24.998440+00:00",
+      "last_attempt_at": "2026-10-18T11:18:49.263131+00:00",
+      "last_success_at": "2026-10-18T11:18:49.263131+00:00",
       "fetched_days": [
-        "2026-10-17",
-        "2026-10-16"
+        "2026-10-18",
+        "2026-10-17"
       ],
       "errors": [],
       "lists": [
@@ -28,10 +28,22 @@
     }
   },
   "stats": {
-    "total": 219,
-    "new_this_run": 2
+    "total": 215,
+    "new_this_run": 1
   },
   "items": [
+    {
+      "id": "sialia:1915919",
+      "title": "TJ Martin Park - Chipping Sparrows and More!",
+      "source": "sialia",
+      "list": "SouthBayBirds",
+      "area": "South Bay",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1915919",
+      "reported_at": "2026-10-18T01:07:00",
+      "reported_at_display": "10/18/26 1:07 am",
+      "kind": "post",
+      "first_seen_at": "2026-10-18T11:18:49.263131+00:00"
+    },
     {
       "id": "sialia:1915908",
       "title": "Prothonotary",
@@ -2597,66 +2609,6 @@
       "source_url": "https://digest-test.sialia.com/?rm=message;id=1913301",
       "reported_at": "2026-09-18T08:29:00",
       "reported_at_display": "9/18/26 8:29 am",
-      "kind": "post",
-      "first_seen_at": "2026-09-22T06:12:24.441840+00:00"
-    },
-    {
-      "id": "sialia:1913266",
-      "title": "City species total through August hits 287 (excluding offshore)",
-      "source": "sialia",
-      "list": "SFBirds",
-      "area": "San Francisco",
-      "source_url": "https://digest-test.sialia.com/?rm=message;id=1913266",
-      "reported_at": "2026-09-17T16:42:00",
-      "reported_at_display": "9/17/26 4:42 pm",
-      "kind": "post",
-      "first_seen_at": "2026-09-22T06:12:24.441840+00:00"
-    },
-    {
-      "id": "sialia:1913263",
-      "title": "Ovenbird in Fuchsia Dell",
-      "source": "sialia",
-      "list": "SFBirds",
-      "area": "San Francisco",
-      "source_url": "https://digest-test.sialia.com/?rm=message;id=1913263",
-      "reported_at": "2026-09-17T15:49:00",
-      "reported_at_display": "9/17/26 3:49 pm",
-      "kind": "post",
-      "first_seen_at": "2026-09-22T06:12:24.441840+00:00"
-    },
-    {
-      "id": "sialia:1913208",
-      "title": "Fort Mason local interest",
-      "source": "sialia",
-      "list": "SFBirds",
-      "area": "San Francisco",
-      "source_url": "https://digest-test.sialia.com/?rm=message;id=1913208",
-      "reported_at": "2026-09-17T09:50:00",
-      "reported_at_display": "9/17/26 9:50 am",
-      "kind": "post",
-      "first_seen_at": "2026-09-22T06:12:24.441840+00:00"
-    },
-    {
-      "id": "sialia:1913202",
-      "title": "CSWA",
-      "source": "sialia",
-      "list": "SFBirds",
-      "area": "San Francisco",
-      "source_url": "https://digest-test.sialia.com/?rm=message;id=1913202",
-      "reported_at": "2026-09-17T09:07:00",
-      "reported_at_display": "9/17/26 9:07 am",
-      "kind": "post",
-      "first_seen_at": "2026-09-22T06:12:24.441840+00:00"
-    },
-    {
-      "id": "sialia:1913200",
-      "title": "White-rumped Sandpiper and Hudsonian Godwit at Abbotts Lagoon, MRN",
-      "source": "sialia",
-      "list": "northbaybirds",
-      "area": "North Bay",
-      "source_url": "https://digest-test.sialia.com/?rm=message;id=1913200",
-      "reported_at": "2026-09-17T08:36:00",
-      "reported_at_display": "9/17/26 8:36 am",
       "kind": "post",
       "first_seen_at": "2026-09-22T06:12:24.441840+00:00"
     }
