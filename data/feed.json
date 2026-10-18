@@ -1,24 +1,18 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-17T23:11:22.583706+00:00",
+  "generated_at": "2026-10-18T01:09:37.431542+00:00",
   "retention_days": 30,
   "order": "reported_at descending; source wall time, timezone unspecified",
   "sources": {
     "sialia": {
-      "status": "error",
-      "last_attempt_at": "2026-10-17T23:11:22.583706+00:00",
-      "last_success_at": "2026-10-17T20:42:15.340658+00:00",
-      "fetched_days": [],
-      "errors": [
-        {
-          "date": "2026-10-17",
-          "error": "TimeoutError: The read operation timed out"
-        },
-        {
-          "date": "2026-10-16",
-          "error": "TimeoutError: The read operation timed out"
-        }
+      "status": "ok",
+      "last_attempt_at": "2026-10-18T01:09:37.431542+00:00",
+      "last_success_at": "2026-10-18T01:09:37.431542+00:00",
+      "fetched_days": [
+        "2026-10-17",
+        "2026-10-16"
       ],
+      "errors": [],
       "lists": [
         "SouthBayBirds",
         "peninsula-birding",
@@ -34,10 +28,22 @@
     }
   },
   "stats": {
-    "total": 216,
-    "new_this_run": 0
+    "total": 217,
+    "new_this_run": 1
   },
   "items": [
+    {
+      "id": "sialia:1915893",
+      "title": "Prothonotary",
+      "source": "sialia",
+      "list": "SFBirds",
+      "area": "San Francisco",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1915893",
+      "reported_at": "2026-10-17T16:17:00",
+      "reported_at_display": "10/17/26 4:17 pm",
+      "kind": "post",
+      "first_seen_at": "2026-10-18T01:09:37.431542+00:00"
+    },
     {
       "id": "sialia:1915866",
       "title": "Lewis’s Woodpecker at Fort Mason",
