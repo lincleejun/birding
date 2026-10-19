@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-18T21:33:15.730350+00:00",
+  "generated_at": "2026-10-19T00:14:02.583916+00:00",
   "retention_days": 30,
   "order": "reported_at descending; source wall time, timezone unspecified",
   "sources": {
     "sialia": {
       "status": "ok",
-      "last_attempt_at": "2026-10-18T21:33:15.730350+00:00",
-      "last_success_at": "2026-10-18T21:33:15.730350+00:00",
+      "last_attempt_at": "2026-10-19T00:14:02.583916+00:00",
+      "last_success_at": "2026-10-19T00:14:02.583916+00:00",
       "fetched_days": [
         "2026-10-18",
         "2026-10-17"
@@ -28,10 +28,22 @@
     }
   },
   "stats": {
-    "total": 217,
+    "total": 218,
     "new_this_run": 1
   },
   "items": [
+    {
+      "id": "sialia:1915972",
+      "title": "Horned Larks at Sierra Vista",
+      "source": "sialia",
+      "list": "SouthBayBirds",
+      "area": "South Bay",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1915972",
+      "reported_at": "2026-10-18T15:17:00",
+      "reported_at_display": "10/18/26 3:17 pm",
+      "kind": "post",
+      "first_seen_at": "2026-10-19T00:14:02.583916+00:00"
+    },
     {
       "id": "sialia:1915949",
       "title": "Sabine’s Gull at Sunnyvale WPCP",
