@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-19T17:32:53.898349+00:00",
+  "generated_at": "2026-10-19T22:26:44.742728+00:00",
   "retention_days": 30,
   "order": "reported_at descending; source wall time, timezone unspecified",
   "sources": {
     "sialia": {
       "status": "ok",
-      "last_attempt_at": "2026-10-19T17:32:53.898349+00:00",
-      "last_success_at": "2026-10-19T17:32:53.898349+00:00",
+      "last_attempt_at": "2026-10-19T22:26:44.742728+00:00",
+      "last_success_at": "2026-10-19T22:26:44.742728+00:00",
       "fetched_days": [
         "2026-10-19",
         "2026-10-18"
@@ -28,10 +28,22 @@
     }
   },
   "stats": {
-    "total": 201,
-    "new_this_run": 0
+    "total": 202,
+    "new_this_run": 1
   },
   "items": [
+    {
+      "id": "sialia:1916007",
+      "title": "Lapland Longspur continues at Crissy Field",
+      "source": "sialia",
+      "list": "SFBirds",
+      "area": "San Francisco",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1916007",
+      "reported_at": "2026-10-19T10:37:00",
+      "reported_at_display": "10/19/26 10:37 am",
+      "kind": "post",
+      "first_seen_at": "2026-10-19T22:26:44.742728+00:00"
+    },
     {
       "id": "sialia:1915993",
       "title": "tropical Kingbird at Lake Merced",
