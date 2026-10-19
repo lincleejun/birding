@@ -1,18 +1,22 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-19T04:53:30.645225+00:00",
+  "generated_at": "2026-10-19T10:52:38.908979+00:00",
   "retention_days": 30,
   "order": "reported_at descending; source wall time, timezone unspecified",
   "sources": {
     "sialia": {
-      "status": "ok",
-      "last_attempt_at": "2026-10-19T04:53:30.645225+00:00",
+      "status": "partial",
+      "last_attempt_at": "2026-10-19T10:52:38.908979+00:00",
       "last_success_at": "2026-10-19T04:53:30.645225+00:00",
       "fetched_days": [
-        "2026-10-18",
-        "2026-10-17"
+        "2026-10-18"
       ],
-      "errors": [],
+      "errors": [
+        {
+          "date": "2026-10-19",
+          "error": "ValueError: Unrecognized Sialia index layout"
+        }
+      ],
       "lists": [
         "SouthBayBirds",
         "peninsula-birding",
@@ -28,8 +32,8 @@
     }
   },
   "stats": {
-    "total": 219,
-    "new_this_run": 1
+    "total": 201,
+    "new_this_run": 0
   },
   "items": [
     {
@@ -2441,222 +2445,6 @@
       "source_url": "https://digest-test.sialia.com/?rm=message;id=1913415",
       "reported_at": "2026-09-19T09:19:00",
       "reported_at_display": "9/19/26 9:19 am",
-      "kind": "post",
-      "first_seen_at": "2026-09-22T06:12:24.441840+00:00"
-    },
-    {
-      "id": "sialia:1913395",
-      "title": "Nutcrackers",
-      "source": "sialia",
-      "list": "EBB-Sightings",
-      "area": "East Bay",
-      "source_url": "https://digest-test.sialia.com/?rm=message;id=1913395",
-      "reported_at": "2026-09-18T22:50:00",
-      "reported_at_display": "9/18/26 10:50 pm",
-      "kind": "reply",
-      "first_seen_at": "2026-09-22T06:12:24.441840+00:00"
-    },
-    {
-      "id": "sialia:1913383",
-      "title": "Nutcracker/montane invasion year",
-      "source": "sialia",
-      "list": "SouthBayBirds",
-      "area": "South Bay",
-      "source_url": "https://digest-test.sialia.com/?rm=message;id=1913383",
-      "reported_at": "2026-09-18T19:24:00",
-      "reported_at_display": "9/18/26 7:24 pm",
-      "kind": "reply",
-      "first_seen_at": "2026-09-22T06:12:24.441840+00:00"
-    },
-    {
-      "id": "sialia:1913381",
-      "title": "Nutcracker/montane invasion year",
-      "source": "sialia",
-      "list": "SouthBayBirds",
-      "area": "South Bay",
-      "source_url": "https://digest-test.sialia.com/?rm=message;id=1913381",
-      "reported_at": "2026-09-18T19:03:00",
-      "reported_at_display": "9/18/26 7:03 pm",
-      "kind": "reply",
-      "first_seen_at": "2026-09-22T06:12:24.441840+00:00"
-    },
-    {
-      "id": "sialia:1913380",
-      "title": "Nutcracker/montane invasion year",
-      "source": "sialia",
-      "list": "SouthBayBirds",
-      "area": "South Bay",
-      "source_url": "https://digest-test.sialia.com/?rm=message;id=1913380",
-      "reported_at": "2026-09-18T19:02:00",
-      "reported_at_display": "9/18/26 7:02 pm",
-      "kind": "reply",
-      "first_seen_at": "2026-09-22T06:12:24.441840+00:00"
-    },
-    {
-      "id": "sialia:1913371",
-      "title": "Nutcracker/montane invasion year",
-      "source": "sialia",
-      "list": "SouthBayBirds",
-      "area": "South Bay",
-      "source_url": "https://digest-test.sialia.com/?rm=message;id=1913371",
-      "reported_at": "2026-09-18T18:13:00",
-      "reported_at_display": "9/18/26 6:13 pm",
-      "kind": "post",
-      "first_seen_at": "2026-09-22T06:12:24.441840+00:00"
-    },
-    {
-      "id": "sialia:1913363",
-      "title": "CLARK'S NUTCRACKERS maybe chaseable on Bernal Hill",
-      "source": "sialia",
-      "list": "SFBirds",
-      "area": "San Francisco",
-      "source_url": "https://digest-test.sialia.com/?rm=message;id=1913363",
-      "reported_at": "2026-09-18T17:07:00",
-      "reported_at_display": "9/18/26 5:07 pm",
-      "kind": "reply",
-      "first_seen_at": "2026-09-22T06:12:24.441840+00:00"
-    },
-    {
-      "id": "sialia:1913358",
-      "title": "Raptor Migration update from Hawk Hill",
-      "source": "sialia",
-      "list": "SFBirds",
-      "area": "San Francisco",
-      "source_url": "https://digest-test.sialia.com/?rm=message;id=1913358",
-      "reported_at": "2026-09-18T16:44:00",
-      "reported_at_display": "9/18/26 4:44 pm",
-      "kind": "post",
-      "first_seen_at": "2026-09-22T06:12:24.441840+00:00"
-    },
-    {
-      "id": "sialia:1913351",
-      "title": "CLARK'S NUTCRACKERS maybe chaseable on Bernal Hill",
-      "source": "sialia",
-      "list": "SFBirds",
-      "area": "San Francisco",
-      "source_url": "https://digest-test.sialia.com/?rm=message;id=1913351",
-      "reported_at": "2026-09-18T16:14:00",
-      "reported_at_display": "9/18/26 4:14 pm",
-      "kind": "reply",
-      "first_seen_at": "2026-09-22T06:12:24.441840+00:00"
-    },
-    {
-      "id": "sialia:1913348",
-      "title": "CLARK'S NUTCRACKERS maybe chaseable on Bernal Hill",
-      "source": "sialia",
-      "list": "SFBirds",
-      "area": "San Francisco",
-      "source_url": "https://digest-test.sialia.com/?rm=message;id=1913348",
-      "reported_at": "2026-09-18T16:06:00",
-      "reported_at_display": "9/18/26 4:06 pm",
-      "kind": "reply",
-      "first_seen_at": "2026-09-22T06:12:24.441840+00:00"
-    },
-    {
-      "id": "sialia:1913344",
-      "title": "CLARK'S NUTCRACKERS maybe chaseable on Bernal Hill",
-      "source": "sialia",
-      "list": "SFBirds",
-      "area": "San Francisco",
-      "source_url": "https://digest-test.sialia.com/?rm=message;id=1913344",
-      "reported_at": "2026-09-18T15:56:00",
-      "reported_at_display": "9/18/26 3:56 pm",
-      "kind": "reply",
-      "first_seen_at": "2026-09-22T06:12:24.441840+00:00"
-    },
-    {
-      "id": "sialia:1913340",
-      "title": "CLARK'S NUTCRACKERS maybe chaseable on Bernal Hill",
-      "source": "sialia",
-      "list": "SFBirds",
-      "area": "San Francisco",
-      "source_url": "https://digest-test.sialia.com/?rm=message;id=1913340",
-      "reported_at": "2026-09-18T15:43:00",
-      "reported_at_display": "9/18/26 3:43 pm",
-      "kind": "post",
-      "first_seen_at": "2026-09-22T06:12:24.441840+00:00"
-    },
-    {
-      "id": "sialia:1913335",
-      "title": "HALF MOON BAY State Beach: PECTORAL SANDPIPER & WHITE-FACED IBIS",
-      "source": "sialia",
-      "list": "peninsula-birding",
-      "area": "Peninsula",
-      "source_url": "https://digest-test.sialia.com/?rm=message;id=1913335",
-      "reported_at": "2026-09-18T14:29:00",
-      "reported_at_display": "9/18/26 2:29 pm",
-      "kind": "post",
-      "first_seen_at": "2026-09-22T06:12:24.441840+00:00"
-    },
-    {
-      "id": "sialia:1913333",
-      "title": "Possible Hybrid Warbler",
-      "source": "sialia",
-      "list": "SouthBayBirds",
-      "area": "South Bay",
-      "source_url": "https://digest-test.sialia.com/?rm=message;id=1913333",
-      "reported_at": "2026-09-18T14:10:00",
-      "reported_at_display": "9/18/26 2:10 pm",
-      "kind": "reply",
-      "first_seen_at": "2026-09-22T06:12:24.441840+00:00"
-    },
-    {
-      "id": "sialia:1913319",
-      "title": "Possible Hybrid Warbler",
-      "source": "sialia",
-      "list": "SouthBayBirds",
-      "area": "South Bay",
-      "source_url": "https://digest-test.sialia.com/?rm=message;id=1913319",
-      "reported_at": "2026-09-18T12:43:00",
-      "reported_at_display": "9/18/26 12:43 pm",
-      "kind": "post",
-      "first_seen_at": "2026-09-22T06:12:24.441840+00:00"
-    },
-    {
-      "id": "sialia:1913315",
-      "title": "Mt. Diablo, nutcrackers, etc.",
-      "source": "sialia",
-      "list": "EBB-Sightings",
-      "area": "East Bay",
-      "source_url": "https://digest-test.sialia.com/?rm=message;id=1913315",
-      "reported_at": "2026-09-18T12:09:00",
-      "reported_at_display": "9/18/26 12:09 pm",
-      "kind": "post",
-      "first_seen_at": "2026-09-22T06:12:24.441840+00:00"
-    },
-    {
-      "id": "sialia:1913305",
-      "title": "Sunnyvale Baylands Western Tanager",
-      "source": "sialia",
-      "list": "SouthBayBirds",
-      "area": "South Bay",
-      "source_url": "https://digest-test.sialia.com/?rm=message;id=1913305",
-      "reported_at": "2026-09-18T09:09:00",
-      "reported_at_display": "9/18/26 9:09 am",
-      "kind": "post",
-      "first_seen_at": "2026-09-22T06:12:24.441840+00:00"
-    },
-    {
-      "id": "sialia:1913306",
-      "title": "Nutcrackers",
-      "source": "sialia",
-      "list": "EBB-Sightings",
-      "area": "East Bay",
-      "source_url": "https://digest-test.sialia.com/?rm=message;id=1913306",
-      "reported_at": "2026-09-18T09:07:00",
-      "reported_at_display": "9/18/26 9:07 am",
-      "kind": "post",
-      "first_seen_at": "2026-09-22T06:12:24.441840+00:00"
-    },
-    {
-      "id": "sialia:1913301",
-      "title": "Grace’s",
-      "source": "sialia",
-      "list": "SFBirds",
-      "area": "San Francisco",
-      "source_url": "https://digest-test.sialia.com/?rm=message;id=1913301",
-      "reported_at": "2026-09-18T08:29:00",
-      "reported_at_display": "9/18/26 8:29 am",
       "kind": "post",
       "first_seen_at": "2026-09-22T06:12:24.441840+00:00"
     }
