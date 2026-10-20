@@ -1,18 +1,22 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-20T01:53:32.871336+00:00",
+  "generated_at": "2026-10-20T07:42:01.149989+00:00",
   "retention_days": 30,
   "order": "reported_at descending; source wall time, timezone unspecified",
   "sources": {
     "sialia": {
-      "status": "ok",
-      "last_attempt_at": "2026-10-20T01:53:32.871336+00:00",
+      "status": "partial",
+      "last_attempt_at": "2026-10-20T07:42:01.149989+00:00",
       "last_success_at": "2026-10-20T01:53:32.871336+00:00",
       "fetched_days": [
-        "2026-10-19",
-        "2026-10-18"
+        "2026-10-19"
       ],
-      "errors": [],
+      "errors": [
+        {
+          "date": "2026-10-20",
+          "error": "ValueError: Unrecognized Sialia index layout"
+        }
+      ],
       "lists": [
         "SouthBayBirds",
         "peninsula-birding",
@@ -28,10 +32,22 @@
     }
   },
   "stats": {
-    "total": 202,
-    "new_this_run": 0
+    "total": 186,
+    "new_this_run": 1
   },
   "items": [
+    {
+      "id": "sialia:1916054",
+      "title": "Red-naped Sapsucker and Summer Tanager",
+      "source": "sialia",
+      "list": "SFBirds",
+      "area": "San Francisco",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1916054",
+      "reported_at": "2026-10-19T20:35:00",
+      "reported_at_display": "10/19/26 8:35 pm",
+      "kind": "post",
+      "first_seen_at": "2026-10-20T07:42:01.149989+00:00"
+    },
     {
       "id": "sialia:1916007",
       "title": "Lapland Longspur continues at Crissy Field",
@@ -2249,210 +2265,6 @@
       "source_url": "https://digest-test.sialia.com/?rm=message;id=1913525",
       "reported_at": "2026-09-20T07:35:00",
       "reported_at_display": "9/20/26 7:35 am",
-      "kind": "post",
-      "first_seen_at": "2026-09-22T06:12:24.441840+00:00"
-    },
-    {
-      "id": "sialia:1913517",
-      "title": "Weekday trail closures at Sunnyvale Water Pollution Control Plant 2026-27",
-      "source": "sialia",
-      "list": "SouthBayBirds",
-      "area": "South Bay",
-      "source_url": "https://digest-test.sialia.com/?rm=message;id=1913517",
-      "reported_at": "2026-09-19T21:37:00",
-      "reported_at_display": "9/19/26 9:37 pm",
-      "kind": "post",
-      "first_seen_at": "2026-09-22T06:12:24.441840+00:00"
-    },
-    {
-      "id": "sialia:1913516",
-      "title": "Western Gull vs a Rock Crab",
-      "source": "sialia",
-      "list": "EBB-Sightings",
-      "area": "East Bay",
-      "source_url": "https://digest-test.sialia.com/?rm=message;id=1913516",
-      "reported_at": "2026-09-19T21:16:00",
-      "reported_at_display": "9/19/26 9:16 pm",
-      "kind": "post",
-      "first_seen_at": "2026-09-22T06:12:24.441840+00:00"
-    },
-    {
-      "id": "sialia:1913512",
-      "title": "CLARK'S NUTCRACKERS",
-      "source": "sialia",
-      "list": "SouthBayBirds",
-      "area": "South Bay",
-      "source_url": "https://digest-test.sialia.com/?rm=message;id=1913512",
-      "reported_at": "2026-09-19T20:31:00",
-      "reported_at_display": "9/19/26 8:31 pm",
-      "kind": "reply",
-      "first_seen_at": "2026-09-22T06:12:24.441840+00:00"
-    },
-    {
-      "id": "sialia:1913477",
-      "title": "CLARK'S NUTCRACKERS",
-      "source": "sialia",
-      "list": "SouthBayBirds",
-      "area": "South Bay",
-      "source_url": "https://digest-test.sialia.com/?rm=message;id=1913477",
-      "reported_at": "2026-09-19T15:12:00",
-      "reported_at_display": "9/19/26 3:12 pm",
-      "kind": "post",
-      "first_seen_at": "2026-09-22T06:12:24.441840+00:00"
-    },
-    {
-      "id": "sialia:1913475",
-      "title": "Recent notes: Tennessees, Chestnut, and N. Waterthrush",
-      "source": "sialia",
-      "list": "peninsula-birding",
-      "area": "Peninsula",
-      "source_url": "https://digest-test.sialia.com/?rm=message;id=1913475",
-      "reported_at": "2026-09-19T15:06:00",
-      "reported_at_display": "9/19/26 3:06 pm",
-      "kind": "post",
-      "first_seen_at": "2026-09-22T06:12:24.441840+00:00"
-    },
-    {
-      "id": "sialia:1913466",
-      "title": "Another CLARK’S NUTCRACKER - McLaren Park",
-      "source": "sialia",
-      "list": "SFBirds",
-      "area": "San Francisco",
-      "source_url": "https://digest-test.sialia.com/?rm=message;id=1913466",
-      "reported_at": "2026-09-19T13:37:00",
-      "reported_at_display": "9/19/26 1:37 pm",
-      "kind": "reply",
-      "first_seen_at": "2026-09-22T06:12:24.441840+00:00"
-    },
-    {
-      "id": "sialia:1913455",
-      "title": "Warbler flock at Cypress Lawn-Blackburnian and Blackpoll Warblers",
-      "source": "sialia",
-      "list": "peninsula-birding",
-      "area": "Peninsula",
-      "source_url": "https://digest-test.sialia.com/?rm=message;id=1913455",
-      "reported_at": "2026-09-19T13:20:00",
-      "reported_at_display": "9/19/26 1:20 pm",
-      "kind": "post",
-      "first_seen_at": "2026-09-22T06:12:24.441840+00:00"
-    },
-    {
-      "id": "sialia:1913450",
-      "title": "Western Tanagers, Gyuto Monastery (Richmond)",
-      "source": "sialia",
-      "list": "EBB-Sightings",
-      "area": "East Bay",
-      "source_url": "https://digest-test.sialia.com/?rm=message;id=1913450",
-      "reported_at": "2026-09-19T13:12:00",
-      "reported_at_display": "9/19/26 1:12 pm",
-      "kind": "post",
-      "first_seen_at": "2026-09-22T06:12:24.441840+00:00"
-    },
-    {
-      "id": "sialia:1913449",
-      "title": "Mt. Diablo, nutcrackers, etc.",
-      "source": "sialia",
-      "list": "EBB-Sightings",
-      "area": "East Bay",
-      "source_url": "https://digest-test.sialia.com/?rm=message;id=1913449",
-      "reported_at": "2026-09-19T13:02:00",
-      "reported_at_display": "9/19/26 1:02 pm",
-      "kind": "reply",
-      "first_seen_at": "2026-09-22T06:12:24.441840+00:00"
-    },
-    {
-      "id": "sialia:1913446",
-      "title": "Male rose breasted grosbeak",
-      "source": "sialia",
-      "list": "SFBirds",
-      "area": "San Francisco",
-      "source_url": "https://digest-test.sialia.com/?rm=message;id=1913446",
-      "reported_at": "2026-09-19T12:40:00",
-      "reported_at_display": "9/19/26 12:40 pm",
-      "kind": "post",
-      "first_seen_at": "2026-09-22T06:12:24.441840+00:00"
-    },
-    {
-      "id": "sialia:1913437",
-      "title": "Painted Redstart",
-      "source": "sialia",
-      "list": "peninsula-birding",
-      "area": "Peninsula",
-      "source_url": "https://digest-test.sialia.com/?rm=message;id=1913437",
-      "reported_at": "2026-09-19T11:59:00",
-      "reported_at_display": "9/19/26 11:59 am",
-      "kind": "post",
-      "first_seen_at": "2026-09-22T06:12:24.441840+00:00"
-    },
-    {
-      "id": "sialia:1913430",
-      "title": "Corona Hill 3rd Saturday walk 9/19/26",
-      "source": "sialia",
-      "list": "SFBirds",
-      "area": "San Francisco",
-      "source_url": "https://digest-test.sialia.com/?rm=message;id=1913430",
-      "reported_at": "2026-09-19T11:29:00",
-      "reported_at_display": "9/19/26 11:29 am",
-      "kind": "post",
-      "first_seen_at": "2026-09-22T06:12:24.441840+00:00"
-    },
-    {
-      "id": "sialia:1913428",
-      "title": "Another CLARK’S NUTCRACKER - McLaren Park",
-      "source": "sialia",
-      "list": "SFBirds",
-      "area": "San Francisco",
-      "source_url": "https://digest-test.sialia.com/?rm=message;id=1913428",
-      "reported_at": "2026-09-19T11:18:00",
-      "reported_at_display": "9/19/26 11:18 am",
-      "kind": "post",
-      "first_seen_at": "2026-09-22T06:12:24.441840+00:00"
-    },
-    {
-      "id": "sialia:1913420",
-      "title": "Sunnyvale Baylands FOS GCS",
-      "source": "sialia",
-      "list": "SouthBayBirds",
-      "area": "South Bay",
-      "source_url": "https://digest-test.sialia.com/?rm=message;id=1913420",
-      "reported_at": "2026-09-19T10:23:00",
-      "reported_at_display": "9/19/26 10:23 am",
-      "kind": "post",
-      "first_seen_at": "2026-09-22T06:12:24.441840+00:00"
-    },
-    {
-      "id": "sialia:1913418",
-      "title": "Clark’s Nutcracker and Montane Irruption",
-      "source": "sialia",
-      "list": "SouthBayBirds",
-      "area": "South Bay",
-      "source_url": "https://digest-test.sialia.com/?rm=message;id=1913418",
-      "reported_at": "2026-09-19T09:41:00",
-      "reported_at_display": "9/19/26 9:41 am",
-      "kind": "post",
-      "first_seen_at": "2026-09-22T06:12:24.441840+00:00"
-    },
-    {
-      "id": "sialia:1913417",
-      "title": "Clark’s Nutcracker Cypress Lawn Cemetery",
-      "source": "sialia",
-      "list": "peninsula-birding",
-      "area": "Peninsula",
-      "source_url": "https://digest-test.sialia.com/?rm=message;id=1913417",
-      "reported_at": "2026-09-19T09:25:00",
-      "reported_at_display": "9/19/26 9:25 am",
-      "kind": "post",
-      "first_seen_at": "2026-09-22T06:12:24.441840+00:00"
-    },
-    {
-      "id": "sialia:1913415",
-      "title": "Clarks Nutcracker",
-      "source": "sialia",
-      "list": "peninsula-birding",
-      "area": "Peninsula",
-      "source_url": "https://digest-test.sialia.com/?rm=message;id=1913415",
-      "reported_at": "2026-09-19T09:19:00",
-      "reported_at_display": "9/19/26 9:19 am",
       "kind": "post",
       "first_seen_at": "2026-09-22T06:12:24.441840+00:00"
     }
