@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-20T22:22:24.853682+00:00",
+  "generated_at": "2026-10-21T01:40:37.537642+00:00",
   "retention_days": 30,
   "order": "reported_at descending; source wall time, timezone unspecified",
   "sources": {
     "sialia": {
       "status": "ok",
-      "last_attempt_at": "2026-10-20T22:22:24.853682+00:00",
-      "last_success_at": "2026-10-20T22:22:24.853682+00:00",
+      "last_attempt_at": "2026-10-21T01:40:37.537642+00:00",
+      "last_success_at": "2026-10-21T01:40:37.537642+00:00",
       "fetched_days": [
         "2026-10-20",
         "2026-10-19"
@@ -28,10 +28,22 @@
     }
   },
   "stats": {
-    "total": 190,
-    "new_this_run": 2
+    "total": 191,
+    "new_this_run": 1
   },
   "items": [
+    {
+      "id": "sialia:1916115",
+      "title": "Don Edwards, Grand Ave.",
+      "source": "sialia",
+      "list": "SouthBayBirds",
+      "area": "South Bay",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1916115",
+      "reported_at": "2026-10-20T16:23:00",
+      "reported_at_display": "10/20/26 4:23 pm",
+      "kind": "reply",
+      "first_seen_at": "2026-10-21T01:40:37.537642+00:00"
+    },
     {
       "id": "sialia:1916092",
       "title": "Don Edwards, Grand Ave.",
