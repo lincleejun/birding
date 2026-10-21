@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-21T18:43:44.347116+00:00",
+  "generated_at": "2026-10-21T22:26:04.066830+00:00",
   "retention_days": 30,
   "order": "reported_at descending; source wall time, timezone unspecified",
   "sources": {
     "sialia": {
       "status": "ok",
-      "last_attempt_at": "2026-10-21T18:43:44.347116+00:00",
-      "last_success_at": "2026-10-21T18:43:44.347116+00:00",
+      "last_attempt_at": "2026-10-21T22:26:04.066830+00:00",
+      "last_success_at": "2026-10-21T22:26:04.066830+00:00",
       "fetched_days": [
         "2026-10-21",
         "2026-10-20"
@@ -28,10 +28,46 @@
     }
   },
   "stats": {
-    "total": 187,
-    "new_this_run": 1
+    "total": 190,
+    "new_this_run": 3
   },
   "items": [
+    {
+      "id": "sialia:1916170",
+      "title": "Hooded Mergansers at Edith Morley Park, Campbell",
+      "source": "sialia",
+      "list": "SouthBayBirds",
+      "area": "South Bay",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1916170",
+      "reported_at": "2026-10-21T14:54:00",
+      "reported_at_display": "10/21/26 2:54 pm",
+      "kind": "post",
+      "first_seen_at": "2026-10-21T22:26:04.066830+00:00"
+    },
+    {
+      "id": "sialia:1916157",
+      "title": "ID help from audio",
+      "source": "sialia",
+      "list": "EBB-Sightings",
+      "area": "East Bay",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1916157",
+      "reported_at": "2026-10-21T12:18:00",
+      "reported_at_display": "10/21/26 12:18 pm",
+      "kind": "post",
+      "first_seen_at": "2026-10-21T22:26:04.066830+00:00"
+    },
+    {
+      "id": "sialia:1916154",
+      "title": "Recent bird photos, a giveaway, and a request",
+      "source": "sialia",
+      "list": "peninsula-birding",
+      "area": "Peninsula",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1916154",
+      "reported_at": "2026-10-21T11:35:00",
+      "reported_at_display": "10/21/26 11:35 am",
+      "kind": "post",
+      "first_seen_at": "2026-10-21T22:26:04.066830+00:00"
+    },
     {
       "id": "sialia:1916145",
       "title": "SEPTEMBER 2026 Cumulative Bird Report for Santa Clara County",
