@@ -1,18 +1,22 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-22T01:35:29.433151+00:00",
+  "generated_at": "2026-10-22T07:41:53.702337+00:00",
   "retention_days": 30,
   "order": "reported_at descending; source wall time, timezone unspecified",
   "sources": {
     "sialia": {
-      "status": "ok",
-      "last_attempt_at": "2026-10-22T01:35:29.433151+00:00",
+      "status": "partial",
+      "last_attempt_at": "2026-10-22T07:41:53.702337+00:00",
       "last_success_at": "2026-10-22T01:35:29.433151+00:00",
       "fetched_days": [
-        "2026-10-21",
-        "2026-10-20"
+        "2026-10-21"
       ],
-      "errors": [],
+      "errors": [
+        {
+          "date": "2026-10-22",
+          "error": "ValueError: Unrecognized Sialia index layout"
+        }
+      ],
       "lists": [
         "SouthBayBirds",
         "peninsula-birding",
@@ -28,8 +32,8 @@
     }
   },
   "stats": {
-    "total": 197,
-    "new_this_run": 7
+    "total": 183,
+    "new_this_run": 0
   },
   "items": [
     {
@@ -2227,174 +2231,6 @@
       "reported_at_display": "9/22/26 7:44 am",
       "kind": "post",
       "first_seen_at": "2026-09-22T17:39:37.229156+00:00"
-    },
-    {
-      "id": "sialia:1913681",
-      "title": "Pt. Reyes, Mendoza Ranch, Yellow-green Vireo, Baird's Sandpipers",
-      "source": "sialia",
-      "list": "northbaybirds",
-      "area": "North Bay",
-      "source_url": "https://digest-test.sialia.com/?rm=message;id=1913681",
-      "reported_at": "2026-09-21T22:55:00",
-      "reported_at_display": "9/21/26 10:55 pm",
-      "kind": "post",
-      "first_seen_at": "2026-09-22T06:12:24.441840+00:00"
-    },
-    {
-      "id": "sialia:1913680",
-      "title": "Venice Beach in the mists - shearwater spectacle",
-      "source": "sialia",
-      "list": "peninsula-birding",
-      "area": "Peninsula",
-      "source_url": "https://digest-test.sialia.com/?rm=message;id=1913680",
-      "reported_at": "2026-09-21T22:33:00",
-      "reported_at_display": "9/21/26 10:33 pm",
-      "kind": "post",
-      "first_seen_at": "2026-09-22T06:12:24.441840+00:00"
-    },
-    {
-      "id": "sialia:1913676",
-      "title": "HALF MOON BAY State Beach - question",
-      "source": "sialia",
-      "list": "peninsula-birding",
-      "area": "Peninsula",
-      "source_url": "https://digest-test.sialia.com/?rm=message;id=1913676",
-      "reported_at": "2026-09-21T20:36:00",
-      "reported_at_display": "9/21/26 8:36 pm",
-      "kind": "post",
-      "first_seen_at": "2026-09-22T06:12:24.441840+00:00"
-    },
-    {
-      "id": "sialia:1913669",
-      "title": "First of season",
-      "source": "sialia",
-      "list": "northbaybirds",
-      "area": "North Bay",
-      "source_url": "https://digest-test.sialia.com/?rm=message;id=1913669",
-      "reported_at": "2026-09-21T19:14:00",
-      "reported_at_display": "9/21/26 7:14 pm",
-      "kind": "post",
-      "first_seen_at": "2026-09-22T06:12:24.441840+00:00"
-    },
-    {
-      "id": "sialia:1913666",
-      "title": "HALF MOON BAY State Beach - question",
-      "source": "sialia",
-      "list": "peninsula-birding",
-      "area": "Peninsula",
-      "source_url": "https://digest-test.sialia.com/?rm=message;id=1913666",
-      "reported_at": "2026-09-21T18:57:00",
-      "reported_at_display": "9/21/26 6:57 pm",
-      "kind": "reply",
-      "first_seen_at": "2026-09-22T06:12:24.441840+00:00"
-    },
-    {
-      "id": "sialia:1913660",
-      "title": "HALF MOON BAY State Beach - question",
-      "source": "sialia",
-      "list": "peninsula-birding",
-      "area": "Peninsula",
-      "source_url": "https://digest-test.sialia.com/?rm=message;id=1913660",
-      "reported_at": "2026-09-21T17:47:00",
-      "reported_at_display": "9/21/26 5:47 pm",
-      "kind": "reply",
-      "first_seen_at": "2026-09-22T06:12:24.441840+00:00"
-    },
-    {
-      "id": "sialia:1913658",
-      "title": "HALF MOON BAY State Beach - question",
-      "source": "sialia",
-      "list": "peninsula-birding",
-      "area": "Peninsula",
-      "source_url": "https://digest-test.sialia.com/?rm=message;id=1913658",
-      "reported_at": "2026-09-21T17:35:00",
-      "reported_at_display": "9/21/26 5:35 pm",
-      "kind": "post",
-      "first_seen_at": "2026-09-22T06:12:24.441840+00:00"
-    },
-    {
-      "id": "sialia:1913652",
-      "title": "Black tern at Pillar Point",
-      "source": "sialia",
-      "list": "peninsula-birding",
-      "area": "Peninsula",
-      "source_url": "https://digest-test.sialia.com/?rm=message;id=1913652",
-      "reported_at": "2026-09-21T17:10:00",
-      "reported_at_display": "9/21/26 5:10 pm",
-      "kind": "post",
-      "first_seen_at": "2026-09-22T06:12:24.441840+00:00"
-    },
-    {
-      "id": "sialia:1913646",
-      "title": "FOS Sparrows",
-      "source": "sialia",
-      "list": "EBB-Sightings",
-      "area": "East Bay",
-      "source_url": "https://digest-test.sialia.com/?rm=message;id=1913646",
-      "reported_at": "2026-09-21T16:42:00",
-      "reported_at_display": "9/21/26 4:42 pm",
-      "kind": "post",
-      "first_seen_at": "2026-09-22T06:12:24.441840+00:00"
-    },
-    {
-      "id": "sialia:1913643",
-      "title": "Northern Waterthrush at 7th and Fulton",
-      "source": "sialia",
-      "list": "SFBirds",
-      "area": "San Francisco",
-      "source_url": "https://digest-test.sialia.com/?rm=message;id=1913643",
-      "reported_at": "2026-09-21T16:25:00",
-      "reported_at_display": "9/21/26 4:25 pm",
-      "kind": "post",
-      "first_seen_at": "2026-09-22T06:12:24.441840+00:00"
-    },
-    {
-      "id": "sialia:1913622",
-      "title": "Don Horsely County Park / Tunitas Creek",
-      "source": "sialia",
-      "list": "peninsula-birding",
-      "area": "Peninsula",
-      "source_url": "https://digest-test.sialia.com/?rm=message;id=1913622",
-      "reported_at": "2026-09-21T13:42:00",
-      "reported_at_display": "9/21/26 1:42 pm",
-      "kind": "post",
-      "first_seen_at": "2026-09-22T06:12:24.441840+00:00"
-    },
-    {
-      "id": "sialia:1913614",
-      "title": "White faced ibis at Alviso EEC entrance road",
-      "source": "sialia",
-      "list": "SouthBayBirds",
-      "area": "South Bay",
-      "source_url": "https://digest-test.sialia.com/?rm=message;id=1913614",
-      "reported_at": "2026-09-21T12:22:00",
-      "reported_at_display": "9/21/26 12:22 pm",
-      "kind": "post",
-      "first_seen_at": "2026-09-22T06:12:24.441840+00:00"
-    },
-    {
-      "id": "sialia:1913608",
-      "title": "Lark Bunting",
-      "source": "sialia",
-      "list": "SFBirds",
-      "area": "San Francisco",
-      "source_url": "https://digest-test.sialia.com/?rm=message;id=1913608",
-      "reported_at": "2026-09-21T10:08:00",
-      "reported_at_display": "9/21/26 10:08 am",
-      "kind": "post",
-      "first_seen_at": "2026-09-22T06:12:24.441840+00:00"
-    },
-    {
-      "id": "sialia:1913596",
-      "title": "MRN Pt. Reyes Drakes Bay Long-Tailed Duck 9/15",
-      "source": "sialia",
-      "list": "northbaybirds",
-      "area": "North Bay",
-      "source_url": "https://digest-test.sialia.com/?rm=message;id=1913596",
-      "reported_at": "2026-09-21T06:05:00",
-      "reported_at_display": "9/21/26 6:05 am",
-      "kind": "post",
-      "first_seen_at": "2026-09-22T06:12:24.441840+00:00"
     }
   ]
 }
