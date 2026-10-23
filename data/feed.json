@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-22T22:25:28.600923+00:00",
+  "generated_at": "2026-10-23T01:36:04.263454+00:00",
   "retention_days": 30,
   "order": "reported_at descending; source wall time, timezone unspecified",
   "sources": {
     "sialia": {
       "status": "ok",
-      "last_attempt_at": "2026-10-22T22:25:28.600923+00:00",
-      "last_success_at": "2026-10-22T22:25:28.600923+00:00",
+      "last_attempt_at": "2026-10-23T01:36:04.263454+00:00",
+      "last_success_at": "2026-10-23T01:36:04.263454+00:00",
       "fetched_days": [
         "2026-10-22",
         "2026-10-21"
@@ -28,10 +28,22 @@
     }
   },
   "stats": {
-    "total": 185,
-    "new_this_run": 2
+    "total": 186,
+    "new_this_run": 1
   },
   "items": [
+    {
+      "id": "sialia:1916260",
+      "title": "Putative YELLOW-BROWED WARBLER",
+      "source": "sialia",
+      "list": "peninsula-birding",
+      "area": "Peninsula",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1916260",
+      "reported_at": "2026-10-22T16:05:00",
+      "reported_at_display": "10/22/26 4:05 pm",
+      "kind": "reply",
+      "first_seen_at": "2026-10-23T01:36:04.263454+00:00"
+    },
     {
       "id": "sialia:1916239",
       "title": "Putative YELLOW-BROWED WARBLER",
