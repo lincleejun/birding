@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-23T22:18:17.573157+00:00",
+  "generated_at": "2026-10-24T01:39:43.622088+00:00",
   "retention_days": 30,
   "order": "reported_at descending; source wall time, timezone unspecified",
   "sources": {
     "sialia": {
       "status": "ok",
-      "last_attempt_at": "2026-10-23T22:18:17.573157+00:00",
-      "last_success_at": "2026-10-23T22:18:17.573157+00:00",
+      "last_attempt_at": "2026-10-24T01:39:43.622088+00:00",
+      "last_success_at": "2026-10-24T01:39:43.622088+00:00",
       "fetched_days": [
         "2026-10-23",
         "2026-10-22"
@@ -28,10 +28,22 @@
     }
   },
   "stats": {
-    "total": 175,
-    "new_this_run": 3
+    "total": 176,
+    "new_this_run": 1
   },
   "items": [
+    {
+      "id": "sialia:1916351",
+      "title": "Chestnut-sided Warbler at Cupertino Memorial Park",
+      "source": "sialia",
+      "list": "SouthBayBirds",
+      "area": "South Bay",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1916351",
+      "reported_at": "2026-10-23T16:03:00",
+      "reported_at_display": "10/23/26 4:03 pm",
+      "kind": "post",
+      "first_seen_at": "2026-10-24T01:39:43.622088+00:00"
+    },
     {
       "id": "sialia:1916328",
       "title": "recent misc. observations around SF",
