@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-25T01:15:41.444155+00:00",
+  "generated_at": "2026-10-25T06:17:15.255102+00:00",
   "retention_days": 30,
   "order": "reported_at descending; source wall time, timezone unspecified",
   "sources": {
     "sialia": {
       "status": "ok",
-      "last_attempt_at": "2026-10-25T01:15:41.444155+00:00",
-      "last_success_at": "2026-10-25T01:15:41.444155+00:00",
+      "last_attempt_at": "2026-10-25T06:17:15.255102+00:00",
+      "last_success_at": "2026-10-25T06:17:15.255102+00:00",
       "fetched_days": [
         "2026-10-24",
         "2026-10-23"
@@ -28,10 +28,34 @@
     }
   },
   "stats": {
-    "total": 174,
+    "total": 176,
     "new_this_run": 2
   },
   "items": [
+    {
+      "id": "sialia:1916440",
+      "title": "Hellyer and backyard birds",
+      "source": "sialia",
+      "list": "SouthBayBirds",
+      "area": "South Bay",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1916440",
+      "reported_at": "2026-10-24T19:05:00",
+      "reported_at_display": "10/24/26 7:05 pm",
+      "kind": "post",
+      "first_seen_at": "2026-10-25T06:17:15.255102+00:00"
+    },
+    {
+      "id": "sialia:1916437",
+      "title": "Field Notes: SCVBA trip to Hayward Regional Shoreline",
+      "source": "sialia",
+      "list": "SouthBayBirds",
+      "area": "South Bay",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1916437",
+      "reported_at": "2026-10-24T18:24:00",
+      "reported_at_display": "10/24/26 6:24 pm",
+      "kind": "post",
+      "first_seen_at": "2026-10-25T06:17:15.255102+00:00"
+    },
     {
       "id": "sialia:1916431",
       "title": "Lewis's Woodpecker and Lark Sparrows at Fort Mason",
