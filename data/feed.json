@@ -1,18 +1,22 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-25T06:17:15.255102+00:00",
+  "generated_at": "2026-10-25T12:36:49.315233+00:00",
   "retention_days": 30,
   "order": "reported_at descending; source wall time, timezone unspecified",
   "sources": {
     "sialia": {
-      "status": "ok",
-      "last_attempt_at": "2026-10-25T06:17:15.255102+00:00",
+      "status": "partial",
+      "last_attempt_at": "2026-10-25T12:36:49.315233+00:00",
       "last_success_at": "2026-10-25T06:17:15.255102+00:00",
       "fetched_days": [
-        "2026-10-24",
-        "2026-10-23"
+        "2026-10-24"
       ],
-      "errors": [],
+      "errors": [
+        {
+          "date": "2026-10-25",
+          "error": "ValueError: Unrecognized Sialia index layout"
+        }
+      ],
       "lists": [
         "SouthBayBirds",
         "peninsula-birding",
@@ -28,8 +32,8 @@
     }
   },
   "stats": {
-    "total": 176,
-    "new_this_run": 2
+    "total": 163,
+    "new_this_run": 0
   },
   "items": [
     {
@@ -1987,162 +1991,6 @@
       "reported_at_display": "9/25/26 8:31 am",
       "kind": "post",
       "first_seen_at": "2026-09-25T18:42:11.269352+00:00"
-    },
-    {
-      "id": "sialia:1913936",
-      "title": "Recent notes: Red-eyed Vireo, Blackpoll, Redstart, etc.",
-      "source": "sialia",
-      "list": "peninsula-birding",
-      "area": "Peninsula",
-      "source_url": "https://digest-test.sialia.com/?rm=message;id=1913936",
-      "reported_at": "2026-09-24T21:06:00",
-      "reported_at_display": "9/24/26 9:06 pm",
-      "kind": "post",
-      "first_seen_at": "2026-09-25T07:56:14.115998+00:00"
-    },
-    {
-      "id": "sialia:1913931",
-      "title": "Christmas Bird Counts",
-      "source": "sialia",
-      "list": "EBB-Sightings",
-      "area": "East Bay",
-      "source_url": "https://digest-test.sialia.com/?rm=message;id=1913931",
-      "reported_at": "2026-09-24T19:38:00",
-      "reported_at_display": "9/24/26 7:38 pm",
-      "kind": "reply",
-      "first_seen_at": "2026-09-25T07:56:14.115998+00:00"
-    },
-    {
-      "id": "sialia:1913927",
-      "title": "Cassin’s Finches and good flight day at Hawk Hill",
-      "source": "sialia",
-      "list": "northbaybirds",
-      "area": "North Bay",
-      "source_url": "https://digest-test.sialia.com/?rm=message;id=1913927",
-      "reported_at": "2026-09-24T18:17:00",
-      "reported_at_display": "9/24/26 6:17 pm",
-      "kind": "post",
-      "first_seen_at": "2026-09-25T01:36:05.005291+00:00"
-    },
-    {
-      "id": "sialia:1913925",
-      "title": "Montane Bird Irruptions",
-      "source": "sialia",
-      "list": "northbaybirds",
-      "area": "North Bay",
-      "source_url": "https://digest-test.sialia.com/?rm=message;id=1913925",
-      "reported_at": "2026-09-24T17:49:00",
-      "reported_at_display": "9/24/26 5:49 pm",
-      "kind": "post",
-      "first_seen_at": "2026-09-25T01:36:05.005291+00:00"
-    },
-    {
-      "id": "sialia:1913902",
-      "title": "Christmas Bird Counts",
-      "source": "sialia",
-      "list": "EBB-Sightings",
-      "area": "East Bay",
-      "source_url": "https://digest-test.sialia.com/?rm=message;id=1913902",
-      "reported_at": "2026-09-24T15:23:00",
-      "reported_at_display": "9/24/26 3:23 pm",
-      "kind": "reply",
-      "first_seen_at": "2026-09-24T22:32:36.467693+00:00"
-    },
-    {
-      "id": "sialia:1913900",
-      "title": "Christmas Bird Counts",
-      "source": "sialia",
-      "list": "EBB-Sightings",
-      "area": "East Bay",
-      "source_url": "https://digest-test.sialia.com/?rm=message;id=1913900",
-      "reported_at": "2026-09-24T15:12:00",
-      "reported_at_display": "9/24/26 3:12 pm",
-      "kind": "reply",
-      "first_seen_at": "2026-09-24T22:32:36.467693+00:00"
-    },
-    {
-      "id": "sialia:1913897",
-      "title": "San Francisco Rare Bird Round Up - Saturday, Sept 26th.",
-      "source": "sialia",
-      "list": "SFBirds",
-      "area": "San Francisco",
-      "source_url": "https://digest-test.sialia.com/?rm=message;id=1913897",
-      "reported_at": "2026-09-24T14:41:00",
-      "reported_at_display": "9/24/26 2:41 pm",
-      "kind": "post",
-      "first_seen_at": "2026-09-24T22:32:36.467693+00:00"
-    },
-    {
-      "id": "sialia:1913881",
-      "title": "Coast Casey Mountain View",
-      "source": "sialia",
-      "list": "SouthBayBirds",
-      "area": "South Bay",
-      "source_url": "https://digest-test.sialia.com/?rm=message;id=1913881",
-      "reported_at": "2026-09-24T12:24:00",
-      "reported_at_display": "9/24/26 12:24 pm",
-      "kind": "post",
-      "first_seen_at": "2026-09-24T22:32:36.467693+00:00"
-    },
-    {
-      "id": "sialia:1913877",
-      "title": "Christmas Bird Counts",
-      "source": "sialia",
-      "list": "EBB-Sightings",
-      "area": "East Bay",
-      "source_url": "https://digest-test.sialia.com/?rm=message;id=1913877",
-      "reported_at": "2026-09-24T11:38:00",
-      "reported_at_display": "9/24/26 11:38 am",
-      "kind": "reply",
-      "first_seen_at": "2026-09-24T19:16:31.438416+00:00"
-    },
-    {
-      "id": "sialia:1913879",
-      "title": "Christmas Bird Counts",
-      "source": "sialia",
-      "list": "EBB-Sightings",
-      "area": "East Bay",
-      "source_url": "https://digest-test.sialia.com/?rm=message;id=1913879",
-      "reported_at": "2026-09-24T11:33:00",
-      "reported_at_display": "9/24/26 11:33 am",
-      "kind": "reply",
-      "first_seen_at": "2026-09-24T19:16:31.438416+00:00"
-    },
-    {
-      "id": "sialia:1913876",
-      "title": "Christmas Bird Counts",
-      "source": "sialia",
-      "list": "EBB-Sightings",
-      "area": "East Bay",
-      "source_url": "https://digest-test.sialia.com/?rm=message;id=1913876",
-      "reported_at": "2026-09-24T11:29:00",
-      "reported_at_display": "9/24/26 11:29 am",
-      "kind": "post",
-      "first_seen_at": "2026-09-24T19:16:31.438416+00:00"
-    },
-    {
-      "id": "sialia:1913873",
-      "title": "Osprey at Gate of Heaven Cemetery",
-      "source": "sialia",
-      "list": "SouthBayBirds",
-      "area": "South Bay",
-      "source_url": "https://digest-test.sialia.com/?rm=message;id=1913873",
-      "reported_at": "2026-09-24T10:02:00",
-      "reported_at_display": "9/24/26 10:02 am",
-      "kind": "post",
-      "first_seen_at": "2026-09-24T19:16:31.438416+00:00"
-    },
-    {
-      "id": "sialia:1913858",
-      "title": "Chestnut-sided Warbler, Yellow-breasted Chat and other migrants 9/22",
-      "source": "sialia",
-      "list": "peninsula-birding",
-      "area": "Peninsula",
-      "source_url": "https://digest-test.sialia.com/?rm=message;id=1913858",
-      "reported_at": "2026-09-24T06:14:00",
-      "reported_at_display": "9/24/26 6:14 am",
-      "kind": "post",
-      "first_seen_at": "2026-09-24T15:13:03.627842+00:00"
     }
   ]
 }
