@@ -1,22 +1,18 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-26T14:21:55.464522+00:00",
+  "generated_at": "2026-10-26T20:34:50.714020+00:00",
   "retention_days": 30,
   "order": "reported_at descending; source wall time, timezone unspecified",
   "sources": {
     "sialia": {
-      "status": "partial",
-      "last_attempt_at": "2026-10-26T14:21:55.464522+00:00",
-      "last_success_at": "2026-10-26T06:27:27.472444+00:00",
+      "status": "ok",
+      "last_attempt_at": "2026-10-26T20:34:50.714020+00:00",
+      "last_success_at": "2026-10-26T20:34:50.714020+00:00",
       "fetched_days": [
+        "2026-10-26",
         "2026-10-25"
       ],
-      "errors": [
-        {
-          "date": "2026-10-26",
-          "error": "ValueError: Unrecognized Sialia index layout"
-        }
-      ],
+      "errors": [],
       "lists": [
         "SouthBayBirds",
         "peninsula-birding",
@@ -32,10 +28,70 @@
     }
   },
   "stats": {
-    "total": 161,
-    "new_this_run": 0
+    "total": 166,
+    "new_this_run": 5
   },
   "items": [
+    {
+      "id": "sialia:1916551",
+      "title": "Bittern at its channel -photos attached",
+      "source": "sialia",
+      "list": "SouthBayBirds",
+      "area": "South Bay",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1916551",
+      "reported_at": "2026-10-26T13:08:00",
+      "reported_at_display": "10/26/26 1:08 pm",
+      "kind": "post",
+      "first_seen_at": "2026-10-26T20:34:50.714020+00:00"
+    },
+    {
+      "id": "sialia:1916549",
+      "title": "Bittern at its channel",
+      "source": "sialia",
+      "list": "SouthBayBirds",
+      "area": "South Bay",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1916549",
+      "reported_at": "2026-10-26T12:42:00",
+      "reported_at_display": "10/26/26 12:42 pm",
+      "kind": "post",
+      "first_seen_at": "2026-10-26T20:34:50.714020+00:00"
+    },
+    {
+      "id": "sialia:1916548",
+      "title": "Nutcracker again",
+      "source": "sialia",
+      "list": "SFBirds",
+      "area": "San Francisco",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1916548",
+      "reported_at": "2026-10-26T12:30:00",
+      "reported_at_display": "10/26/26 12:30 pm",
+      "kind": "post",
+      "first_seen_at": "2026-10-26T20:34:50.714020+00:00"
+    },
+    {
+      "id": "sialia:1916545",
+      "title": "Cocos Booby on San Francisco Bay",
+      "source": "sialia",
+      "list": "peninsula-birding",
+      "area": "Peninsula",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1916545",
+      "reported_at": "2026-10-26T11:57:00",
+      "reported_at_display": "10/26/26 11:57 am",
+      "kind": "post",
+      "first_seen_at": "2026-10-26T20:34:50.714020+00:00"
+    },
+    {
+      "id": "sialia:1916534",
+      "title": "Swinhoe’s White-eyes Coast Casey Forebay",
+      "source": "sialia",
+      "list": "SouthBayBirds",
+      "area": "South Bay",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1916534",
+      "reported_at": "2026-10-26T10:23:00",
+      "reported_at_display": "10/26/26 10:23 am",
+      "kind": "post",
+      "first_seen_at": "2026-10-26T20:34:50.714020+00:00"
+    },
     {
       "id": "sialia:1916506",
       "title": "Half Moon Bay by Kayak",
