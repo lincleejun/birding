@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-27T00:32:35.754140+00:00",
+  "generated_at": "2026-10-27T06:22:49.079223+00:00",
   "retention_days": 30,
   "order": "reported_at descending; source wall time, timezone unspecified",
   "sources": {
     "sialia": {
       "status": "ok",
-      "last_attempt_at": "2026-10-27T00:32:35.754140+00:00",
-      "last_success_at": "2026-10-27T00:32:35.754140+00:00",
+      "last_attempt_at": "2026-10-27T06:22:49.079223+00:00",
+      "last_success_at": "2026-10-27T06:22:49.079223+00:00",
       "fetched_days": [
         "2026-10-26",
         "2026-10-25"
@@ -28,10 +28,70 @@
     }
   },
   "stats": {
-    "total": 169,
-    "new_this_run": 3
+    "total": 174,
+    "new_this_run": 5
   },
   "items": [
+    {
+      "id": "sialia:1916586",
+      "title": "Bittern at its channel -photos attached",
+      "source": "sialia",
+      "list": "SouthBayBirds",
+      "area": "South Bay",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1916586",
+      "reported_at": "2026-10-26T17:51:00",
+      "reported_at_display": "10/26/26 5:51 pm",
+      "kind": "reply",
+      "first_seen_at": "2026-10-27T06:22:49.079223+00:00"
+    },
+    {
+      "id": "sialia:1916584",
+      "title": "Bittern at its channel -photos attached",
+      "source": "sialia",
+      "list": "SouthBayBirds",
+      "area": "South Bay",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1916584",
+      "reported_at": "2026-10-26T17:47:00",
+      "reported_at_display": "10/26/26 5:47 pm",
+      "kind": "reply",
+      "first_seen_at": "2026-10-27T06:22:49.079223+00:00"
+    },
+    {
+      "id": "sialia:1916583",
+      "title": "Bittern at its channel -photos attached",
+      "source": "sialia",
+      "list": "SouthBayBirds",
+      "area": "South Bay",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1916583",
+      "reported_at": "2026-10-26T17:44:00",
+      "reported_at_display": "10/26/26 5:44 pm",
+      "kind": "reply",
+      "first_seen_at": "2026-10-27T06:22:49.079223+00:00"
+    },
+    {
+      "id": "sialia:1916582",
+      "title": "Bittern at its channel -photos attached",
+      "source": "sialia",
+      "list": "SouthBayBirds",
+      "area": "South Bay",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1916582",
+      "reported_at": "2026-10-26T17:39:00",
+      "reported_at_display": "10/26/26 5:39 pm",
+      "kind": "reply",
+      "first_seen_at": "2026-10-27T06:22:49.079223+00:00"
+    },
+    {
+      "id": "sialia:1916581",
+      "title": "Bittern at its channel -photos attached",
+      "source": "sialia",
+      "list": "SouthBayBirds",
+      "area": "South Bay",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1916581",
+      "reported_at": "2026-10-26T17:38:00",
+      "reported_at_display": "10/26/26 5:38 pm",
+      "kind": "reply",
+      "first_seen_at": "2026-10-27T06:22:49.079223+00:00"
+    },
     {
       "id": "sialia:1916577",
       "title": "Bittern at its channel -photos attached",
