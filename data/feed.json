@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-27T19:28:03.085721+00:00",
+  "generated_at": "2026-10-27T23:49:57.248231+00:00",
   "retention_days": 30,
   "order": "reported_at descending; source wall time, timezone unspecified",
   "sources": {
     "sialia": {
       "status": "ok",
-      "last_attempt_at": "2026-10-27T19:28:03.085721+00:00",
-      "last_success_at": "2026-10-27T19:28:03.085721+00:00",
+      "last_attempt_at": "2026-10-27T23:49:57.248231+00:00",
+      "last_success_at": "2026-10-27T23:49:57.248231+00:00",
       "fetched_days": [
         "2026-10-27",
         "2026-10-26"
@@ -28,10 +28,82 @@
     }
   },
   "stats": {
-    "total": 167,
-    "new_this_run": 1
+    "total": 173,
+    "new_this_run": 6
   },
   "items": [
+    {
+      "id": "sialia:1916663",
+      "title": "Evening Grosbeaks at Markham Nature Area, Concord",
+      "source": "sialia",
+      "list": "EBB-Sightings",
+      "area": "East Bay",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1916663",
+      "reported_at": "2026-10-27T16:37:00",
+      "reported_at_display": "10/27/26 4:37 pm",
+      "kind": "post",
+      "first_seen_at": "2026-10-27T23:49:57.248231+00:00"
+    },
+    {
+      "id": "sialia:1916657",
+      "title": "Lark Bunting continues",
+      "source": "sialia",
+      "list": "peninsula-birding",
+      "area": "Peninsula",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1916657",
+      "reported_at": "2026-10-27T15:45:00",
+      "reported_at_display": "10/27/26 3:45 pm",
+      "kind": "post",
+      "first_seen_at": "2026-10-27T23:49:57.248231+00:00"
+    },
+    {
+      "id": "sialia:1916641",
+      "title": "GRACES",
+      "source": "sialia",
+      "list": "peninsula-birding",
+      "area": "Peninsula",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1916641",
+      "reported_at": "2026-10-27T13:40:00",
+      "reported_at_display": "10/27/26 1:40 pm",
+      "kind": "post",
+      "first_seen_at": "2026-10-27T23:49:57.248231+00:00"
+    },
+    {
+      "id": "sialia:1916642",
+      "title": "O’Connor Pond",
+      "source": "sialia",
+      "list": "peninsula-birding",
+      "area": "Peninsula",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1916642",
+      "reported_at": "2026-10-27T13:31:00",
+      "reported_at_display": "10/27/26 1:31 pm",
+      "kind": "post",
+      "first_seen_at": "2026-10-27T23:49:57.248231+00:00"
+    },
+    {
+      "id": "sialia:1916640",
+      "title": "SUMMER Tanager Corona Hill 10/27/26",
+      "source": "sialia",
+      "list": "SFBirds",
+      "area": "San Francisco",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1916640",
+      "reported_at": "2026-10-27T13:30:00",
+      "reported_at_display": "10/27/26 1:30 pm",
+      "kind": "post",
+      "first_seen_at": "2026-10-27T23:49:57.248231+00:00"
+    },
+    {
+      "id": "sialia:1916636",
+      "title": "Bald Eagle just now",
+      "source": "sialia",
+      "list": "SFBirds",
+      "area": "San Francisco",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1916636",
+      "reported_at": "2026-10-27T13:29:00",
+      "reported_at_display": "10/27/26 1:29 pm",
+      "kind": "post",
+      "first_seen_at": "2026-10-27T23:49:57.248231+00:00"
+    },
     {
       "id": "sialia:1916627",
       "title": "Misc. observations from the coast 10/26/26",
