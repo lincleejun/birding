@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-27T13:30:48.971730+00:00",
+  "generated_at": "2026-10-27T19:28:03.085721+00:00",
   "retention_days": 30,
   "order": "reported_at descending; source wall time, timezone unspecified",
   "sources": {
     "sialia": {
       "status": "ok",
-      "last_attempt_at": "2026-10-27T13:30:48.971730+00:00",
-      "last_success_at": "2026-10-27T13:30:48.971730+00:00",
+      "last_attempt_at": "2026-10-27T19:28:03.085721+00:00",
+      "last_success_at": "2026-10-27T19:28:03.085721+00:00",
       "fetched_days": [
         "2026-10-27",
         "2026-10-26"
@@ -28,10 +28,22 @@
     }
   },
   "stats": {
-    "total": 166,
-    "new_this_run": 0
+    "total": 167,
+    "new_this_run": 1
   },
   "items": [
+    {
+      "id": "sialia:1916627",
+      "title": "Misc. observations from the coast 10/26/26",
+      "source": "sialia",
+      "list": "peninsula-birding",
+      "area": "Peninsula",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1916627",
+      "reported_at": "2026-10-27T11:38:00",
+      "reported_at_display": "10/27/26 11:38 am",
+      "kind": "post",
+      "first_seen_at": "2026-10-27T19:28:03.085721+00:00"
+    },
     {
       "id": "sialia:1916586",
       "title": "Bittern at its channel -photos attached",
