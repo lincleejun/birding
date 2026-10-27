@@ -1,16 +1,16 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-27T06:22:49.079223+00:00",
+  "generated_at": "2026-10-27T13:30:48.971730+00:00",
   "retention_days": 30,
   "order": "reported_at descending; source wall time, timezone unspecified",
   "sources": {
     "sialia": {
       "status": "ok",
-      "last_attempt_at": "2026-10-27T06:22:49.079223+00:00",
-      "last_success_at": "2026-10-27T06:22:49.079223+00:00",
+      "last_attempt_at": "2026-10-27T13:30:48.971730+00:00",
+      "last_success_at": "2026-10-27T13:30:48.971730+00:00",
       "fetched_days": [
-        "2026-10-26",
-        "2026-10-25"
+        "2026-10-27",
+        "2026-10-26"
       ],
       "errors": [],
       "lists": [
@@ -28,8 +28,8 @@
     }
   },
   "stats": {
-    "total": 174,
-    "new_this_run": 5
+    "total": 166,
+    "new_this_run": 0
   },
   "items": [
     {
@@ -2023,102 +2023,6 @@
       "reported_at_display": "9/27/26 8:02 am",
       "kind": "post",
       "first_seen_at": "2026-09-27T19:01:08.921578+00:00"
-    },
-    {
-      "id": "sialia:1914088",
-      "title": "Bald eagle at Penitencia Creek Trail",
-      "source": "sialia",
-      "list": "SouthBayBirds",
-      "area": "South Bay",
-      "source_url": "https://digest-test.sialia.com/?rm=message;id=1914088",
-      "reported_at": "2026-09-26T17:08:00",
-      "reported_at_display": "9/26/26 5:08 pm",
-      "kind": "post",
-      "first_seen_at": "2026-09-27T01:32:28.677886+00:00"
-    },
-    {
-      "id": "sialia:1914089",
-      "title": "Yellow-bellied Sapsucker at Wunderlich Park?",
-      "source": "sialia",
-      "list": "peninsula-birding",
-      "area": "Peninsula",
-      "source_url": "https://digest-test.sialia.com/?rm=message;id=1914089",
-      "reported_at": "2026-09-26T17:03:00",
-      "reported_at_display": "9/26/26 5:03 pm",
-      "kind": "reply",
-      "first_seen_at": "2026-09-27T01:32:28.677886+00:00"
-    },
-    {
-      "id": "sialia:1914081",
-      "title": "Northern Waterthrush at SF Botanical Garden",
-      "source": "sialia",
-      "list": "SFBirds",
-      "area": "San Francisco",
-      "source_url": "https://digest-test.sialia.com/?rm=message;id=1914081",
-      "reported_at": "2026-09-26T16:35:00",
-      "reported_at_display": "9/26/26 4:35 pm",
-      "kind": "post",
-      "first_seen_at": "2026-09-27T01:32:28.677886+00:00"
-    },
-    {
-      "id": "sialia:1914080",
-      "title": "RBR: American Redstart, Log Cabin Trail",
-      "source": "sialia",
-      "list": "SFBirds",
-      "area": "San Francisco",
-      "source_url": "https://digest-test.sialia.com/?rm=message;id=1914080",
-      "reported_at": "2026-09-26T16:28:00",
-      "reported_at_display": "9/26/26 4:28 pm",
-      "kind": "post",
-      "first_seen_at": "2026-09-27T01:32:28.677886+00:00"
-    },
-    {
-      "id": "sialia:1914079",
-      "title": "Montane Bird Irruptions",
-      "source": "sialia",
-      "list": "northbaybirds",
-      "area": "North Bay",
-      "source_url": "https://digest-test.sialia.com/?rm=message;id=1914079",
-      "reported_at": "2026-09-26T16:15:00",
-      "reported_at_display": "9/26/26 4:15 pm",
-      "kind": "reply",
-      "first_seen_at": "2026-09-27T01:32:28.677886+00:00"
-    },
-    {
-      "id": "sialia:1914072",
-      "title": "Vesper Sparrow Lincoln Park GC",
-      "source": "sialia",
-      "list": "SFBirds",
-      "area": "San Francisco",
-      "source_url": "https://digest-test.sialia.com/?rm=message;id=1914072",
-      "reported_at": "2026-09-26T14:52:00",
-      "reported_at_display": "9/26/26 2:52 pm",
-      "kind": "post",
-      "first_seen_at": "2026-09-26T22:56:41.403964+00:00"
-    },
-    {
-      "id": "sialia:1914064",
-      "title": "FOS Hermit Thrush",
-      "source": "sialia",
-      "list": "SouthBayBirds",
-      "area": "South Bay",
-      "source_url": "https://digest-test.sialia.com/?rm=message;id=1914064",
-      "reported_at": "2026-09-26T13:32:00",
-      "reported_at_display": "9/26/26 1:32 pm",
-      "kind": "post",
-      "first_seen_at": "2026-09-26T22:56:41.403964+00:00"
-    },
-    {
-      "id": "sialia:1914061",
-      "title": "Field Notes: SCVBA trip to Vasona Lake CP",
-      "source": "sialia",
-      "list": "SouthBayBirds",
-      "area": "South Bay",
-      "source_url": "https://digest-test.sialia.com/?rm=message;id=1914061",
-      "reported_at": "2026-09-26T13:21:00",
-      "reported_at_display": "9/26/26 1:21 pm",
-      "kind": "post",
-      "first_seen_at": "2026-09-26T22:56:41.403964+00:00"
     }
   ]
 }
