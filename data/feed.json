@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-28T18:54:54.960456+00:00",
+  "generated_at": "2026-10-28T23:17:35.940480+00:00",
   "retention_days": 30,
   "order": "reported_at descending; source wall time, timezone unspecified",
   "sources": {
     "sialia": {
       "status": "ok",
-      "last_attempt_at": "2026-10-28T18:54:54.960456+00:00",
-      "last_success_at": "2026-10-28T18:54:54.960456+00:00",
+      "last_attempt_at": "2026-10-28T23:17:35.940480+00:00",
+      "last_success_at": "2026-10-28T23:17:35.940480+00:00",
       "fetched_days": [
         "2026-10-28",
         "2026-10-27"
@@ -28,10 +28,22 @@
     }
   },
   "stats": {
-    "total": 172,
-    "new_this_run": 5
+    "total": 173,
+    "new_this_run": 1
   },
   "items": [
+    {
+      "id": "sialia:1916727",
+      "title": "Bubb pond",
+      "source": "sialia",
+      "list": "SouthBayBirds",
+      "area": "South Bay",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1916727",
+      "reported_at": "2026-10-28T13:35:00",
+      "reported_at_display": "10/28/26 1:35 pm",
+      "kind": "post",
+      "first_seen_at": "2026-10-28T23:17:35.940480+00:00"
+    },
     {
       "id": "sialia:1916713",
       "title": "Red -naped Sapsucker",
