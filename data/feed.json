@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-27T23:49:57.248231+00:00",
+  "generated_at": "2026-10-28T05:52:37.404267+00:00",
   "retention_days": 30,
   "order": "reported_at descending; source wall time, timezone unspecified",
   "sources": {
     "sialia": {
       "status": "ok",
-      "last_attempt_at": "2026-10-27T23:49:57.248231+00:00",
-      "last_success_at": "2026-10-27T23:49:57.248231+00:00",
+      "last_attempt_at": "2026-10-28T05:52:37.404267+00:00",
+      "last_success_at": "2026-10-28T05:52:37.404267+00:00",
       "fetched_days": [
         "2026-10-27",
         "2026-10-26"
@@ -28,10 +28,82 @@
     }
   },
   "stats": {
-    "total": 173,
+    "total": 179,
     "new_this_run": 6
   },
   "items": [
+    {
+      "id": "sialia:1916684",
+      "title": "Birding this winter and Kelvin Wave affected Tides Another observation.",
+      "source": "sialia",
+      "list": "EBB-Sightings",
+      "area": "East Bay",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1916684",
+      "reported_at": "2026-10-27T21:32:00",
+      "reported_at_display": "10/27/26 9:32 pm",
+      "kind": "reply",
+      "first_seen_at": "2026-10-28T05:52:37.404267+00:00"
+    },
+    {
+      "id": "sialia:1916682",
+      "title": "Lapland Longspur",
+      "source": "sialia",
+      "list": "EBB-Sightings",
+      "area": "East Bay",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1916682",
+      "reported_at": "2026-10-27T21:21:00",
+      "reported_at_display": "10/27/26 9:21 pm",
+      "kind": "post",
+      "first_seen_at": "2026-10-28T05:52:37.404267+00:00"
+    },
+    {
+      "id": "sialia:1916681",
+      "title": "Birding this winter and Kelvin Wave affected Tides",
+      "source": "sialia",
+      "list": "EBB-Sightings",
+      "area": "East Bay",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1916681",
+      "reported_at": "2026-10-27T20:56:00",
+      "reported_at_display": "10/27/26 8:56 pm",
+      "kind": "reply",
+      "first_seen_at": "2026-10-28T05:52:37.404267+00:00"
+    },
+    {
+      "id": "sialia:1916679",
+      "title": "Channel Island orange crowned warbler question",
+      "source": "sialia",
+      "list": "EBB-Sightings",
+      "area": "East Bay",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1916679",
+      "reported_at": "2026-10-27T20:44:00",
+      "reported_at_display": "10/27/26 8:44 pm",
+      "kind": "post",
+      "first_seen_at": "2026-10-28T05:52:37.404267+00:00"
+    },
+    {
+      "id": "sialia:1916680",
+      "title": "Birding this winter and Kelvin Wave affected Tides",
+      "source": "sialia",
+      "list": "EBB-Sightings",
+      "area": "East Bay",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1916680",
+      "reported_at": "2026-10-27T20:38:00",
+      "reported_at_display": "10/27/26 8:38 pm",
+      "kind": "post",
+      "first_seen_at": "2026-10-28T05:52:37.404267+00:00"
+    },
+    {
+      "id": "sialia:1916672",
+      "title": "Tropical Kingbird at Fort Mason",
+      "source": "sialia",
+      "list": "SFBirds",
+      "area": "San Francisco",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1916672",
+      "reported_at": "2026-10-27T17:00:00",
+      "reported_at_display": "10/27/26 5:00 pm",
+      "kind": "post",
+      "first_seen_at": "2026-10-28T05:52:37.404267+00:00"
+    },
     {
       "id": "sialia:1916663",
       "title": "Evening Grosbeaks at Markham Nature Area, Concord",
