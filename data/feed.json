@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-28T23:17:35.940480+00:00",
+  "generated_at": "2026-10-29T05:57:02.486479+00:00",
   "retention_days": 30,
   "order": "reported_at descending; source wall time, timezone unspecified",
   "sources": {
     "sialia": {
       "status": "ok",
-      "last_attempt_at": "2026-10-28T23:17:35.940480+00:00",
-      "last_success_at": "2026-10-28T23:17:35.940480+00:00",
+      "last_attempt_at": "2026-10-29T05:57:02.486479+00:00",
+      "last_success_at": "2026-10-29T05:57:02.486479+00:00",
       "fetched_days": [
         "2026-10-28",
         "2026-10-27"
@@ -28,10 +28,34 @@
     }
   },
   "stats": {
-    "total": 173,
-    "new_this_run": 1
+    "total": 175,
+    "new_this_run": 2
   },
   "items": [
+    {
+      "id": "sialia:1916755",
+      "title": "Possible Wilson’s Snipe at Tilden Botanic Garden",
+      "source": "sialia",
+      "list": "EBB-Sightings",
+      "area": "East Bay",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1916755",
+      "reported_at": "2026-10-28T18:36:00",
+      "reported_at_display": "10/28/26 6:36 pm",
+      "kind": "post",
+      "first_seen_at": "2026-10-29T05:57:02.486479+00:00"
+    },
+    {
+      "id": "sialia:1916749",
+      "title": "If you haven't seen enough Lewis's Woodpeckers this fall, head to Lake Berryessa",
+      "source": "sialia",
+      "list": "northbaybirds",
+      "area": "North Bay",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1916749",
+      "reported_at": "2026-10-28T16:44:00",
+      "reported_at_display": "10/28/26 4:44 pm",
+      "kind": "post",
+      "first_seen_at": "2026-10-29T05:57:02.486479+00:00"
+    },
     {
       "id": "sialia:1916727",
       "title": "Bubb pond",
