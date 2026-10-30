@@ -1,22 +1,18 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-30T13:07:01.588125+00:00",
+  "generated_at": "2026-10-30T18:39:43.335661+00:00",
   "retention_days": 30,
   "order": "reported_at descending; source wall time, timezone unspecified",
   "sources": {
     "sialia": {
-      "status": "partial",
-      "last_attempt_at": "2026-10-30T13:07:01.588125+00:00",
-      "last_success_at": "2026-10-30T05:58:14.739603+00:00",
+      "status": "ok",
+      "last_attempt_at": "2026-10-30T18:39:43.335661+00:00",
+      "last_success_at": "2026-10-30T18:39:43.335661+00:00",
       "fetched_days": [
+        "2026-10-30",
         "2026-10-29"
       ],
-      "errors": [
-        {
-          "date": "2026-10-30",
-          "error": "ValueError: Unrecognized Sialia index layout"
-        }
-      ],
+      "errors": [],
       "lists": [
         "SouthBayBirds",
         "peninsula-birding",
@@ -32,10 +28,34 @@
     }
   },
   "stats": {
-    "total": 175,
-    "new_this_run": 0
+    "total": 177,
+    "new_this_run": 2
   },
   "items": [
+    {
+      "id": "sialia:1916888",
+      "title": "EVENING GROSBEAKS over the Richmond",
+      "source": "sialia",
+      "list": "SFBirds",
+      "area": "San Francisco",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1916888",
+      "reported_at": "2026-10-30T08:34:00",
+      "reported_at_display": "10/30/26 8:34 am",
+      "kind": "post",
+      "first_seen_at": "2026-10-30T18:39:43.335661+00:00"
+    },
+    {
+      "id": "sialia:1916881",
+      "title": "EASTERN Phoebe Corona Heights Park 10/30/26",
+      "source": "sialia",
+      "list": "SFBirds",
+      "area": "San Francisco",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1916881",
+      "reported_at": "2026-10-30T07:40:00",
+      "reported_at_display": "10/30/26 7:40 am",
+      "kind": "post",
+      "first_seen_at": "2026-10-30T18:39:43.335661+00:00"
+    },
     {
       "id": "sialia:1916857",
       "title": "Eurasian Widgeon on Bolinas Lagoon",
