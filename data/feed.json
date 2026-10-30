@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-29T23:21:06.257110+00:00",
+  "generated_at": "2026-10-30T05:58:14.739603+00:00",
   "retention_days": 30,
   "order": "reported_at descending; source wall time, timezone unspecified",
   "sources": {
     "sialia": {
       "status": "ok",
-      "last_attempt_at": "2026-10-29T23:21:06.257110+00:00",
-      "last_success_at": "2026-10-29T23:21:06.257110+00:00",
+      "last_attempt_at": "2026-10-30T05:58:14.739603+00:00",
+      "last_success_at": "2026-10-30T05:58:14.739603+00:00",
       "fetched_days": [
         "2026-10-29",
         "2026-10-28"
@@ -28,10 +28,34 @@
     }
   },
   "stats": {
-    "total": 175,
-    "new_this_run": 0
+    "total": 177,
+    "new_this_run": 2
   },
   "items": [
+    {
+      "id": "sialia:1916857",
+      "title": "Eurasian Widgeon on Bolinas Lagoon",
+      "source": "sialia",
+      "list": "northbaybirds",
+      "area": "North Bay",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1916857",
+      "reported_at": "2026-10-29T17:23:00",
+      "reported_at_display": "10/29/26 5:23 pm",
+      "kind": "post",
+      "first_seen_at": "2026-10-30T05:58:14.739603+00:00"
+    },
+    {
+      "id": "sialia:1916851",
+      "title": "Bubb pond",
+      "source": "sialia",
+      "list": "SouthBayBirds",
+      "area": "South Bay",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1916851",
+      "reported_at": "2026-10-29T16:32:00",
+      "reported_at_display": "10/29/26 4:32 pm",
+      "kind": "post",
+      "first_seen_at": "2026-10-30T05:58:14.739603+00:00"
+    },
     {
       "id": "sialia:1916801",
       "title": "Green-tailed Towhee - El Granada - 10/29/2026",
