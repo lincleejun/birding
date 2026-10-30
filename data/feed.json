@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-30T18:39:43.335661+00:00",
+  "generated_at": "2026-10-30T23:00:18.724294+00:00",
   "retention_days": 30,
   "order": "reported_at descending; source wall time, timezone unspecified",
   "sources": {
     "sialia": {
       "status": "ok",
-      "last_attempt_at": "2026-10-30T18:39:43.335661+00:00",
-      "last_success_at": "2026-10-30T18:39:43.335661+00:00",
+      "last_attempt_at": "2026-10-30T23:00:18.724294+00:00",
+      "last_success_at": "2026-10-30T23:00:18.724294+00:00",
       "fetched_days": [
         "2026-10-30",
         "2026-10-29"
@@ -28,10 +28,34 @@
     }
   },
   "stats": {
-    "total": 177,
+    "total": 179,
     "new_this_run": 2
   },
   "items": [
+    {
+      "id": "sialia:1916926",
+      "title": "Identification of the Sapsucker at Elk Glen Lake",
+      "source": "sialia",
+      "list": "SFBirds",
+      "area": "San Francisco",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1916926",
+      "reported_at": "2026-10-30T13:45:00",
+      "reported_at_display": "10/30/26 1:45 pm",
+      "kind": "post",
+      "first_seen_at": "2026-10-30T23:00:18.724294+00:00"
+    },
+    {
+      "id": "sialia:1916917",
+      "title": "Richmond this morning",
+      "source": "sialia",
+      "list": "EBB-Sightings",
+      "area": "East Bay",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1916917",
+      "reported_at": "2026-10-30T12:37:00",
+      "reported_at_display": "10/30/26 12:37 pm",
+      "kind": "post",
+      "first_seen_at": "2026-10-30T23:00:18.724294+00:00"
+    },
     {
       "id": "sialia:1916888",
       "title": "EVENING GROSBEAKS over the Richmond",
