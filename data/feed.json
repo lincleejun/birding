@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-31T15:46:22.798514+00:00",
+  "generated_at": "2026-10-31T20:01:56.661024+00:00",
   "retention_days": 30,
   "order": "reported_at descending; source wall time, timezone unspecified",
   "sources": {
     "sialia": {
       "status": "ok",
-      "last_attempt_at": "2026-10-31T15:46:22.798514+00:00",
-      "last_success_at": "2026-10-31T15:46:22.798514+00:00",
+      "last_attempt_at": "2026-10-31T20:01:56.661024+00:00",
+      "last_success_at": "2026-10-31T20:01:56.661024+00:00",
       "fetched_days": [
         "2026-10-31",
         "2026-10-30"
@@ -28,10 +28,82 @@
     }
   },
   "stats": {
-    "total": 179,
-    "new_this_run": 1
+    "total": 185,
+    "new_this_run": 6
   },
   "items": [
+    {
+      "id": "sialia:1917003",
+      "title": "Franklin’s Gull at Abbot’s Lagoon",
+      "source": "sialia",
+      "list": "northbaybirds",
+      "area": "North Bay",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1917003",
+      "reported_at": "2026-10-31T12:41:00",
+      "reported_at_display": "10/31/26 12:41 pm",
+      "kind": "post",
+      "first_seen_at": "2026-10-31T20:01:56.661024+00:00"
+    },
+    {
+      "id": "sialia:1917000",
+      "title": "Reporting the Black-throated Green Warbler on eBird",
+      "source": "sialia",
+      "list": "peninsula-birding",
+      "area": "Peninsula",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1917000",
+      "reported_at": "2026-10-31T11:42:00",
+      "reported_at_display": "10/31/26 11:42 am",
+      "kind": "post",
+      "first_seen_at": "2026-10-31T20:01:56.661024+00:00"
+    },
+    {
+      "id": "sialia:1916999",
+      "title": "Calero Reservoir",
+      "source": "sialia",
+      "list": "SouthBayBirds",
+      "area": "South Bay",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1916999",
+      "reported_at": "2026-10-31T11:34:00",
+      "reported_at_display": "10/31/26 11:34 am",
+      "kind": "post",
+      "first_seen_at": "2026-10-31T20:01:56.661024+00:00"
+    },
+    {
+      "id": "sialia:1916990",
+      "title": "Charleston Slough Ridgway's rail, 10/31",
+      "source": "sialia",
+      "list": "SouthBayBirds",
+      "area": "South Bay",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1916990",
+      "reported_at": "2026-10-31T10:17:00",
+      "reported_at_display": "10/31/26 10:17 am",
+      "kind": "post",
+      "first_seen_at": "2026-10-31T20:01:56.661024+00:00"
+    },
+    {
+      "id": "sialia:1916986",
+      "title": "Charleston Slough Ridgway's rail, 10/31",
+      "source": "sialia",
+      "list": "SouthBayBirds",
+      "area": "South Bay",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1916986",
+      "reported_at": "2026-10-31T10:07:00",
+      "reported_at_display": "10/31/26 10:07 am",
+      "kind": "reply",
+      "first_seen_at": "2026-10-31T20:01:56.661024+00:00"
+    },
+    {
+      "id": "sialia:1916989",
+      "title": "Charleston Slough Ridgway's rail, 10/31",
+      "source": "sialia",
+      "list": "SouthBayBirds",
+      "area": "South Bay",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1916989",
+      "reported_at": "2026-10-31T10:00:00",
+      "reported_at_display": "10/31/26 10:00 am",
+      "kind": "post",
+      "first_seen_at": "2026-10-31T20:01:56.661024+00:00"
+    },
     {
       "id": "sialia:1916970",
       "title": "Parkway Lakes and Máyyan 'Ooyákma- Coyote Ridge",
