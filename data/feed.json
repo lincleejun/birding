@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-31T23:26:51.359121+00:00",
+  "generated_at": "2026-11-01T06:19:47.468063+00:00",
   "retention_days": 30,
   "order": "reported_at descending; source wall time, timezone unspecified",
   "sources": {
     "sialia": {
       "status": "ok",
-      "last_attempt_at": "2026-10-31T23:26:51.359121+00:00",
-      "last_success_at": "2026-10-31T23:26:51.359121+00:00",
+      "last_attempt_at": "2026-11-01T06:19:47.468063+00:00",
+      "last_success_at": "2026-11-01T06:19:47.468063+00:00",
       "fetched_days": [
         "2026-10-31",
         "2026-10-30"
@@ -28,10 +28,34 @@
     }
   },
   "stats": {
-    "total": 185,
-    "new_this_run": 0
+    "total": 187,
+    "new_this_run": 2
   },
   "items": [
+    {
+      "id": "sialia:1917039",
+      "title": "Kentucky Warbler - Old Woman's Creek Road - 10/31/2026",
+      "source": "sialia",
+      "list": "peninsula-birding",
+      "area": "Peninsula",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1917039",
+      "reported_at": "2026-10-31T19:18:00",
+      "reported_at_display": "10/31/26 7:18 pm",
+      "kind": "post",
+      "first_seen_at": "2026-11-01T06:19:47.468063+00:00"
+    },
+    {
+      "id": "sialia:1917036",
+      "title": "Baltimore Oriole",
+      "source": "sialia",
+      "list": "peninsula-birding",
+      "area": "Peninsula",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1917036",
+      "reported_at": "2026-10-31T18:45:00",
+      "reported_at_display": "10/31/26 6:45 pm",
+      "kind": "post",
+      "first_seen_at": "2026-11-01T06:19:47.468063+00:00"
+    },
     {
       "id": "sialia:1917003",
       "title": "Franklin’s Gull at Abbot’s Lagoon",
