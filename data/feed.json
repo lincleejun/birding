@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-01T14:19:49.983690+00:00",
+  "generated_at": "2026-11-01T19:44:56.187888+00:00",
   "retention_days": 30,
   "order": "reported_at descending; source wall time, timezone unspecified",
   "sources": {
     "sialia": {
       "status": "ok",
-      "last_attempt_at": "2026-11-01T14:19:49.983690+00:00",
-      "last_success_at": "2026-11-01T14:19:49.983690+00:00",
+      "last_attempt_at": "2026-11-01T19:44:56.187888+00:00",
+      "last_success_at": "2026-11-01T19:44:56.187888+00:00",
       "fetched_days": [
         "2026-11-01",
         "2026-10-31"
@@ -28,10 +28,22 @@
     }
   },
   "stats": {
-    "total": 176,
+    "total": 177,
     "new_this_run": 1
   },
   "items": [
+    {
+      "id": "sialia:1917074",
+      "title": "Lapland Longspur at Byxbee",
+      "source": "sialia",
+      "list": "SouthBayBirds",
+      "area": "South Bay",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1917074",
+      "reported_at": "2026-11-01T10:50:00",
+      "reported_at_display": "11/1/26 10:50 am",
+      "kind": "post",
+      "first_seen_at": "2026-11-01T19:44:56.187888+00:00"
+    },
     {
       "id": "sialia:1917049",
       "title": "South Bay Birds Monthly Reminder #guidelines-notice",
