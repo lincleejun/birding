@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-01T19:44:56.187888+00:00",
+  "generated_at": "2026-11-01T23:40:06.351587+00:00",
   "retention_days": 30,
   "order": "reported_at descending; source wall time, timezone unspecified",
   "sources": {
     "sialia": {
       "status": "ok",
-      "last_attempt_at": "2026-11-01T19:44:56.187888+00:00",
-      "last_success_at": "2026-11-01T19:44:56.187888+00:00",
+      "last_attempt_at": "2026-11-01T23:40:06.351587+00:00",
+      "last_success_at": "2026-11-01T23:40:06.351587+00:00",
       "fetched_days": [
         "2026-11-01",
         "2026-10-31"
@@ -28,10 +28,58 @@
     }
   },
   "stats": {
-    "total": 177,
-    "new_this_run": 1
+    "total": 181,
+    "new_this_run": 4
   },
   "items": [
+    {
+      "id": "sialia:1917104",
+      "title": "Lapland Longspur at Byxbee",
+      "source": "sialia",
+      "list": "SouthBayBirds",
+      "area": "South Bay",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1917104",
+      "reported_at": "2026-11-01T15:12:00",
+      "reported_at_display": "11/1/26 3:12 pm",
+      "kind": "reply",
+      "first_seen_at": "2026-11-01T23:40:06.351587+00:00"
+    },
+    {
+      "id": "sialia:1917086",
+      "title": "common murre at Nob Hill Pond redwood shores",
+      "source": "sialia",
+      "list": "peninsula-birding",
+      "area": "Peninsula",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1917086",
+      "reported_at": "2026-11-01T12:56:00",
+      "reported_at_display": "11/1/26 12:56 pm",
+      "kind": "reply",
+      "first_seen_at": "2026-11-01T23:40:06.351587+00:00"
+    },
+    {
+      "id": "sialia:1917079",
+      "title": "SCVBA Field Trip to Mendoza Ranch & Roop Pond",
+      "source": "sialia",
+      "list": "SouthBayBirds",
+      "area": "South Bay",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1917079",
+      "reported_at": "2026-11-01T11:37:00",
+      "reported_at_display": "11/1/26 11:37 am",
+      "kind": "post",
+      "first_seen_at": "2026-11-01T23:40:06.351587+00:00"
+    },
+    {
+      "id": "sialia:1917080",
+      "title": "Lapland Longspur at Byxbee",
+      "source": "sialia",
+      "list": "SouthBayBirds",
+      "area": "South Bay",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1917080",
+      "reported_at": "2026-11-01T11:33:00",
+      "reported_at_display": "11/1/26 11:33 am",
+      "kind": "reply",
+      "first_seen_at": "2026-11-01T23:40:06.351587+00:00"
+    },
     {
       "id": "sialia:1917074",
       "title": "Lapland Longspur at Byxbee",
