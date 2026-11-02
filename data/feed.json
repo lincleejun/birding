@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-02T17:10:46.034901+00:00",
+  "generated_at": "2026-11-02T23:54:40.798176+00:00",
   "retention_days": 30,
   "order": "reported_at descending; source wall time, timezone unspecified",
   "sources": {
     "sialia": {
       "status": "ok",
-      "last_attempt_at": "2026-11-02T17:10:46.034901+00:00",
-      "last_success_at": "2026-11-02T17:10:46.034901+00:00",
+      "last_attempt_at": "2026-11-02T23:54:40.798176+00:00",
+      "last_success_at": "2026-11-02T23:54:40.798176+00:00",
       "fetched_days": [
         "2026-11-02",
         "2026-11-01"
@@ -28,10 +28,22 @@
     }
   },
   "stats": {
-    "total": 180,
+    "total": 181,
     "new_this_run": 1
   },
   "items": [
+    {
+      "id": "sialia:1917189",
+      "title": "Nutcrackers GGP this morning",
+      "source": "sialia",
+      "list": "SFBirds",
+      "area": "San Francisco",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1917189",
+      "reported_at": "2026-11-02T13:50:00",
+      "reported_at_display": "11/2/26 1:50 pm",
+      "kind": "post",
+      "first_seen_at": "2026-11-02T23:54:40.798176+00:00"
+    },
     {
       "id": "sialia:1917157",
       "title": "Lapland Longspur",
