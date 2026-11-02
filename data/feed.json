@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-01T23:40:06.351587+00:00",
+  "generated_at": "2026-11-02T06:21:16.970607+00:00",
   "retention_days": 30,
   "order": "reported_at descending; source wall time, timezone unspecified",
   "sources": {
     "sialia": {
       "status": "ok",
-      "last_attempt_at": "2026-11-01T23:40:06.351587+00:00",
-      "last_success_at": "2026-11-01T23:40:06.351587+00:00",
+      "last_attempt_at": "2026-11-02T06:21:16.970607+00:00",
+      "last_success_at": "2026-11-02T06:21:16.970607+00:00",
       "fetched_days": [
         "2026-11-01",
         "2026-10-31"
@@ -28,10 +28,34 @@
     }
   },
   "stats": {
-    "total": 181,
-    "new_this_run": 4
+    "total": 183,
+    "new_this_run": 2
   },
   "items": [
+    {
+      "id": "sialia:1917121",
+      "title": "2026 San Francisco Christmas Bird Count Registration Monday December 28th is now open - and a call for a few new Area Leaders",
+      "source": "sialia",
+      "list": "SFBirds",
+      "area": "San Francisco",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1917121",
+      "reported_at": "2026-11-01T17:28:00",
+      "reported_at_display": "11/1/26 5:28 pm",
+      "kind": "reply",
+      "first_seen_at": "2026-11-02T06:21:16.970607+00:00"
+    },
+    {
+      "id": "sialia:1917116",
+      "title": "2026 San Francisco Christmas Bird Count Registration Monday December 28th is now open - and a call for a few new Area Leaders",
+      "source": "sialia",
+      "list": "SFBirds",
+      "area": "San Francisco",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1917116",
+      "reported_at": "2026-11-01T16:58:00",
+      "reported_at_display": "11/1/26 4:58 pm",
+      "kind": "post",
+      "first_seen_at": "2026-11-02T06:21:16.970607+00:00"
+    },
     {
       "id": "sialia:1917104",
       "title": "Lapland Longspur at Byxbee",
