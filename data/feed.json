@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-03T15:16:37.850937+00:00",
+  "generated_at": "2026-11-03T21:07:36.759020+00:00",
   "retention_days": 30,
   "order": "reported_at descending; source wall time, timezone unspecified",
   "sources": {
     "sialia": {
       "status": "ok",
-      "last_attempt_at": "2026-11-03T15:16:37.850937+00:00",
-      "last_success_at": "2026-11-03T15:16:37.850937+00:00",
+      "last_attempt_at": "2026-11-03T21:07:36.759020+00:00",
+      "last_success_at": "2026-11-03T21:07:36.759020+00:00",
       "fetched_days": [
         "2026-11-03",
         "2026-11-02"
@@ -28,10 +28,58 @@
     }
   },
   "stats": {
-    "total": 184,
+    "total": 188,
     "new_this_run": 4
   },
   "items": [
+    {
+      "id": "sialia:1917266",
+      "title": "misc. from the Coast 11/2/26",
+      "source": "sialia",
+      "list": "peninsula-birding",
+      "area": "Peninsula",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1917266",
+      "reported_at": "2026-11-03T11:49:00",
+      "reported_at_display": "11/3/26 11:49 am",
+      "kind": "post",
+      "first_seen_at": "2026-11-03T21:07:36.759020+00:00"
+    },
+    {
+      "id": "sialia:1917262",
+      "title": "Miscellaneous sightings the last several days",
+      "source": "sialia",
+      "list": "peninsula-birding",
+      "area": "Peninsula",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1917262",
+      "reported_at": "2026-11-03T11:10:00",
+      "reported_at_display": "11/3/26 11:10 am",
+      "kind": "post",
+      "first_seen_at": "2026-11-03T21:07:36.759020+00:00"
+    },
+    {
+      "id": "sialia:1917254",
+      "title": "Pier 94 Wetland needs your help!",
+      "source": "sialia",
+      "list": "SFBirds",
+      "area": "San Francisco",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1917254",
+      "reported_at": "2026-11-03T09:38:00",
+      "reported_at_display": "11/3/26 9:38 am",
+      "kind": "post",
+      "first_seen_at": "2026-11-03T21:07:36.759020+00:00"
+    },
+    {
+      "id": "sialia:1917239",
+      "title": "Moss Beach seawatch 11/2",
+      "source": "sialia",
+      "list": "peninsula-birding",
+      "area": "Peninsula",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1917239",
+      "reported_at": "2026-11-03T07:23:00",
+      "reported_at_display": "11/3/26 7:23 am",
+      "kind": "post",
+      "first_seen_at": "2026-11-03T21:07:36.759020+00:00"
+    },
     {
       "id": "sialia:1917236",
       "title": "Great horned owls in Adams Point",
