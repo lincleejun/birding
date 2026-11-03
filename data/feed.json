@@ -1,16 +1,16 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-03T06:57:04.417603+00:00",
+  "generated_at": "2026-11-03T15:16:37.850937+00:00",
   "retention_days": 30,
   "order": "reported_at descending; source wall time, timezone unspecified",
   "sources": {
     "sialia": {
       "status": "ok",
-      "last_attempt_at": "2026-11-03T06:57:04.417603+00:00",
-      "last_success_at": "2026-11-03T06:57:04.417603+00:00",
+      "last_attempt_at": "2026-11-03T15:16:37.850937+00:00",
+      "last_success_at": "2026-11-03T15:16:37.850937+00:00",
       "fetched_days": [
-        "2026-11-02",
-        "2026-11-01"
+        "2026-11-03",
+        "2026-11-02"
       ],
       "errors": [],
       "lists": [
@@ -28,10 +28,58 @@
     }
   },
   "stats": {
-    "total": 181,
-    "new_this_run": 0
+    "total": 184,
+    "new_this_run": 4
   },
   "items": [
+    {
+      "id": "sialia:1917236",
+      "title": "Great horned owls in Adams Point",
+      "source": "sialia",
+      "list": "EBB-Sightings",
+      "area": "East Bay",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1917236",
+      "reported_at": "2026-11-03T06:45:00",
+      "reported_at_display": "11/3/26 6:45 am",
+      "kind": "reply",
+      "first_seen_at": "2026-11-03T15:16:37.850937+00:00"
+    },
+    {
+      "id": "sialia:1917234",
+      "title": "Great horned owls in Adams Point",
+      "source": "sialia",
+      "list": "EBB-Sightings",
+      "area": "East Bay",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1917234",
+      "reported_at": "2026-11-03T06:30:00",
+      "reported_at_display": "11/3/26 6:30 am",
+      "kind": "reply",
+      "first_seen_at": "2026-11-03T15:16:37.850937+00:00"
+    },
+    {
+      "id": "sialia:1917230",
+      "title": "Great horned owls in Adams Point",
+      "source": "sialia",
+      "list": "EBB-Sightings",
+      "area": "East Bay",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1917230",
+      "reported_at": "2026-11-03T05:56:00",
+      "reported_at_display": "11/3/26 5:56 am",
+      "kind": "reply",
+      "first_seen_at": "2026-11-03T15:16:37.850937+00:00"
+    },
+    {
+      "id": "sialia:1917229",
+      "title": "Great horned owls in Adams Point",
+      "source": "sialia",
+      "list": "EBB-Sightings",
+      "area": "East Bay",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1917229",
+      "reported_at": "2026-11-03T05:36:00",
+      "reported_at_display": "11/3/26 5:36 am",
+      "kind": "post",
+      "first_seen_at": "2026-11-03T15:16:37.850937+00:00"
+    },
     {
       "id": "sialia:1917189",
       "title": "Nutcrackers GGP this morning",
@@ -2191,18 +2239,6 @@
       "reported_at_display": "10/4/26 10:09 am",
       "kind": "post",
       "first_seen_at": "2026-10-04T19:41:37.771785+00:00"
-    },
-    {
-      "id": "sialia:1914635",
-      "title": "Yellow Rumped warblers",
-      "source": "sialia",
-      "list": "EBB-Sightings",
-      "area": "East Bay",
-      "source_url": "https://digest-test.sialia.com/?rm=message;id=1914635",
-      "reported_at": "2026-10-03T10:48:00",
-      "reported_at_display": "10/3/26 10:48 am",
-      "kind": "post",
-      "first_seen_at": "2026-10-03T19:58:23.128331+00:00"
     }
   ]
 }
