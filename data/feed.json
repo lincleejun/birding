@@ -1,18 +1,22 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-05T06:57:46.544367+00:00",
+  "generated_at": "2026-11-05T15:34:30.924817+00:00",
   "retention_days": 30,
   "order": "reported_at descending; source wall time, timezone unspecified",
   "sources": {
     "sialia": {
-      "status": "ok",
-      "last_attempt_at": "2026-11-05T06:57:46.544367+00:00",
+      "status": "partial",
+      "last_attempt_at": "2026-11-05T15:34:30.924817+00:00",
       "last_success_at": "2026-11-05T06:57:46.544367+00:00",
       "fetched_days": [
-        "2026-11-04",
-        "2026-11-03"
+        "2026-11-04"
       ],
-      "errors": [],
+      "errors": [
+        {
+          "date": "2026-11-05",
+          "error": "ValueError: Unrecognized Sialia index layout"
+        }
+      ],
       "lists": [
         "SouthBayBirds",
         "peninsula-birding",
@@ -28,8 +32,8 @@
     }
   },
   "stats": {
-    "total": 190,
-    "new_this_run": 1
+    "total": 185,
+    "new_this_run": 0
   },
   "items": [
     {
@@ -2251,66 +2255,6 @@
       "reported_at_display": "10/6/26 9:41 am",
       "kind": "post",
       "first_seen_at": "2026-10-06T20:24:19.135181+00:00"
-    },
-    {
-      "id": "sialia:1914849",
-      "title": "Eurasian Wigeon, Swainson's, Hawk, Brewer's Sparrow",
-      "source": "sialia",
-      "list": "peninsula-birding",
-      "area": "Peninsula",
-      "source_url": "https://digest-test.sialia.com/?rm=message;id=1914849",
-      "reported_at": "2026-10-05T17:54:00",
-      "reported_at_display": "10/5/26 5:54 pm",
-      "kind": "post",
-      "first_seen_at": "2026-10-06T07:38:09.774472+00:00"
-    },
-    {
-      "id": "sialia:1914845",
-      "title": "Thur. Oct. 8 Endemics w/ Alvaro Jaramillo",
-      "source": "sialia",
-      "list": "SFBirds",
-      "area": "San Francisco",
-      "source_url": "https://digest-test.sialia.com/?rm=message;id=1914845",
-      "reported_at": "2026-10-05T17:39:00",
-      "reported_at_display": "10/5/26 5:39 pm",
-      "kind": "post",
-      "first_seen_at": "2026-10-06T00:51:20.104846+00:00"
-    },
-    {
-      "id": "sialia:1914846",
-      "title": "Thur. Oct. 8 Endemics w/ Alvaro Jaramillo",
-      "source": "sialia",
-      "list": "peninsula-birding",
-      "area": "Peninsula",
-      "source_url": "https://digest-test.sialia.com/?rm=message;id=1914846",
-      "reported_at": "2026-10-05T17:38:00",
-      "reported_at_display": "10/5/26 5:38 pm",
-      "kind": "post",
-      "first_seen_at": "2026-10-06T00:51:20.104846+00:00"
-    },
-    {
-      "id": "sialia:1914815",
-      "title": "Evening Grosbeaks - Mt. Davidson",
-      "source": "sialia",
-      "list": "SFBirds",
-      "area": "San Francisco",
-      "source_url": "https://digest-test.sialia.com/?rm=message;id=1914815",
-      "reported_at": "2026-10-05T11:59:00",
-      "reported_at_display": "10/5/26 11:59 am",
-      "kind": "reply",
-      "first_seen_at": "2026-10-06T00:51:20.104846+00:00"
-    },
-    {
-      "id": "sialia:1914795",
-      "title": "Evening Grosbeaks - Mt. Davidson",
-      "source": "sialia",
-      "list": "SFBirds",
-      "area": "San Francisco",
-      "source_url": "https://digest-test.sialia.com/?rm=message;id=1914795",
-      "reported_at": "2026-10-05T07:25:00",
-      "reported_at_display": "10/5/26 7:25 am",
-      "kind": "post",
-      "first_seen_at": "2026-10-05T18:33:11.799897+00:00"
     }
   ]
 }
