@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-04T23:44:54.579412+00:00",
+  "generated_at": "2026-11-05T06:57:46.544367+00:00",
   "retention_days": 30,
   "order": "reported_at descending; source wall time, timezone unspecified",
   "sources": {
     "sialia": {
       "status": "ok",
-      "last_attempt_at": "2026-11-04T23:44:54.579412+00:00",
-      "last_success_at": "2026-11-04T23:44:54.579412+00:00",
+      "last_attempt_at": "2026-11-05T06:57:46.544367+00:00",
+      "last_success_at": "2026-11-05T06:57:46.544367+00:00",
       "fetched_days": [
         "2026-11-04",
         "2026-11-03"
@@ -28,10 +28,22 @@
     }
   },
   "stats": {
-    "total": 189,
-    "new_this_run": 4
+    "total": 190,
+    "new_this_run": 1
   },
   "items": [
+    {
+      "id": "sialia:1917366",
+      "title": "Today's SCVBA Field Trip to Sunnyvale WPCP, 11-4-2026",
+      "source": "sialia",
+      "list": "SouthBayBirds",
+      "area": "South Bay",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1917366",
+      "reported_at": "2026-11-04T18:29:00",
+      "reported_at_display": "11/4/26 6:29 pm",
+      "kind": "post",
+      "first_seen_at": "2026-11-05T06:57:46.544367+00:00"
+    },
     {
       "id": "sialia:1917351",
       "title": "Pine Siskins",
