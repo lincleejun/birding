@@ -1,18 +1,22 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-06T02:32:42.918343+00:00",
+  "generated_at": "2026-11-06T11:04:09.066781+00:00",
   "retention_days": 30,
   "order": "reported_at descending; source wall time, timezone unspecified",
   "sources": {
     "sialia": {
-      "status": "ok",
-      "last_attempt_at": "2026-11-06T02:32:42.918343+00:00",
+      "status": "partial",
+      "last_attempt_at": "2026-11-06T11:04:09.066781+00:00",
       "last_success_at": "2026-11-06T02:32:42.918343+00:00",
       "fetched_days": [
-        "2026-11-05",
-        "2026-11-04"
+        "2026-11-05"
       ],
-      "errors": [],
+      "errors": [
+        {
+          "date": "2026-11-06",
+          "error": "ValueError: Unrecognized Sialia index layout"
+        }
+      ],
       "lists": [
         "SouthBayBirds",
         "peninsula-birding",
@@ -28,10 +32,34 @@
     }
   },
   "stats": {
-    "total": 186,
-    "new_this_run": 1
+    "total": 183,
+    "new_this_run": 2
   },
   "items": [
+    {
+      "id": "sialia:1917452",
+      "title": "Recent notes: Great Crested Fly etc.",
+      "source": "sialia",
+      "list": "peninsula-birding",
+      "area": "Peninsula",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1917452",
+      "reported_at": "2026-11-05T21:20:00",
+      "reported_at_display": "11/5/26 9:20 pm",
+      "kind": "post",
+      "first_seen_at": "2026-11-06T11:04:09.066781+00:00"
+    },
+    {
+      "id": "sialia:1917450",
+      "title": "Lapland Longspur - Ft Funston",
+      "source": "sialia",
+      "list": "SFBirds",
+      "area": "San Francisco",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1917450",
+      "reported_at": "2026-11-05T19:57:00",
+      "reported_at_display": "11/5/26 7:57 pm",
+      "kind": "post",
+      "first_seen_at": "2026-11-06T11:04:09.066781+00:00"
+    },
     {
       "id": "sialia:1917436",
       "title": "Evening Grosbeaks, Greystone Park",
@@ -2203,66 +2231,6 @@
       "reported_at_display": "10/7/26 8:59 am",
       "kind": "post",
       "first_seen_at": "2026-10-07T21:21:00.444294+00:00"
-    },
-    {
-      "id": "sialia:1914964",
-      "title": "PAINTED REDSTART",
-      "source": "sialia",
-      "list": "peninsula-birding",
-      "area": "Peninsula",
-      "source_url": "https://digest-test.sialia.com/?rm=message;id=1914964",
-      "reported_at": "2026-10-06T21:12:00",
-      "reported_at_display": "10/6/26 9:12 pm",
-      "kind": "reply",
-      "first_seen_at": "2026-10-07T07:18:13.628315+00:00"
-    },
-    {
-      "id": "sialia:1914921",
-      "title": "Sulphur-bellied Flycather @ Middle Lake 10/6/2026",
-      "source": "sialia",
-      "list": "SFBirds",
-      "area": "San Francisco",
-      "source_url": "https://digest-test.sialia.com/?rm=message;id=1914921",
-      "reported_at": "2026-10-06T14:20:00",
-      "reported_at_display": "10/6/26 2:20 pm",
-      "kind": "post",
-      "first_seen_at": "2026-10-07T00:46:51.927248+00:00"
-    },
-    {
-      "id": "sialia:1914904",
-      "title": "Swinhoe’s White-eye SCU",
-      "source": "sialia",
-      "list": "SouthBayBirds",
-      "area": "South Bay",
-      "source_url": "https://digest-test.sialia.com/?rm=message;id=1914904",
-      "reported_at": "2026-10-06T12:04:00",
-      "reported_at_display": "10/6/26 12:04 pm",
-      "kind": "reply",
-      "first_seen_at": "2026-10-06T20:24:19.135181+00:00"
-    },
-    {
-      "id": "sialia:1914897",
-      "title": "Swinhoe’s White-eye SCU",
-      "source": "sialia",
-      "list": "SouthBayBirds",
-      "area": "South Bay",
-      "source_url": "https://digest-test.sialia.com/?rm=message;id=1914897",
-      "reported_at": "2026-10-06T10:38:00",
-      "reported_at_display": "10/6/26 10:38 am",
-      "kind": "post",
-      "first_seen_at": "2026-10-06T20:24:19.135181+00:00"
-    },
-    {
-      "id": "sialia:1914889",
-      "title": "PAINTED REDSTART",
-      "source": "sialia",
-      "list": "peninsula-birding",
-      "area": "Peninsula",
-      "source_url": "https://digest-test.sialia.com/?rm=message;id=1914889",
-      "reported_at": "2026-10-06T09:41:00",
-      "reported_at_display": "10/6/26 9:41 am",
-      "kind": "post",
-      "first_seen_at": "2026-10-06T20:24:19.135181+00:00"
     }
   ]
 }
