@@ -1,22 +1,18 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-06T11:04:09.066781+00:00",
+  "generated_at": "2026-11-06T18:04:19.391813+00:00",
   "retention_days": 30,
   "order": "reported_at descending; source wall time, timezone unspecified",
   "sources": {
     "sialia": {
-      "status": "partial",
-      "last_attempt_at": "2026-11-06T11:04:09.066781+00:00",
-      "last_success_at": "2026-11-06T02:32:42.918343+00:00",
+      "status": "ok",
+      "last_attempt_at": "2026-11-06T18:04:19.391813+00:00",
+      "last_success_at": "2026-11-06T18:04:19.391813+00:00",
       "fetched_days": [
+        "2026-11-06",
         "2026-11-05"
       ],
-      "errors": [
-        {
-          "date": "2026-11-06",
-          "error": "ValueError: Unrecognized Sialia index layout"
-        }
-      ],
+      "errors": [],
       "lists": [
         "SouthBayBirds",
         "peninsula-birding",
@@ -32,10 +28,46 @@
     }
   },
   "stats": {
-    "total": 183,
-    "new_this_run": 2
+    "total": 186,
+    "new_this_run": 3
   },
   "items": [
+    {
+      "id": "sialia:1917469",
+      "title": "Evening Grosbeaks, SCU",
+      "source": "sialia",
+      "list": "SouthBayBirds",
+      "area": "South Bay",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1917469",
+      "reported_at": "2026-11-06T08:49:00",
+      "reported_at_display": "11/6/26 8:49 am",
+      "kind": "post",
+      "first_seen_at": "2026-11-06T18:04:19.391813+00:00"
+    },
+    {
+      "id": "sialia:1917465",
+      "title": "MOUNTAIN BLUEBIRD Twin Peaks - 11/6/26",
+      "source": "sialia",
+      "list": "SFBirds",
+      "area": "San Francisco",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1917465",
+      "reported_at": "2026-11-06T08:30:00",
+      "reported_at_display": "11/6/26 8:30 am",
+      "kind": "reply",
+      "first_seen_at": "2026-11-06T18:04:19.391813+00:00"
+    },
+    {
+      "id": "sialia:1917462",
+      "title": "MOUNTAIN BLUEBIRD Twin Peaks - 11/6/26",
+      "source": "sialia",
+      "list": "SFBirds",
+      "area": "San Francisco",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1917462",
+      "reported_at": "2026-11-06T08:19:00",
+      "reported_at_display": "11/6/26 8:19 am",
+      "kind": "post",
+      "first_seen_at": "2026-11-06T18:04:19.391813+00:00"
+    },
     {
       "id": "sialia:1917452",
       "title": "Recent notes: Great Crested Fly etc.",
