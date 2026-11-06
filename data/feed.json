@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-05T22:05:55.212328+00:00",
+  "generated_at": "2026-11-06T02:32:42.918343+00:00",
   "retention_days": 30,
   "order": "reported_at descending; source wall time, timezone unspecified",
   "sources": {
     "sialia": {
       "status": "ok",
-      "last_attempt_at": "2026-11-05T22:05:55.212328+00:00",
-      "last_success_at": "2026-11-05T22:05:55.212328+00:00",
+      "last_attempt_at": "2026-11-06T02:32:42.918343+00:00",
+      "last_success_at": "2026-11-06T02:32:42.918343+00:00",
       "fetched_days": [
         "2026-11-05",
         "2026-11-04"
@@ -28,10 +28,22 @@
     }
   },
   "stats": {
-    "total": 185,
-    "new_this_run": 0
+    "total": 186,
+    "new_this_run": 1
   },
   "items": [
+    {
+      "id": "sialia:1917436",
+      "title": "Evening Grosbeaks, Greystone Park",
+      "source": "sialia",
+      "list": "SouthBayBirds",
+      "area": "South Bay",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1917436",
+      "reported_at": "2026-11-05T16:12:00",
+      "reported_at_display": "11/5/26 4:12 pm",
+      "kind": "post",
+      "first_seen_at": "2026-11-06T02:32:42.918343+00:00"
+    },
     {
       "id": "sialia:1917366",
       "title": "Today's SCVBA Field Trip to Sunnyvale WPCP, 11-4-2026",
