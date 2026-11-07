@@ -1,22 +1,18 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-07T10:24:08.080067+00:00",
+  "generated_at": "2026-11-07T16:53:43.492280+00:00",
   "retention_days": 30,
   "order": "reported_at descending; source wall time, timezone unspecified",
   "sources": {
     "sialia": {
-      "status": "partial",
-      "last_attempt_at": "2026-11-07T10:24:08.080067+00:00",
-      "last_success_at": "2026-11-07T02:55:09.993007+00:00",
+      "status": "ok",
+      "last_attempt_at": "2026-11-07T16:53:43.492280+00:00",
+      "last_success_at": "2026-11-07T16:53:43.492280+00:00",
       "fetched_days": [
+        "2026-11-07",
         "2026-11-06"
       ],
-      "errors": [
-        {
-          "date": "2026-11-07",
-          "error": "ValueError: Unrecognized Sialia index layout"
-        }
-      ],
+      "errors": [],
       "lists": [
         "SouthBayBirds",
         "peninsula-birding",
@@ -32,10 +28,34 @@
     }
   },
   "stats": {
-    "total": 183,
-    "new_this_run": 0
+    "total": 185,
+    "new_this_run": 2
   },
   "items": [
+    {
+      "id": "sialia:1917550",
+      "title": "Black-throated Green Warbler Continuing",
+      "source": "sialia",
+      "list": "peninsula-birding",
+      "area": "Peninsula",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1917550",
+      "reported_at": "2026-11-07T08:37:00",
+      "reported_at_display": "11/7/26 8:37 am",
+      "kind": "post",
+      "first_seen_at": "2026-11-07T16:53:43.492280+00:00"
+    },
+    {
+      "id": "sialia:1917545",
+      "title": "Still present 11/7Re: [SFBirds] MOUNTAIN BLUEBIRD Twin Peaks - 11/6/26",
+      "source": "sialia",
+      "list": "SFBirds",
+      "area": "San Francisco",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1917545",
+      "reported_at": "2026-11-07T07:27:00",
+      "reported_at_display": "11/7/26 7:27 am",
+      "kind": "post",
+      "first_seen_at": "2026-11-07T16:53:43.492280+00:00"
+    },
     {
       "id": "sialia:1917488",
       "title": "Bonies Back!",
