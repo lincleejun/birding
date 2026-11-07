@@ -1,18 +1,22 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-07T02:55:09.993007+00:00",
+  "generated_at": "2026-11-07T10:24:08.080067+00:00",
   "retention_days": 30,
   "order": "reported_at descending; source wall time, timezone unspecified",
   "sources": {
     "sialia": {
-      "status": "ok",
-      "last_attempt_at": "2026-11-07T02:55:09.993007+00:00",
+      "status": "partial",
+      "last_attempt_at": "2026-11-07T10:24:08.080067+00:00",
       "last_success_at": "2026-11-07T02:55:09.993007+00:00",
       "fetched_days": [
-        "2026-11-06",
-        "2026-11-05"
+        "2026-11-06"
       ],
-      "errors": [],
+      "errors": [
+        {
+          "date": "2026-11-07",
+          "error": "ValueError: Unrecognized Sialia index layout"
+        }
+      ],
       "lists": [
         "SouthBayBirds",
         "peninsula-birding",
@@ -28,7 +32,7 @@
     }
   },
   "stats": {
-    "total": 187,
+    "total": 183,
     "new_this_run": 0
   },
   "items": [
@@ -2227,54 +2231,6 @@
       "reported_at_display": "10/8/26 10:54 am",
       "kind": "post",
       "first_seen_at": "2026-10-08T22:09:51.223539+00:00"
-    },
-    {
-      "id": "sialia:1915028",
-      "title": "2nd Hand Report of Pinyon Jays 10/7/2026",
-      "source": "sialia",
-      "list": "peninsula-birding",
-      "area": "Peninsula",
-      "source_url": "https://digest-test.sialia.com/?rm=message;id=1915028",
-      "reported_at": "2026-10-07T16:23:00",
-      "reported_at_display": "10/7/26 4:23 pm",
-      "kind": "post",
-      "first_seen_at": "2026-10-08T02:01:50.321463+00:00"
-    },
-    {
-      "id": "sialia:1915022",
-      "title": "Osprey at Shoreline",
-      "source": "sialia",
-      "list": "SouthBayBirds",
-      "area": "South Bay",
-      "source_url": "https://digest-test.sialia.com/?rm=message;id=1915022",
-      "reported_at": "2026-10-07T15:56:00",
-      "reported_at_display": "10/7/26 3:56 pm",
-      "kind": "post",
-      "first_seen_at": "2026-10-08T02:01:50.321463+00:00"
-    },
-    {
-      "id": "sialia:1915003",
-      "title": "Sulphur-bellied Flycatcher continues this morning 10/7/26",
-      "source": "sialia",
-      "list": "SFBirds",
-      "area": "San Francisco",
-      "source_url": "https://digest-test.sialia.com/?rm=message;id=1915003",
-      "reported_at": "2026-10-07T12:24:00",
-      "reported_at_display": "10/7/26 12:24 pm",
-      "kind": "reply",
-      "first_seen_at": "2026-10-07T21:21:00.444294+00:00"
-    },
-    {
-      "id": "sialia:1914986",
-      "title": "Sulphur-bellied Flycatcher continues this morning 10/7/26",
-      "source": "sialia",
-      "list": "SFBirds",
-      "area": "San Francisco",
-      "source_url": "https://digest-test.sialia.com/?rm=message;id=1914986",
-      "reported_at": "2026-10-07T08:59:00",
-      "reported_at_display": "10/7/26 8:59 am",
-      "kind": "post",
-      "first_seen_at": "2026-10-07T21:21:00.444294+00:00"
     }
   ]
 }
