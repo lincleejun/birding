@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-07T16:53:43.492280+00:00",
+  "generated_at": "2026-11-07T20:57:06.342795+00:00",
   "retention_days": 30,
   "order": "reported_at descending; source wall time, timezone unspecified",
   "sources": {
     "sialia": {
       "status": "ok",
-      "last_attempt_at": "2026-11-07T16:53:43.492280+00:00",
-      "last_success_at": "2026-11-07T16:53:43.492280+00:00",
+      "last_attempt_at": "2026-11-07T20:57:06.342795+00:00",
+      "last_success_at": "2026-11-07T20:57:06.342795+00:00",
       "fetched_days": [
         "2026-11-07",
         "2026-11-06"
@@ -28,10 +28,34 @@
     }
   },
   "stats": {
-    "total": 185,
+    "total": 187,
     "new_this_run": 2
   },
   "items": [
+    {
+      "id": "sialia:1917561",
+      "title": "Two Varied Thrushes at Stevens Creek/Cooley",
+      "source": "sialia",
+      "list": "SouthBayBirds",
+      "area": "South Bay",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1917561",
+      "reported_at": "2026-11-07T11:27:00",
+      "reported_at_display": "11/7/26 11:27 am",
+      "kind": "post",
+      "first_seen_at": "2026-11-07T20:57:06.342795+00:00"
+    },
+    {
+      "id": "sialia:1917553",
+      "title": "TRKI and VEFL at Southwest A3W",
+      "source": "sialia",
+      "list": "SouthBayBirds",
+      "area": "South Bay",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1917553",
+      "reported_at": "2026-11-07T09:53:00",
+      "reported_at_display": "11/7/26 9:53 am",
+      "kind": "post",
+      "first_seen_at": "2026-11-07T20:57:06.342795+00:00"
+    },
     {
       "id": "sialia:1917550",
       "title": "Black-throated Green Warbler Continuing",
