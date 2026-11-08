@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-07T20:57:06.342795+00:00",
+  "generated_at": "2026-11-08T00:44:27.577544+00:00",
   "retention_days": 30,
   "order": "reported_at descending; source wall time, timezone unspecified",
   "sources": {
     "sialia": {
       "status": "ok",
-      "last_attempt_at": "2026-11-07T20:57:06.342795+00:00",
-      "last_success_at": "2026-11-07T20:57:06.342795+00:00",
+      "last_attempt_at": "2026-11-08T00:44:27.577544+00:00",
+      "last_success_at": "2026-11-08T00:44:27.577544+00:00",
       "fetched_days": [
         "2026-11-07",
         "2026-11-06"
@@ -28,10 +28,46 @@
     }
   },
   "stats": {
-    "total": 187,
-    "new_this_run": 2
+    "total": 190,
+    "new_this_run": 3
   },
   "items": [
+    {
+      "id": "sialia:1917591",
+      "title": "Bald Eagle at Dotson Marsh",
+      "source": "sialia",
+      "list": "EBB-Sightings",
+      "area": "East Bay",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1917591",
+      "reported_at": "2026-11-07T16:21:00",
+      "reported_at_display": "11/7/26 4:21 pm",
+      "kind": "post",
+      "first_seen_at": "2026-11-08T00:44:27.577544+00:00"
+    },
+    {
+      "id": "sialia:1917580",
+      "title": "The morning at McClellan Ranch - Cupertino",
+      "source": "sialia",
+      "list": "SouthBayBirds",
+      "area": "South Bay",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1917580",
+      "reported_at": "2026-11-07T14:13:00",
+      "reported_at_display": "11/7/26 2:13 pm",
+      "kind": "post",
+      "first_seen_at": "2026-11-08T00:44:27.577544+00:00"
+    },
+    {
+      "id": "sialia:1917573",
+      "title": "Says Phoebe",
+      "source": "sialia",
+      "list": "SFBirds",
+      "area": "San Francisco",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1917573",
+      "reported_at": "2026-11-07T13:17:00",
+      "reported_at_display": "11/7/26 1:17 pm",
+      "kind": "post",
+      "first_seen_at": "2026-11-08T00:44:27.577544+00:00"
+    },
     {
       "id": "sialia:1917561",
       "title": "Two Varied Thrushes at Stevens Creek/Cooley",
