@@ -1,22 +1,18 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-09T08:04:11.233444+00:00",
+  "generated_at": "2026-11-09T18:53:32.471945+00:00",
   "retention_days": 30,
   "order": "reported_at descending; source wall time, timezone unspecified",
   "sources": {
     "sialia": {
-      "status": "partial",
-      "last_attempt_at": "2026-11-09T08:04:11.233444+00:00",
-      "last_success_at": "2026-11-09T00:58:35.891618+00:00",
+      "status": "ok",
+      "last_attempt_at": "2026-11-09T18:53:32.471945+00:00",
+      "last_success_at": "2026-11-09T18:53:32.471945+00:00",
       "fetched_days": [
+        "2026-11-09",
         "2026-11-08"
       ],
-      "errors": [
-        {
-          "date": "2026-11-09",
-          "error": "ValueError: Unrecognized Sialia index layout"
-        }
-      ],
+      "errors": [],
       "lists": [
         "SouthBayBirds",
         "peninsula-birding",
@@ -32,10 +28,22 @@
     }
   },
   "stats": {
-    "total": 187,
-    "new_this_run": 2
+    "total": 188,
+    "new_this_run": 1
   },
   "items": [
+    {
+      "id": "sialia:1917717",
+      "title": "TRKI and VEFL at Southwest A3W",
+      "source": "sialia",
+      "list": "SouthBayBirds",
+      "area": "South Bay",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1917717",
+      "reported_at": "2026-11-09T09:57:00",
+      "reported_at_display": "11/9/26 9:57 am",
+      "kind": "reply",
+      "first_seen_at": "2026-11-09T18:53:32.471945+00:00"
+    },
     {
       "id": "sialia:1917680",
       "title": "Field Notes: Los Capitancillos Ponds, Nov. 8.",
