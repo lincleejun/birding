@@ -1,18 +1,22 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-09T00:58:35.891618+00:00",
+  "generated_at": "2026-11-09T08:04:11.233444+00:00",
   "retention_days": 30,
   "order": "reported_at descending; source wall time, timezone unspecified",
   "sources": {
     "sialia": {
-      "status": "ok",
-      "last_attempt_at": "2026-11-09T00:58:35.891618+00:00",
+      "status": "partial",
+      "last_attempt_at": "2026-11-09T08:04:11.233444+00:00",
       "last_success_at": "2026-11-09T00:58:35.891618+00:00",
       "fetched_days": [
-        "2026-11-08",
-        "2026-11-07"
+        "2026-11-08"
       ],
-      "errors": [],
+      "errors": [
+        {
+          "date": "2026-11-09",
+          "error": "ValueError: Unrecognized Sialia index layout"
+        }
+      ],
       "lists": [
         "SouthBayBirds",
         "peninsula-birding",
@@ -29,9 +33,33 @@
   },
   "stats": {
     "total": 187,
-    "new_this_run": 1
+    "new_this_run": 2
   },
   "items": [
+    {
+      "id": "sialia:1917680",
+      "title": "Field Notes: Los Capitancillos Ponds, Nov. 8.",
+      "source": "sialia",
+      "list": "SouthBayBirds",
+      "area": "South Bay",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1917680",
+      "reported_at": "2026-11-08T19:12:00",
+      "reported_at_display": "11/8/26 7:12 pm",
+      "kind": "post",
+      "first_seen_at": "2026-11-09T08:04:11.233444+00:00"
+    },
+    {
+      "id": "sialia:1917674",
+      "title": "Clark's Nutcracker",
+      "source": "sialia",
+      "list": "northbaybirds",
+      "area": "North Bay",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1917674",
+      "reported_at": "2026-11-08T16:59:00",
+      "reported_at_display": "11/8/26 4:59 pm",
+      "kind": "post",
+      "first_seen_at": "2026-11-09T08:04:11.233444+00:00"
+    },
     {
       "id": "sialia:1917643",
       "title": "White-throated Sparrow @ Los Capitancillos",
@@ -2251,30 +2279,6 @@
       "reported_at_display": "10/10/26 7:29 am",
       "kind": "reply",
       "first_seen_at": "2026-10-10T15:26:33.147784+00:00"
-    },
-    {
-      "id": "sialia:1915162",
-      "title": "Peregrine Falcon at Sunnyvale Baylands",
-      "source": "sialia",
-      "list": "SouthBayBirds",
-      "area": "South Bay",
-      "source_url": "https://digest-test.sialia.com/?rm=message;id=1915162",
-      "reported_at": "2026-10-09T08:19:00",
-      "reported_at_display": "10/9/26 8:19 am",
-      "kind": "post",
-      "first_seen_at": "2026-10-09T16:22:19.088648+00:00"
-    },
-    {
-      "id": "sialia:1915159",
-      "title": "Painted Bunting on Pillar Point Bluff",
-      "source": "sialia",
-      "list": "peninsula-birding",
-      "area": "Peninsula",
-      "source_url": "https://digest-test.sialia.com/?rm=message;id=1915159",
-      "reported_at": "2026-10-09T07:42:00",
-      "reported_at_display": "10/9/26 7:42 am",
-      "kind": "post",
-      "first_seen_at": "2026-10-09T16:22:19.088648+00:00"
     }
   ]
 }
