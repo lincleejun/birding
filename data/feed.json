@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-08T20:33:14.304884+00:00",
+  "generated_at": "2026-11-09T00:58:35.891618+00:00",
   "retention_days": 30,
   "order": "reported_at descending; source wall time, timezone unspecified",
   "sources": {
     "sialia": {
       "status": "ok",
-      "last_attempt_at": "2026-11-08T20:33:14.304884+00:00",
-      "last_success_at": "2026-11-08T20:33:14.304884+00:00",
+      "last_attempt_at": "2026-11-09T00:58:35.891618+00:00",
+      "last_success_at": "2026-11-09T00:58:35.891618+00:00",
       "fetched_days": [
         "2026-11-08",
         "2026-11-07"
@@ -28,10 +28,22 @@
     }
   },
   "stats": {
-    "total": 186,
+    "total": 187,
     "new_this_run": 1
   },
   "items": [
+    {
+      "id": "sialia:1917643",
+      "title": "White-throated Sparrow @ Los Capitancillos",
+      "source": "sialia",
+      "list": "SouthBayBirds",
+      "area": "South Bay",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1917643",
+      "reported_at": "2026-11-08T13:08:00",
+      "reported_at_display": "11/8/26 1:08 pm",
+      "kind": "post",
+      "first_seen_at": "2026-11-09T00:58:35.891618+00:00"
+    },
     {
       "id": "sialia:1917617",
       "title": "VERMILION is back",
