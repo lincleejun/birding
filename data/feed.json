@@ -1,18 +1,22 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-10T02:14:06.371520+00:00",
+  "generated_at": "2026-11-10T10:00:15.476572+00:00",
   "retention_days": 30,
   "order": "reported_at descending; source wall time, timezone unspecified",
   "sources": {
     "sialia": {
-      "status": "ok",
-      "last_attempt_at": "2026-11-10T02:14:06.371520+00:00",
+      "status": "partial",
+      "last_attempt_at": "2026-11-10T10:00:15.476572+00:00",
       "last_success_at": "2026-11-10T02:14:06.371520+00:00",
       "fetched_days": [
-        "2026-11-09",
-        "2026-11-08"
+        "2026-11-09"
       ],
-      "errors": [],
+      "errors": [
+        {
+          "date": "2026-11-10",
+          "error": "ValueError: Unrecognized Sialia index layout"
+        }
+      ],
       "lists": [
         "SouthBayBirds",
         "peninsula-birding",
@@ -28,10 +32,34 @@
     }
   },
   "stats": {
-    "total": 189,
-    "new_this_run": 1
+    "total": 185,
+    "new_this_run": 2
   },
   "items": [
+    {
+      "id": "sialia:1917768",
+      "title": "Blue-winged teal",
+      "source": "sialia",
+      "list": "northbaybirds",
+      "area": "North Bay",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1917768",
+      "reported_at": "2026-11-09T19:20:00",
+      "reported_at_display": "11/9/26 7:20 pm",
+      "kind": "post",
+      "first_seen_at": "2026-11-10T10:00:15.476572+00:00"
+    },
+    {
+      "id": "sialia:1917767",
+      "title": "Chestnut-sided Warbler / Nashville Warbler - in the yard 11/9/26",
+      "source": "sialia",
+      "list": "peninsula-birding",
+      "area": "Peninsula",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1917767",
+      "reported_at": "2026-11-09T19:02:00",
+      "reported_at_display": "11/9/26 7:02 pm",
+      "kind": "post",
+      "first_seen_at": "2026-11-10T10:00:15.476572+00:00"
+    },
     {
       "id": "sialia:1917764",
       "title": "Join the San Francisco Christmas Bird Count in San Mateo County on Monday December 28th",
@@ -2227,78 +2255,6 @@
       "reported_at_display": "10/11/26 10:06 am",
       "kind": "post",
       "first_seen_at": "2026-10-11T18:08:41.153940+00:00"
-    },
-    {
-      "id": "sialia:1915344",
-      "title": "Today misc.",
-      "source": "sialia",
-      "list": "EBB-Sightings",
-      "area": "East Bay",
-      "source_url": "https://digest-test.sialia.com/?rm=message;id=1915344",
-      "reported_at": "2026-10-10T20:35:00",
-      "reported_at_display": "10/10/26 8:35 pm",
-      "kind": "post",
-      "first_seen_at": "2026-10-11T05:57:10.962225+00:00"
-    },
-    {
-      "id": "sialia:1915285",
-      "title": "Corona HIll sightings",
-      "source": "sialia",
-      "list": "SFBirds",
-      "area": "San Francisco",
-      "source_url": "https://digest-test.sialia.com/?rm=message;id=1915285",
-      "reported_at": "2026-10-10T12:09:00",
-      "reported_at_display": "10/10/26 12:09 pm",
-      "kind": "post",
-      "first_seen_at": "2026-10-10T20:08:15.919897+00:00"
-    },
-    {
-      "id": "sialia:1915281",
-      "title": "Big Sit.",
-      "source": "sialia",
-      "list": "peninsula-birding",
-      "area": "Peninsula",
-      "source_url": "https://digest-test.sialia.com/?rm=message;id=1915281",
-      "reported_at": "2026-10-10T10:41:00",
-      "reported_at_display": "10/10/26 10:41 am",
-      "kind": "reply",
-      "first_seen_at": "2026-10-10T20:08:15.919897+00:00"
-    },
-    {
-      "id": "sialia:1915272",
-      "title": "Big Sit.",
-      "source": "sialia",
-      "list": "peninsula-birding",
-      "area": "Peninsula",
-      "source_url": "https://digest-test.sialia.com/?rm=message;id=1915272",
-      "reported_at": "2026-10-10T09:25:00",
-      "reported_at_display": "10/10/26 9:25 am",
-      "kind": "post",
-      "first_seen_at": "2026-10-10T20:08:15.919897+00:00"
-    },
-    {
-      "id": "sialia:1915270",
-      "title": "Sulphur-bellied continues 10/8/26 has moved to North Lake",
-      "source": "sialia",
-      "list": "SFBirds",
-      "area": "San Francisco",
-      "source_url": "https://digest-test.sialia.com/?rm=message;id=1915270",
-      "reported_at": "2026-10-10T08:59:00",
-      "reported_at_display": "10/10/26 8:59 am",
-      "kind": "reply",
-      "first_seen_at": "2026-10-10T20:08:15.919897+00:00"
-    },
-    {
-      "id": "sialia:1915260",
-      "title": "Noyo Pelagics -August 3rd",
-      "source": "sialia",
-      "list": "northbaybirds",
-      "area": "North Bay",
-      "source_url": "https://digest-test.sialia.com/?rm=message;id=1915260",
-      "reported_at": "2026-10-10T07:29:00",
-      "reported_at_display": "10/10/26 7:29 am",
-      "kind": "reply",
-      "first_seen_at": "2026-10-10T15:26:33.147784+00:00"
     }
   ]
 }
