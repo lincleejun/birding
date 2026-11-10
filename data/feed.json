@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-10T17:56:00.885670+00:00",
+  "generated_at": "2026-11-10T23:28:55.799307+00:00",
   "retention_days": 30,
   "order": "reported_at descending; source wall time, timezone unspecified",
   "sources": {
     "sialia": {
       "status": "ok",
-      "last_attempt_at": "2026-11-10T17:56:00.885670+00:00",
-      "last_success_at": "2026-11-10T17:56:00.885670+00:00",
+      "last_attempt_at": "2026-11-10T23:28:55.799307+00:00",
+      "last_success_at": "2026-11-10T23:28:55.799307+00:00",
       "fetched_days": [
         "2026-11-10",
         "2026-11-09"
@@ -28,10 +28,34 @@
     }
   },
   "stats": {
-    "total": 186,
-    "new_this_run": 1
+    "total": 188,
+    "new_this_run": 2
   },
   "items": [
+    {
+      "id": "sialia:1917818",
+      "title": "West Marin County misc. 11/9/26",
+      "source": "sialia",
+      "list": "northbaybirds",
+      "area": "North Bay",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1917818",
+      "reported_at": "2026-11-10T13:19:00",
+      "reported_at_display": "11/10/26 1:19 pm",
+      "kind": "post",
+      "first_seen_at": "2026-11-10T23:28:55.799307+00:00"
+    },
+    {
+      "id": "sialia:1917804",
+      "title": "surf scoters",
+      "source": "sialia",
+      "list": "SFBirds",
+      "area": "San Francisco",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1917804",
+      "reported_at": "2026-11-10T10:40:00",
+      "reported_at_display": "11/10/26 10:40 am",
+      "kind": "post",
+      "first_seen_at": "2026-11-10T23:28:55.799307+00:00"
+    },
     {
       "id": "sialia:1917787",
       "title": "Benicia CBC is on Dec 14, 2026",
