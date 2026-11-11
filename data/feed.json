@@ -1,18 +1,22 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-11T06:39:55.608161+00:00",
+  "generated_at": "2026-11-11T15:21:53.280041+00:00",
   "retention_days": 30,
   "order": "reported_at descending; source wall time, timezone unspecified",
   "sources": {
     "sialia": {
-      "status": "ok",
-      "last_attempt_at": "2026-11-11T06:39:55.608161+00:00",
+      "status": "partial",
+      "last_attempt_at": "2026-11-11T15:21:53.280041+00:00",
       "last_success_at": "2026-11-11T06:39:55.608161+00:00",
       "fetched_days": [
-        "2026-11-10",
-        "2026-11-09"
+        "2026-11-10"
       ],
-      "errors": [],
+      "errors": [
+        {
+          "date": "2026-11-11",
+          "error": "ValueError: Unrecognized Sialia index layout"
+        }
+      ],
       "lists": [
         "SouthBayBirds",
         "peninsula-birding",
@@ -28,8 +32,8 @@
     }
   },
   "stats": {
-    "total": 191,
-    "new_this_run": 3
+    "total": 187,
+    "new_this_run": 0
   },
   "items": [
     {
@@ -2275,54 +2279,6 @@
       "reported_at_display": "10/12/26 8:27 am",
       "kind": "post",
       "first_seen_at": "2026-10-12T19:51:39.909027+00:00"
-    },
-    {
-      "id": "sialia:1915371",
-      "title": "sulphur bellied flycatcher still at middle lake",
-      "source": "sialia",
-      "list": "SFBirds",
-      "area": "San Francisco",
-      "source_url": "https://digest-test.sialia.com/?rm=message;id=1915371",
-      "reported_at": "2026-10-11T12:55:00",
-      "reported_at_display": "10/11/26 12:55 pm",
-      "kind": "post",
-      "first_seen_at": "2026-10-11T22:05:26.908297+00:00"
-    },
-    {
-      "id": "sialia:1915359",
-      "title": "Williamson's Sapsucker at Loma Prieta",
-      "source": "sialia",
-      "list": "SouthBayBirds",
-      "area": "South Bay",
-      "source_url": "https://digest-test.sialia.com/?rm=message;id=1915359",
-      "reported_at": "2026-10-11T10:24:00",
-      "reported_at_display": "10/11/26 10:24 am",
-      "kind": "post",
-      "first_seen_at": "2026-10-11T18:08:41.153940+00:00"
-    },
-    {
-      "id": "sialia:1915358",
-      "title": "Palm Warbler at Fort Mason",
-      "source": "sialia",
-      "list": "SFBirds",
-      "area": "San Francisco",
-      "source_url": "https://digest-test.sialia.com/?rm=message;id=1915358",
-      "reported_at": "2026-10-11T10:15:00",
-      "reported_at_display": "10/11/26 10:15 am",
-      "kind": "post",
-      "first_seen_at": "2026-10-11T18:08:41.153940+00:00"
-    },
-    {
-      "id": "sialia:1915356",
-      "title": "Big Sit today",
-      "source": "sialia",
-      "list": "peninsula-birding",
-      "area": "Peninsula",
-      "source_url": "https://digest-test.sialia.com/?rm=message;id=1915356",
-      "reported_at": "2026-10-11T10:06:00",
-      "reported_at_display": "10/11/26 10:06 am",
-      "kind": "post",
-      "first_seen_at": "2026-10-11T18:08:41.153940+00:00"
     }
   ]
 }
