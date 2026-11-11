@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-10T23:28:55.799307+00:00",
+  "generated_at": "2026-11-11T06:39:55.608161+00:00",
   "retention_days": 30,
   "order": "reported_at descending; source wall time, timezone unspecified",
   "sources": {
     "sialia": {
       "status": "ok",
-      "last_attempt_at": "2026-11-10T23:28:55.799307+00:00",
-      "last_success_at": "2026-11-10T23:28:55.799307+00:00",
+      "last_attempt_at": "2026-11-11T06:39:55.608161+00:00",
+      "last_success_at": "2026-11-11T06:39:55.608161+00:00",
       "fetched_days": [
         "2026-11-10",
         "2026-11-09"
@@ -28,10 +28,46 @@
     }
   },
   "stats": {
-    "total": 188,
-    "new_this_run": 2
+    "total": 191,
+    "new_this_run": 3
   },
   "items": [
+    {
+      "id": "sialia:1917842",
+      "title": "Thurs. Nov. 12 - 52 Birders on Birds!",
+      "source": "sialia",
+      "list": "SFBirds",
+      "area": "San Francisco",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1917842",
+      "reported_at": "2026-11-10T16:05:00",
+      "reported_at_display": "11/10/26 4:05 pm",
+      "kind": "post",
+      "first_seen_at": "2026-11-11T06:39:55.608161+00:00"
+    },
+    {
+      "id": "sialia:1917844",
+      "title": "Thurs. Nov 12 - 52 Birders on Birds!",
+      "source": "sialia",
+      "list": "peninsula-birding",
+      "area": "Peninsula",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1917844",
+      "reported_at": "2026-11-10T16:03:00",
+      "reported_at_display": "11/10/26 4:03 pm",
+      "kind": "post",
+      "first_seen_at": "2026-11-11T06:39:55.608161+00:00"
+    },
+    {
+      "id": "sialia:1917840",
+      "title": "Chestnut-sided Warbler / Nashville Warbler - in the yard 11/9/26",
+      "source": "sialia",
+      "list": "peninsula-birding",
+      "area": "Peninsula",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1917840",
+      "reported_at": "2026-11-10T15:53:00",
+      "reported_at_display": "11/10/26 3:53 pm",
+      "kind": "reply",
+      "first_seen_at": "2026-11-11T06:39:55.608161+00:00"
+    },
     {
       "id": "sialia:1917818",
       "title": "West Marin County misc. 11/9/26",
