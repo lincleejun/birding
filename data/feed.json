@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-11T22:45:56.902242+00:00",
+  "generated_at": "2026-11-12T03:52:41.521357+00:00",
   "retention_days": 30,
   "order": "reported_at descending; source wall time, timezone unspecified",
   "sources": {
     "sialia": {
       "status": "ok",
-      "last_attempt_at": "2026-11-11T22:45:56.902242+00:00",
-      "last_success_at": "2026-11-11T22:45:56.902242+00:00",
+      "last_attempt_at": "2026-11-12T03:52:41.521357+00:00",
+      "last_success_at": "2026-11-12T03:52:41.521357+00:00",
       "fetched_days": [
         "2026-11-11",
         "2026-11-10"
@@ -28,10 +28,34 @@
     }
   },
   "stats": {
-    "total": 188,
-    "new_this_run": 1
+    "total": 190,
+    "new_this_run": 2
   },
   "items": [
+    {
+      "id": "sialia:1917927",
+      "title": "Red-naped Sapsucker - Old Woman's Creek Road 11/11/2026",
+      "source": "sialia",
+      "list": "peninsula-birding",
+      "area": "Peninsula",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1917927",
+      "reported_at": "2026-11-11T17:41:00",
+      "reported_at_display": "11/11/26 5:41 pm",
+      "kind": "post",
+      "first_seen_at": "2026-11-12T03:52:41.521357+00:00"
+    },
+    {
+      "id": "sialia:1917922",
+      "title": "Sage Thrasher at Shoreline Lake",
+      "source": "sialia",
+      "list": "SouthBayBirds",
+      "area": "South Bay",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1917922",
+      "reported_at": "2026-11-11T17:04:00",
+      "reported_at_display": "11/11/26 5:04 pm",
+      "kind": "reply",
+      "first_seen_at": "2026-11-12T03:52:41.521357+00:00"
+    },
     {
       "id": "sialia:1917886",
       "title": "Sage Thrasher at Shoreline Lake",
