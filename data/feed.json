@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-13T17:49:55.655529+00:00",
+  "generated_at": "2026-11-13T23:39:13.329357+00:00",
   "retention_days": 30,
   "order": "reported_at descending; source wall time, timezone unspecified",
   "sources": {
     "sialia": {
       "status": "ok",
-      "last_attempt_at": "2026-11-13T17:49:55.655529+00:00",
-      "last_success_at": "2026-11-13T17:49:55.655529+00:00",
+      "last_attempt_at": "2026-11-13T23:39:13.329357+00:00",
+      "last_success_at": "2026-11-13T23:39:13.329357+00:00",
       "fetched_days": [
         "2026-11-13",
         "2026-11-12"
@@ -28,10 +28,22 @@
     }
   },
   "stats": {
-    "total": 182,
+    "total": 183,
     "new_this_run": 1
   },
   "items": [
+    {
+      "id": "sialia:1918036",
+      "title": "Lewis's Woodpecker and other notes",
+      "source": "sialia",
+      "list": "peninsula-birding",
+      "area": "Peninsula",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1918036",
+      "reported_at": "2026-11-13T15:23:00",
+      "reported_at_display": "11/13/26 3:23 pm",
+      "kind": "post",
+      "first_seen_at": "2026-11-13T23:39:13.329357+00:00"
+    },
     {
       "id": "sialia:1917995",
       "title": "Channel Island orange crowned warbler question",
