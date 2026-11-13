@@ -1,18 +1,22 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-13T01:54:57.819473+00:00",
+  "generated_at": "2026-11-13T09:40:19.711797+00:00",
   "retention_days": 30,
   "order": "reported_at descending; source wall time, timezone unspecified",
   "sources": {
     "sialia": {
-      "status": "ok",
-      "last_attempt_at": "2026-11-13T01:54:57.819473+00:00",
+      "status": "partial",
+      "last_attempt_at": "2026-11-13T09:40:19.711797+00:00",
       "last_success_at": "2026-11-13T01:54:57.819473+00:00",
       "fetched_days": [
-        "2026-11-12",
-        "2026-11-11"
+        "2026-11-12"
       ],
-      "errors": [],
+      "errors": [
+        {
+          "date": "2026-11-13",
+          "error": "ValueError: Unrecognized Sialia index layout"
+        }
+      ],
       "lists": [
         "SouthBayBirds",
         "peninsula-birding",
@@ -28,10 +32,34 @@
     }
   },
   "stats": {
-    "total": 188,
-    "new_this_run": 1
+    "total": 181,
+    "new_this_run": 2
   },
   "items": [
+    {
+      "id": "sialia:1917992",
+      "title": "Bonaparte's Gull scrum, Loggerhead Shrike for Hayward-Fremont CBC",
+      "source": "sialia",
+      "list": "EBB-Sightings",
+      "area": "East Bay",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1917992",
+      "reported_at": "2026-11-12T21:29:00",
+      "reported_at_display": "11/12/26 9:29 pm",
+      "kind": "post",
+      "first_seen_at": "2026-11-13T09:40:19.711797+00:00"
+    },
+    {
+      "id": "sialia:1917991",
+      "title": "Channel Island orange crowned warbler question",
+      "source": "sialia",
+      "list": "EBB-Sightings",
+      "area": "East Bay",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1917991",
+      "reported_at": "2026-11-12T21:22:00",
+      "reported_at_display": "11/12/26 9:22 pm",
+      "kind": "reply",
+      "first_seen_at": "2026-11-13T09:40:19.711797+00:00"
+    },
     {
       "id": "sialia:1917976",
       "title": "October City List hits another record",
@@ -2179,114 +2207,6 @@
       "reported_at_display": "10/14/26 10:07 am",
       "kind": "post",
       "first_seen_at": "2026-10-14T18:42:12.101799+00:00"
-    },
-    {
-      "id": "sialia:1915563",
-      "title": "Red Cross-bills at the Tilden Botanical Garden",
-      "source": "sialia",
-      "list": "EBB-Sightings",
-      "area": "East Bay",
-      "source_url": "https://digest-test.sialia.com/?rm=message;id=1915563",
-      "reported_at": "2026-10-13T17:39:00",
-      "reported_at_display": "10/13/26 5:39 pm",
-      "kind": "post",
-      "first_seen_at": "2026-10-14T01:57:58.764027+00:00"
-    },
-    {
-      "id": "sialia:1915527",
-      "title": "Eurasian Wigeon Candkestick",
-      "source": "sialia",
-      "list": "SFBirds",
-      "area": "San Francisco",
-      "source_url": "https://digest-test.sialia.com/?rm=message;id=1915527",
-      "reported_at": "2026-10-13T11:26:00",
-      "reported_at_display": "10/13/26 11:26 am",
-      "kind": "post",
-      "first_seen_at": "2026-10-13T22:52:33.062821+00:00"
-    },
-    {
-      "id": "sialia:1915522",
-      "title": "Williamson's Sapsucker in Inverness",
-      "source": "sialia",
-      "list": "northbaybirds",
-      "area": "North Bay",
-      "source_url": "https://digest-test.sialia.com/?rm=message;id=1915522",
-      "reported_at": "2026-10-13T10:20:00",
-      "reported_at_display": "10/13/26 10:20 am",
-      "kind": "post",
-      "first_seen_at": "2026-10-13T17:38:47.276209+00:00"
-    },
-    {
-      "id": "sialia:1915519",
-      "title": "Pinyon Jay at SCU",
-      "source": "sialia",
-      "list": "SouthBayBirds",
-      "area": "South Bay",
-      "source_url": "https://digest-test.sialia.com/?rm=message;id=1915519",
-      "reported_at": "2026-10-13T09:33:00",
-      "reported_at_display": "10/13/26 9:33 am",
-      "kind": "post",
-      "first_seen_at": "2026-10-13T17:38:47.276209+00:00"
-    },
-    {
-      "id": "sialia:1915517",
-      "title": "Loma Prieta neighbor threatened birders with rifle",
-      "source": "sialia",
-      "list": "SouthBayBirds",
-      "area": "South Bay",
-      "source_url": "https://digest-test.sialia.com/?rm=message;id=1915517",
-      "reported_at": "2026-10-13T09:28:00",
-      "reported_at_display": "10/13/26 9:28 am",
-      "kind": "reply",
-      "first_seen_at": "2026-10-13T17:38:47.276209+00:00"
-    },
-    {
-      "id": "sialia:1915516",
-      "title": "Loma Prieta neighbor threatened birders with rifle",
-      "source": "sialia",
-      "list": "SouthBayBirds",
-      "area": "South Bay",
-      "source_url": "https://digest-test.sialia.com/?rm=message;id=1915516",
-      "reported_at": "2026-10-13T09:16:00",
-      "reported_at_display": "10/13/26 9:16 am",
-      "kind": "post",
-      "first_seen_at": "2026-10-13T17:38:47.276209+00:00"
-    },
-    {
-      "id": "sialia:1915514",
-      "title": "Possible Pinyon Jay",
-      "source": "sialia",
-      "list": "SouthBayBirds",
-      "area": "South Bay",
-      "source_url": "https://digest-test.sialia.com/?rm=message;id=1915514",
-      "reported_at": "2026-10-13T09:02:00",
-      "reported_at_display": "10/13/26 9:02 am",
-      "kind": "reply",
-      "first_seen_at": "2026-10-13T17:38:47.276209+00:00"
-    },
-    {
-      "id": "sialia:1915513",
-      "title": "Possible Pinyon Jay",
-      "source": "sialia",
-      "list": "SouthBayBirds",
-      "area": "South Bay",
-      "source_url": "https://digest-test.sialia.com/?rm=message;id=1915513",
-      "reported_at": "2026-10-13T08:47:00",
-      "reported_at_display": "10/13/26 8:47 am",
-      "kind": "post",
-      "first_seen_at": "2026-10-13T17:38:47.276209+00:00"
-    },
-    {
-      "id": "sialia:1915506",
-      "title": "Skywatch sightings, Prairie Falcon, Mountain Bluebird 10/12",
-      "source": "sialia",
-      "list": "peninsula-birding",
-      "area": "Peninsula",
-      "source_url": "https://digest-test.sialia.com/?rm=message;id=1915506",
-      "reported_at": "2026-10-13T06:54:00",
-      "reported_at_display": "10/13/26 6:54 am",
-      "kind": "post",
-      "first_seen_at": "2026-10-13T17:38:47.276209+00:00"
     }
   ]
 }
