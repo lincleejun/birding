@@ -1,22 +1,18 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-13T09:40:19.711797+00:00",
+  "generated_at": "2026-11-13T17:49:55.655529+00:00",
   "retention_days": 30,
   "order": "reported_at descending; source wall time, timezone unspecified",
   "sources": {
     "sialia": {
-      "status": "partial",
-      "last_attempt_at": "2026-11-13T09:40:19.711797+00:00",
-      "last_success_at": "2026-11-13T01:54:57.819473+00:00",
+      "status": "ok",
+      "last_attempt_at": "2026-11-13T17:49:55.655529+00:00",
+      "last_success_at": "2026-11-13T17:49:55.655529+00:00",
       "fetched_days": [
+        "2026-11-13",
         "2026-11-12"
       ],
-      "errors": [
-        {
-          "date": "2026-11-13",
-          "error": "ValueError: Unrecognized Sialia index layout"
-        }
-      ],
+      "errors": [],
       "lists": [
         "SouthBayBirds",
         "peninsula-birding",
@@ -32,10 +28,22 @@
     }
   },
   "stats": {
-    "total": 181,
-    "new_this_run": 2
+    "total": 182,
+    "new_this_run": 1
   },
   "items": [
+    {
+      "id": "sialia:1917995",
+      "title": "Channel Island orange crowned warbler question",
+      "source": "sialia",
+      "list": "EBB-Sightings",
+      "area": "East Bay",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1917995",
+      "reported_at": "2026-11-13T04:06:00",
+      "reported_at_display": "11/13/26 4:06 am",
+      "kind": "reply",
+      "first_seen_at": "2026-11-13T17:49:55.655529+00:00"
+    },
     {
       "id": "sialia:1917992",
       "title": "Bonaparte's Gull scrum, Loggerhead Shrike for Hayward-Fremont CBC",
