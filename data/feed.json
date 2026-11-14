@@ -1,22 +1,18 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-14T14:15:11.071535+00:00",
+  "generated_at": "2026-11-14T19:16:17.642820+00:00",
   "retention_days": 30,
   "order": "reported_at descending; source wall time, timezone unspecified",
   "sources": {
     "sialia": {
-      "status": "partial",
-      "last_attempt_at": "2026-11-14T14:15:11.071535+00:00",
-      "last_success_at": "2026-11-14T06:39:10.353895+00:00",
+      "status": "ok",
+      "last_attempt_at": "2026-11-14T19:16:17.642820+00:00",
+      "last_success_at": "2026-11-14T19:16:17.642820+00:00",
       "fetched_days": [
+        "2026-11-14",
         "2026-11-13"
       ],
-      "errors": [
-        {
-          "date": "2026-11-14",
-          "error": "ValueError: Unrecognized Sialia index layout"
-        }
-      ],
+      "errors": [],
       "lists": [
         "SouthBayBirds",
         "peninsula-birding",
@@ -32,10 +28,34 @@
     }
   },
   "stats": {
-    "total": 181,
-    "new_this_run": 0
+    "total": 183,
+    "new_this_run": 2
   },
   "items": [
+    {
+      "id": "sialia:1918078",
+      "title": "Western Tanager and Tropical Kingbird at Fort Mason",
+      "source": "sialia",
+      "list": "SFBirds",
+      "area": "San Francisco",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1918078",
+      "reported_at": "2026-11-14T09:30:00",
+      "reported_at_display": "11/14/26 9:30 am",
+      "kind": "post",
+      "first_seen_at": "2026-11-14T19:16:17.642820+00:00"
+    },
+    {
+      "id": "sialia:1918072",
+      "title": "Evening Grosbeaks",
+      "source": "sialia",
+      "list": "SouthBayBirds",
+      "area": "South Bay",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1918072",
+      "reported_at": "2026-11-14T09:11:00",
+      "reported_at_display": "11/14/26 9:11 am",
+      "kind": "post",
+      "first_seen_at": "2026-11-14T19:16:17.642820+00:00"
+    },
     {
       "id": "sialia:1918055",
       "title": "Contra Costa County Christmas Bird Counts, Mt. Diablo Audubon",
