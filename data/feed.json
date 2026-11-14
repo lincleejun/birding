@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-13T23:39:13.329357+00:00",
+  "generated_at": "2026-11-14T06:39:10.353895+00:00",
   "retention_days": 30,
   "order": "reported_at descending; source wall time, timezone unspecified",
   "sources": {
     "sialia": {
       "status": "ok",
-      "last_attempt_at": "2026-11-13T23:39:13.329357+00:00",
-      "last_success_at": "2026-11-13T23:39:13.329357+00:00",
+      "last_attempt_at": "2026-11-14T06:39:10.353895+00:00",
+      "last_success_at": "2026-11-14T06:39:10.353895+00:00",
       "fetched_days": [
         "2026-11-13",
         "2026-11-12"
@@ -28,10 +28,34 @@
     }
   },
   "stats": {
-    "total": 183,
-    "new_this_run": 1
+    "total": 185,
+    "new_this_run": 2
   },
   "items": [
+    {
+      "id": "sialia:1918055",
+      "title": "Contra Costa County Christmas Bird Counts, Mt. Diablo Audubon",
+      "source": "sialia",
+      "list": "EBB-Sightings",
+      "area": "East Bay",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1918055",
+      "reported_at": "2026-11-13T21:01:00",
+      "reported_at_display": "11/13/26 9:01 pm",
+      "kind": "post",
+      "first_seen_at": "2026-11-14T06:39:10.353895+00:00"
+    },
+    {
+      "id": "sialia:1918039",
+      "title": "Richmond CBC Registration is open",
+      "source": "sialia",
+      "list": "SFBirds",
+      "area": "San Francisco",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1918039",
+      "reported_at": "2026-11-13T15:53:00",
+      "reported_at_display": "11/13/26 3:53 pm",
+      "kind": "post",
+      "first_seen_at": "2026-11-14T06:39:10.353895+00:00"
+    },
     {
       "id": "sialia:1918036",
       "title": "Lewis's Woodpecker and other notes",
