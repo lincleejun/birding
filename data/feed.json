@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-15T17:48:24.728663+00:00",
+  "generated_at": "2026-11-15T22:56:05.487919+00:00",
   "retention_days": 30,
   "order": "reported_at descending; source wall time, timezone unspecified",
   "sources": {
     "sialia": {
       "status": "ok",
-      "last_attempt_at": "2026-11-15T17:48:24.728663+00:00",
-      "last_success_at": "2026-11-15T17:48:24.728663+00:00",
+      "last_attempt_at": "2026-11-15T22:56:05.487919+00:00",
+      "last_success_at": "2026-11-15T22:56:05.487919+00:00",
       "fetched_days": [
         "2026-11-15",
         "2026-11-14"
@@ -28,10 +28,70 @@
     }
   },
   "stats": {
-    "total": 175,
-    "new_this_run": 2
+    "total": 180,
+    "new_this_run": 5
   },
   "items": [
+    {
+      "id": "sialia:1918166",
+      "title": "2025 National Christmas Bird Count Summary Released and reminder about 2026 Count",
+      "source": "sialia",
+      "list": "SFBirds",
+      "area": "San Francisco",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1918166",
+      "reported_at": "2026-11-15T13:40:00",
+      "reported_at_display": "11/15/26 1:40 pm",
+      "kind": "post",
+      "first_seen_at": "2026-11-15T22:56:05.487919+00:00"
+    },
+    {
+      "id": "sialia:1918162",
+      "title": "Tropical Kingbird and Western Tanager Continue at Fort Mason",
+      "source": "sialia",
+      "list": "SFBirds",
+      "area": "San Francisco",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1918162",
+      "reported_at": "2026-11-15T13:12:00",
+      "reported_at_display": "11/15/26 1:12 pm",
+      "kind": "post",
+      "first_seen_at": "2026-11-15T22:56:05.487919+00:00"
+    },
+    {
+      "id": "sialia:1918157",
+      "title": "Exclusive use of Polar Coordinates",
+      "source": "sialia",
+      "list": "SouthBayBirds",
+      "area": "South Bay",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1918157",
+      "reported_at": "2026-11-15T11:52:00",
+      "reported_at_display": "11/15/26 11:52 am",
+      "kind": "post",
+      "first_seen_at": "2026-11-15T22:56:05.487919+00:00"
+    },
+    {
+      "id": "sialia:1918154",
+      "title": "Central Valley shorebird survey still needs counters",
+      "source": "sialia",
+      "list": "EBB-Sightings",
+      "area": "East Bay",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1918154",
+      "reported_at": "2026-11-15T11:16:00",
+      "reported_at_display": "11/15/26 11:16 am",
+      "kind": "post",
+      "first_seen_at": "2026-11-15T22:56:05.487919+00:00"
+    },
+    {
+      "id": "sialia:1918149",
+      "title": "Lewis's Woodpeckers and Phainopeplas, Diablo Foothills RP / Northgate Rd",
+      "source": "sialia",
+      "list": "EBB-Sightings",
+      "area": "East Bay",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1918149",
+      "reported_at": "2026-11-15T11:08:00",
+      "reported_at_display": "11/15/26 11:08 am",
+      "kind": "post",
+      "first_seen_at": "2026-11-15T22:56:05.487919+00:00"
+    },
     {
       "id": "sialia:1918136",
       "title": "Evening grosbeaks continuing at Harker",
