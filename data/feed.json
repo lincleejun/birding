@@ -1,22 +1,18 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-15T11:09:09.641056+00:00",
+  "generated_at": "2026-11-15T17:48:24.728663+00:00",
   "retention_days": 30,
   "order": "reported_at descending; source wall time, timezone unspecified",
   "sources": {
     "sialia": {
-      "status": "partial",
-      "last_attempt_at": "2026-11-15T11:09:09.641056+00:00",
-      "last_success_at": "2026-11-15T02:46:51.741891+00:00",
+      "status": "ok",
+      "last_attempt_at": "2026-11-15T17:48:24.728663+00:00",
+      "last_success_at": "2026-11-15T17:48:24.728663+00:00",
       "fetched_days": [
+        "2026-11-15",
         "2026-11-14"
       ],
-      "errors": [
-        {
-          "date": "2026-11-15",
-          "error": "ValueError: Unrecognized Sialia index layout"
-        }
-      ],
+      "errors": [],
       "lists": [
         "SouthBayBirds",
         "peninsula-birding",
@@ -32,10 +28,34 @@
     }
   },
   "stats": {
-    "total": 173,
-    "new_this_run": 0
+    "total": 175,
+    "new_this_run": 2
   },
   "items": [
+    {
+      "id": "sialia:1918136",
+      "title": "Evening grosbeaks continuing at Harker",
+      "source": "sialia",
+      "list": "SouthBayBirds",
+      "area": "South Bay",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1918136",
+      "reported_at": "2026-11-15T08:34:00",
+      "reported_at_display": "11/15/26 8:34 am",
+      "kind": "reply",
+      "first_seen_at": "2026-11-15T17:48:24.728663+00:00"
+    },
+    {
+      "id": "sialia:1918137",
+      "title": "Evening grosbeaks continuing at Harker",
+      "source": "sialia",
+      "list": "SouthBayBirds",
+      "area": "South Bay",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1918137",
+      "reported_at": "2026-11-15T08:33:00",
+      "reported_at_display": "11/15/26 8:33 am",
+      "kind": "post",
+      "first_seen_at": "2026-11-15T17:48:24.728663+00:00"
+    },
     {
       "id": "sialia:1918117",
       "title": "Field Notes: SCVBA trip to Penitencia Creek Trail and Ponds",
