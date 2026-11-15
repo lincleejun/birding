@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-14T23:08:32.590321+00:00",
+  "generated_at": "2026-11-15T02:46:51.741891+00:00",
   "retention_days": 30,
   "order": "reported_at descending; source wall time, timezone unspecified",
   "sources": {
     "sialia": {
       "status": "ok",
-      "last_attempt_at": "2026-11-14T23:08:32.590321+00:00",
-      "last_success_at": "2026-11-14T23:08:32.590321+00:00",
+      "last_attempt_at": "2026-11-15T02:46:51.741891+00:00",
+      "last_success_at": "2026-11-15T02:46:51.741891+00:00",
       "fetched_days": [
         "2026-11-14",
         "2026-11-13"
@@ -28,10 +28,34 @@
     }
   },
   "stats": {
-    "total": 184,
-    "new_this_run": 1
+    "total": 186,
+    "new_this_run": 2
   },
   "items": [
+    {
+      "id": "sialia:1918117",
+      "title": "Field Notes: SCVBA trip to Penitencia Creek Trail and Ponds",
+      "source": "sialia",
+      "list": "SouthBayBirds",
+      "area": "South Bay",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1918117",
+      "reported_at": "2026-11-14T17:56:00",
+      "reported_at_display": "11/14/26 5:56 pm",
+      "kind": "post",
+      "first_seen_at": "2026-11-15T02:46:51.741891+00:00"
+    },
+    {
+      "id": "sialia:1918104",
+      "title": "Grasshopper Sparrow",
+      "source": "sialia",
+      "list": "SouthBayBirds",
+      "area": "South Bay",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1918104",
+      "reported_at": "2026-11-14T15:36:00",
+      "reported_at_display": "11/14/26 3:36 pm",
+      "kind": "post",
+      "first_seen_at": "2026-11-15T02:46:51.741891+00:00"
+    },
     {
       "id": "sialia:1918087",
       "title": "San Mateo County Cumulative Year-list Report for --- October 2026",
