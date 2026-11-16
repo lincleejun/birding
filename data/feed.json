@@ -1,18 +1,22 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-16T02:49:23.775786+00:00",
+  "generated_at": "2026-11-16T11:38:46.986395+00:00",
   "retention_days": 30,
   "order": "reported_at descending; source wall time, timezone unspecified",
   "sources": {
     "sialia": {
-      "status": "ok",
-      "last_attempt_at": "2026-11-16T02:49:23.775786+00:00",
+      "status": "partial",
+      "last_attempt_at": "2026-11-16T11:38:46.986395+00:00",
       "last_success_at": "2026-11-16T02:49:23.775786+00:00",
       "fetched_days": [
-        "2026-11-15",
-        "2026-11-14"
+        "2026-11-15"
       ],
-      "errors": [],
+      "errors": [
+        {
+          "date": "2026-11-16",
+          "error": "ValueError: Unrecognized Sialia index layout"
+        }
+      ],
       "lists": [
         "SouthBayBirds",
         "peninsula-birding",
@@ -28,10 +32,22 @@
     }
   },
   "stats": {
-    "total": 180,
-    "new_this_run": 0
+    "total": 176,
+    "new_this_run": 1
   },
   "items": [
+    {
+      "id": "sialia:1918198",
+      "title": "Recent notes: Blackburnian and other warblers",
+      "source": "sialia",
+      "list": "peninsula-birding",
+      "area": "Peninsula",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1918198",
+      "reported_at": "2026-11-15T19:36:00",
+      "reported_at_display": "11/15/26 7:36 pm",
+      "kind": "post",
+      "first_seen_at": "2026-11-16T11:38:46.986395+00:00"
+    },
     {
       "id": "sialia:1918166",
       "title": "2025 National Christmas Bird Count Summary Released and reminder about 2026 Count",
@@ -2131,66 +2147,6 @@
       "reported_at_display": "10/17/26 9:50 am",
       "kind": "post",
       "first_seen_at": "2026-10-17T17:18:52.738130+00:00"
-    },
-    {
-      "id": "sialia:1915842",
-      "title": "Flat tires, heroes, and amazing peope-Birding Arrowhead Marsh",
-      "source": "sialia",
-      "list": "SouthBayBirds",
-      "area": "South Bay",
-      "source_url": "https://digest-test.sialia.com/?rm=message;id=1915842",
-      "reported_at": "2026-10-16T23:10:00",
-      "reported_at_display": "10/16/26 11:10 pm",
-      "kind": "post",
-      "first_seen_at": "2026-10-17T10:53:38.452540+00:00"
-    },
-    {
-      "id": "sialia:1915823",
-      "title": "City List hits 302 through September, setting another record",
-      "source": "sialia",
-      "list": "SFBirds",
-      "area": "San Francisco",
-      "source_url": "https://digest-test.sialia.com/?rm=message;id=1915823",
-      "reported_at": "2026-10-16T16:29:00",
-      "reported_at_display": "10/16/26 4:29 pm",
-      "kind": "post",
-      "first_seen_at": "2026-10-17T00:33:16.899172+00:00"
-    },
-    {
-      "id": "sialia:1915821",
-      "title": "Lewis's Woodpecker in Belmont",
-      "source": "sialia",
-      "list": "peninsula-birding",
-      "area": "Peninsula",
-      "source_url": "https://digest-test.sialia.com/?rm=message;id=1915821",
-      "reported_at": "2026-10-16T16:10:00",
-      "reported_at_display": "10/16/26 4:10 pm",
-      "kind": "post",
-      "first_seen_at": "2026-10-17T00:33:16.899172+00:00"
-    },
-    {
-      "id": "sialia:1915797",
-      "title": "Sandhill Crane at Battery Godfrey",
-      "source": "sialia",
-      "list": "SFBirds",
-      "area": "San Francisco",
-      "source_url": "https://digest-test.sialia.com/?rm=message;id=1915797",
-      "reported_at": "2026-10-16T11:50:00",
-      "reported_at_display": "10/16/26 11:50 am",
-      "kind": "post",
-      "first_seen_at": "2026-10-16T21:19:13.454824+00:00"
-    },
-    {
-      "id": "sialia:1915764",
-      "title": "Hooded Warbler",
-      "source": "sialia",
-      "list": "peninsula-birding",
-      "area": "Peninsula",
-      "source_url": "https://digest-test.sialia.com/?rm=message;id=1915764",
-      "reported_at": "2026-10-16T07:59:00",
-      "reported_at_display": "10/16/26 7:59 am",
-      "kind": "post",
-      "first_seen_at": "2026-10-16T18:08:10.389143+00:00"
     }
   ]
 }
