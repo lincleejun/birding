@@ -1,22 +1,18 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-16T11:38:46.986395+00:00",
+  "generated_at": "2026-11-16T22:16:04.023324+00:00",
   "retention_days": 30,
   "order": "reported_at descending; source wall time, timezone unspecified",
   "sources": {
     "sialia": {
-      "status": "partial",
-      "last_attempt_at": "2026-11-16T11:38:46.986395+00:00",
-      "last_success_at": "2026-11-16T02:49:23.775786+00:00",
+      "status": "ok",
+      "last_attempt_at": "2026-11-16T22:16:04.023324+00:00",
+      "last_success_at": "2026-11-16T22:16:04.023324+00:00",
       "fetched_days": [
+        "2026-11-16",
         "2026-11-15"
       ],
-      "errors": [
-        {
-          "date": "2026-11-16",
-          "error": "ValueError: Unrecognized Sialia index layout"
-        }
-      ],
+      "errors": [],
       "lists": [
         "SouthBayBirds",
         "peninsula-birding",
@@ -32,10 +28,94 @@
     }
   },
   "stats": {
-    "total": 176,
-    "new_this_run": 1
+    "total": 183,
+    "new_this_run": 7
   },
   "items": [
+    {
+      "id": "sialia:1918234",
+      "title": "2025 National Christmas Bird Count Summary Released and reminder about 2026 Count",
+      "source": "sialia",
+      "list": "SFBirds",
+      "area": "San Francisco",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1918234",
+      "reported_at": "2026-11-16T10:31:00",
+      "reported_at_display": "11/16/26 10:31 am",
+      "kind": "reply",
+      "first_seen_at": "2026-11-16T22:16:04.023324+00:00"
+    },
+    {
+      "id": "sialia:1918233",
+      "title": "2025 National Christmas Bird Count Summary Released and reminder about 2026 Count",
+      "source": "sialia",
+      "list": "SFBirds",
+      "area": "San Francisco",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1918233",
+      "reported_at": "2026-11-16T09:51:00",
+      "reported_at_display": "11/16/26 9:51 am",
+      "kind": "reply",
+      "first_seen_at": "2026-11-16T22:16:04.023324+00:00"
+    },
+    {
+      "id": "sialia:1918229",
+      "title": "Exclusive use of Polar Coordinates",
+      "source": "sialia",
+      "list": "SouthBayBirds",
+      "area": "South Bay",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1918229",
+      "reported_at": "2026-11-16T09:19:00",
+      "reported_at_display": "11/16/26 9:19 am",
+      "kind": "reply",
+      "first_seen_at": "2026-11-16T22:16:04.023324+00:00"
+    },
+    {
+      "id": "sialia:1918225",
+      "title": "2025 National Christmas Bird Count Summary Released and reminder about 2026 Count",
+      "source": "sialia",
+      "list": "SFBirds",
+      "area": "San Francisco",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1918225",
+      "reported_at": "2026-11-16T09:05:00",
+      "reported_at_display": "11/16/26 9:05 am",
+      "kind": "reply",
+      "first_seen_at": "2026-11-16T22:16:04.023324+00:00"
+    },
+    {
+      "id": "sialia:1918220",
+      "title": "2025 National Christmas Bird Count Summary Released and reminder about 2026 Count",
+      "source": "sialia",
+      "list": "SFBirds",
+      "area": "San Francisco",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1918220",
+      "reported_at": "2026-11-16T08:35:00",
+      "reported_at_display": "11/16/26 8:35 am",
+      "kind": "reply",
+      "first_seen_at": "2026-11-16T22:16:04.023324+00:00"
+    },
+    {
+      "id": "sialia:1918218",
+      "title": "evening grosbeaks lower harker school",
+      "source": "sialia",
+      "list": "SouthBayBirds",
+      "area": "South Bay",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1918218",
+      "reported_at": "2026-11-16T08:17:00",
+      "reported_at_display": "11/16/26 8:17 am",
+      "kind": "post",
+      "first_seen_at": "2026-11-16T22:16:04.023324+00:00"
+    },
+    {
+      "id": "sialia:1918213",
+      "title": "evening groabeaks",
+      "source": "sialia",
+      "list": "SouthBayBirds",
+      "area": "South Bay",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1918213",
+      "reported_at": "2026-11-16T07:53:00",
+      "reported_at_display": "11/16/26 7:53 am",
+      "kind": "post",
+      "first_seen_at": "2026-11-16T22:16:04.023324+00:00"
+    },
     {
       "id": "sialia:1918198",
       "title": "Recent notes: Blackburnian and other warblers",
