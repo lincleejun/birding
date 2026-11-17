@@ -1,18 +1,22 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-17T04:37:23.302193+00:00",
+  "generated_at": "2026-11-17T14:36:00.998884+00:00",
   "retention_days": 30,
   "order": "reported_at descending; source wall time, timezone unspecified",
   "sources": {
     "sialia": {
-      "status": "ok",
-      "last_attempt_at": "2026-11-17T04:37:23.302193+00:00",
+      "status": "partial",
+      "last_attempt_at": "2026-11-17T14:36:00.998884+00:00",
       "last_success_at": "2026-11-17T04:37:23.302193+00:00",
       "fetched_days": [
-        "2026-11-16",
-        "2026-11-15"
+        "2026-11-16"
       ],
-      "errors": [],
+      "errors": [
+        {
+          "date": "2026-11-17",
+          "error": "ValueError: Unrecognized Sialia index layout"
+        }
+      ],
       "lists": [
         "SouthBayBirds",
         "peninsula-birding",
@@ -28,10 +32,22 @@
     }
   },
   "stats": {
-    "total": 185,
-    "new_this_run": 2
+    "total": 181,
+    "new_this_run": 1
   },
   "items": [
+    {
+      "id": "sialia:1918297",
+      "title": "The Christmas Bird Count in Santa Clara County",
+      "source": "sialia",
+      "list": "SouthBayBirds",
+      "area": "South Bay",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1918297",
+      "reported_at": "2026-11-16T22:15:00",
+      "reported_at_display": "11/16/26 10:15 pm",
+      "kind": "post",
+      "first_seen_at": "2026-11-17T14:36:00.998884+00:00"
+    },
     {
       "id": "sialia:1918285",
       "title": "Blackburnian Warbler and Grasshopper Sparrow, Seal Point Park, 11/16/2026",
@@ -2191,66 +2207,6 @@
       "reported_at_display": "10/18/26 1:07 am",
       "kind": "post",
       "first_seen_at": "2026-10-18T11:18:49.263131+00:00"
-    },
-    {
-      "id": "sialia:1915908",
-      "title": "Prothonotary",
-      "source": "sialia",
-      "list": "SFBirds",
-      "area": "San Francisco",
-      "source_url": "https://digest-test.sialia.com/?rm=message;id=1915908",
-      "reported_at": "2026-10-17T18:55:00",
-      "reported_at_display": "10/17/26 6:55 pm",
-      "kind": "reply",
-      "first_seen_at": "2026-10-18T06:00:24.998440+00:00"
-    },
-    {
-      "id": "sialia:1915904",
-      "title": "Sora and Virginia Rail",
-      "source": "sialia",
-      "list": "SouthBayBirds",
-      "area": "South Bay",
-      "source_url": "https://digest-test.sialia.com/?rm=message;id=1915904",
-      "reported_at": "2026-10-17T18:20:00",
-      "reported_at_display": "10/17/26 6:20 pm",
-      "kind": "post",
-      "first_seen_at": "2026-10-18T06:00:24.998440+00:00"
-    },
-    {
-      "id": "sialia:1915893",
-      "title": "Prothonotary",
-      "source": "sialia",
-      "list": "SFBirds",
-      "area": "San Francisco",
-      "source_url": "https://digest-test.sialia.com/?rm=message;id=1915893",
-      "reported_at": "2026-10-17T16:17:00",
-      "reported_at_display": "10/17/26 4:17 pm",
-      "kind": "post",
-      "first_seen_at": "2026-10-18T01:09:37.431542+00:00"
-    },
-    {
-      "id": "sialia:1915866",
-      "title": "Lewis’s Woodpecker at Fort Mason",
-      "source": "sialia",
-      "list": "SFBirds",
-      "area": "San Francisco",
-      "source_url": "https://digest-test.sialia.com/?rm=message;id=1915866",
-      "reported_at": "2026-10-17T10:07:00",
-      "reported_at_display": "10/17/26 10:07 am",
-      "kind": "post",
-      "first_seen_at": "2026-10-17T17:18:52.738130+00:00"
-    },
-    {
-      "id": "sialia:1915863",
-      "title": "Northern Pygmy Owl at Bear Creek Redwoods.",
-      "source": "sialia",
-      "list": "SouthBayBirds",
-      "area": "South Bay",
-      "source_url": "https://digest-test.sialia.com/?rm=message;id=1915863",
-      "reported_at": "2026-10-17T09:50:00",
-      "reported_at_display": "10/17/26 9:50 am",
-      "kind": "post",
-      "first_seen_at": "2026-10-17T17:18:52.738130+00:00"
     }
   ]
 }
