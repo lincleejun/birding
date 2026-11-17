@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-16T22:16:04.023324+00:00",
+  "generated_at": "2026-11-17T04:37:23.302193+00:00",
   "retention_days": 30,
   "order": "reported_at descending; source wall time, timezone unspecified",
   "sources": {
     "sialia": {
       "status": "ok",
-      "last_attempt_at": "2026-11-16T22:16:04.023324+00:00",
-      "last_success_at": "2026-11-16T22:16:04.023324+00:00",
+      "last_attempt_at": "2026-11-17T04:37:23.302193+00:00",
+      "last_success_at": "2026-11-17T04:37:23.302193+00:00",
       "fetched_days": [
         "2026-11-16",
         "2026-11-15"
@@ -28,10 +28,34 @@
     }
   },
   "stats": {
-    "total": 183,
-    "new_this_run": 7
+    "total": 185,
+    "new_this_run": 2
   },
   "items": [
+    {
+      "id": "sialia:1918285",
+      "title": "Blackburnian Warbler and Grasshopper Sparrow, Seal Point Park, 11/16/2026",
+      "source": "sialia",
+      "list": "peninsula-birding",
+      "area": "Peninsula",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1918285",
+      "reported_at": "2026-11-16T19:11:00",
+      "reported_at_display": "11/16/26 7:11 pm",
+      "kind": "post",
+      "first_seen_at": "2026-11-17T04:37:23.302193+00:00"
+    },
+    {
+      "id": "sialia:1918282",
+      "title": "2025 National Christmas Bird Count Summary Released and reminder about 2026 Count",
+      "source": "sialia",
+      "list": "SFBirds",
+      "area": "San Francisco",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1918282",
+      "reported_at": "2026-11-16T17:47:00",
+      "reported_at_display": "11/16/26 5:47 pm",
+      "kind": "reply",
+      "first_seen_at": "2026-11-17T04:37:23.302193+00:00"
+    },
     {
       "id": "sialia:1918234",
       "title": "2025 National Christmas Bird Count Summary Released and reminder about 2026 Count",
