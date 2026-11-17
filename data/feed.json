@@ -1,22 +1,18 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-17T14:36:00.998884+00:00",
+  "generated_at": "2026-11-17T22:57:51.856158+00:00",
   "retention_days": 30,
   "order": "reported_at descending; source wall time, timezone unspecified",
   "sources": {
     "sialia": {
-      "status": "partial",
-      "last_attempt_at": "2026-11-17T14:36:00.998884+00:00",
-      "last_success_at": "2026-11-17T04:37:23.302193+00:00",
+      "status": "ok",
+      "last_attempt_at": "2026-11-17T22:57:51.856158+00:00",
+      "last_success_at": "2026-11-17T22:57:51.856158+00:00",
       "fetched_days": [
+        "2026-11-17",
         "2026-11-16"
       ],
-      "errors": [
-        {
-          "date": "2026-11-17",
-          "error": "ValueError: Unrecognized Sialia index layout"
-        }
-      ],
+      "errors": [],
       "lists": [
         "SouthBayBirds",
         "peninsula-birding",
@@ -32,10 +28,70 @@
     }
   },
   "stats": {
-    "total": 181,
-    "new_this_run": 1
+    "total": 186,
+    "new_this_run": 5
   },
   "items": [
+    {
+      "id": "sialia:1918338",
+      "title": "Los Capitancillos, 11/16",
+      "source": "sialia",
+      "list": "SouthBayBirds",
+      "area": "South Bay",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1918338",
+      "reported_at": "2026-11-17T11:36:00",
+      "reported_at_display": "11/17/26 11:36 am",
+      "kind": "post",
+      "first_seen_at": "2026-11-17T22:57:51.856158+00:00"
+    },
+    {
+      "id": "sialia:1918324",
+      "title": "Sausalito Pelagic Friday, 11/20",
+      "source": "sialia",
+      "list": "SFBirds",
+      "area": "San Francisco",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1918324",
+      "reported_at": "2026-11-17T10:27:00",
+      "reported_at_display": "11/17/26 10:27 am",
+      "kind": "post",
+      "first_seen_at": "2026-11-17T22:57:51.856158+00:00"
+    },
+    {
+      "id": "sialia:1918322",
+      "title": "Exclusive use of Polar Coordinates",
+      "source": "sialia",
+      "list": "SouthBayBirds",
+      "area": "South Bay",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1918322",
+      "reported_at": "2026-11-17T10:06:00",
+      "reported_at_display": "11/17/26 10:06 am",
+      "kind": "reply",
+      "first_seen_at": "2026-11-17T22:57:51.856158+00:00"
+    },
+    {
+      "id": "sialia:1918320",
+      "title": "Dec 21 Christmas Bird Count - Palo Alto Count Circle!",
+      "source": "sialia",
+      "list": "peninsula-birding",
+      "area": "Peninsula",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1918320",
+      "reported_at": "2026-11-17T10:06:00",
+      "reported_at_display": "11/17/26 10:06 am",
+      "kind": "post",
+      "first_seen_at": "2026-11-17T22:57:51.856158+00:00"
+    },
+    {
+      "id": "sialia:1918308",
+      "title": "BLACK-THROATED SPARROW Bernal",
+      "source": "sialia",
+      "list": "SFBirds",
+      "area": "San Francisco",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1918308",
+      "reported_at": "2026-11-17T07:24:00",
+      "reported_at_display": "11/17/26 7:24 am",
+      "kind": "post",
+      "first_seen_at": "2026-11-17T22:57:51.856158+00:00"
+    },
     {
       "id": "sialia:1918297",
       "title": "The Christmas Bird Count in Santa Clara County",
