@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-18T14:12:06.706147+00:00",
+  "generated_at": "2026-11-18T22:04:59.528942+00:00",
   "retention_days": 30,
   "order": "reported_at descending; source wall time, timezone unspecified",
   "sources": {
     "sialia": {
       "status": "ok",
-      "last_attempt_at": "2026-11-18T14:12:06.706147+00:00",
-      "last_success_at": "2026-11-18T14:12:06.706147+00:00",
+      "last_attempt_at": "2026-11-18T22:04:59.528942+00:00",
+      "last_success_at": "2026-11-18T22:04:59.528942+00:00",
       "fetched_days": [
         "2026-11-18",
         "2026-11-17"
@@ -28,10 +28,46 @@
     }
   },
   "stats": {
-    "total": 182,
-    "new_this_run": 1
+    "total": 185,
+    "new_this_run": 3
   },
   "items": [
+    {
+      "id": "sialia:1918412",
+      "title": "Sausalito Pelagic Friday, 11/20",
+      "source": "sialia",
+      "list": "SFBirds",
+      "area": "San Francisco",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1918412",
+      "reported_at": "2026-11-18T12:55:00",
+      "reported_at_display": "11/18/26 12:55 pm",
+      "kind": "reply",
+      "first_seen_at": "2026-11-18T22:04:59.528942+00:00"
+    },
+    {
+      "id": "sialia:1918410",
+      "title": "Young birder scholarship for Kachemak Bay festival, Alaska",
+      "source": "sialia",
+      "list": "peninsula-birding",
+      "area": "Peninsula",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1918410",
+      "reported_at": "2026-11-18T11:59:00",
+      "reported_at_display": "11/18/26 11:59 am",
+      "kind": "post",
+      "first_seen_at": "2026-11-18T22:04:59.528942+00:00"
+    },
+    {
+      "id": "sialia:1918405",
+      "title": "Sausalito Pelagic Friday, 11/20",
+      "source": "sialia",
+      "list": "SFBirds",
+      "area": "San Francisco",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1918405",
+      "reported_at": "2026-11-18T11:07:00",
+      "reported_at_display": "11/18/26 11:07 am",
+      "kind": "reply",
+      "first_seen_at": "2026-11-18T22:04:59.528942+00:00"
+    },
     {
       "id": "sialia:1918378",
       "title": "Sausalito Pelagic Friday, 11/20",
