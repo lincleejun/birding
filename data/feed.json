@@ -1,16 +1,16 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-18T04:30:12.406545+00:00",
+  "generated_at": "2026-11-18T14:12:06.706147+00:00",
   "retention_days": 30,
   "order": "reported_at descending; source wall time, timezone unspecified",
   "sources": {
     "sialia": {
       "status": "ok",
-      "last_attempt_at": "2026-11-18T04:30:12.406545+00:00",
-      "last_success_at": "2026-11-18T04:30:12.406545+00:00",
+      "last_attempt_at": "2026-11-18T14:12:06.706147+00:00",
+      "last_success_at": "2026-11-18T14:12:06.706147+00:00",
       "fetched_days": [
-        "2026-11-17",
-        "2026-11-16"
+        "2026-11-18",
+        "2026-11-17"
       ],
       "errors": [],
       "lists": [
@@ -28,10 +28,22 @@
     }
   },
   "stats": {
-    "total": 186,
-    "new_this_run": 0
+    "total": 182,
+    "new_this_run": 1
   },
   "items": [
+    {
+      "id": "sialia:1918378",
+      "title": "Sausalito Pelagic Friday, 11/20",
+      "source": "sialia",
+      "list": "SFBirds",
+      "area": "San Francisco",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1918378",
+      "reported_at": "2026-11-17T20:41:00",
+      "reported_at_display": "11/17/26 8:41 pm",
+      "kind": "reply",
+      "first_seen_at": "2026-11-18T14:12:06.706147+00:00"
+    },
     {
       "id": "sialia:1918338",
       "title": "Los Capitancillos, 11/16",
@@ -2203,66 +2215,6 @@
       "reported_at_display": "10/19/26 10:37 am",
       "kind": "post",
       "first_seen_at": "2026-10-19T22:26:44.742728+00:00"
-    },
-    {
-      "id": "sialia:1915993",
-      "title": "tropical Kingbird at Lake Merced",
-      "source": "sialia",
-      "list": "SFBirds",
-      "area": "San Francisco",
-      "source_url": "https://digest-test.sialia.com/?rm=message;id=1915993",
-      "reported_at": "2026-10-18T21:04:00",
-      "reported_at_display": "10/18/26 9:04 pm",
-      "kind": "reply",
-      "first_seen_at": "2026-10-19T04:53:30.645225+00:00"
-    },
-    {
-      "id": "sialia:1915972",
-      "title": "Horned Larks at Sierra Vista",
-      "source": "sialia",
-      "list": "SouthBayBirds",
-      "area": "South Bay",
-      "source_url": "https://digest-test.sialia.com/?rm=message;id=1915972",
-      "reported_at": "2026-10-18T15:17:00",
-      "reported_at_display": "10/18/26 3:17 pm",
-      "kind": "post",
-      "first_seen_at": "2026-10-19T00:14:02.583916+00:00"
-    },
-    {
-      "id": "sialia:1915949",
-      "title": "Sabine’s Gull at Sunnyvale WPCP",
-      "source": "sialia",
-      "list": "SouthBayBirds",
-      "area": "South Bay",
-      "source_url": "https://digest-test.sialia.com/?rm=message;id=1915949",
-      "reported_at": "2026-10-18T12:09:00",
-      "reported_at_display": "10/18/26 12:09 pm",
-      "kind": "post",
-      "first_seen_at": "2026-10-18T21:33:15.730350+00:00"
-    },
-    {
-      "id": "sialia:1915941",
-      "title": "tropical Kingbird at Lake Merced",
-      "source": "sialia",
-      "list": "SFBirds",
-      "area": "San Francisco",
-      "source_url": "https://digest-test.sialia.com/?rm=message;id=1915941",
-      "reported_at": "2026-10-18T11:12:00",
-      "reported_at_display": "10/18/26 11:12 am",
-      "kind": "post",
-      "first_seen_at": "2026-10-18T18:41:10.306971+00:00"
-    },
-    {
-      "id": "sialia:1915919",
-      "title": "TJ Martin Park - Chipping Sparrows and More!",
-      "source": "sialia",
-      "list": "SouthBayBirds",
-      "area": "South Bay",
-      "source_url": "https://digest-test.sialia.com/?rm=message;id=1915919",
-      "reported_at": "2026-10-18T01:07:00",
-      "reported_at_display": "10/18/26 1:07 am",
-      "kind": "post",
-      "first_seen_at": "2026-10-18T11:18:49.263131+00:00"
     }
   ]
 }
