@@ -1,22 +1,18 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-19T13:25:44.003459+00:00",
+  "generated_at": "2026-11-19T22:15:02.466120+00:00",
   "retention_days": 30,
   "order": "reported_at descending; source wall time, timezone unspecified",
   "sources": {
     "sialia": {
-      "status": "partial",
-      "last_attempt_at": "2026-11-19T13:25:44.003459+00:00",
-      "last_success_at": "2026-11-19T03:38:07.630525+00:00",
+      "status": "ok",
+      "last_attempt_at": "2026-11-19T22:15:02.466120+00:00",
+      "last_success_at": "2026-11-19T22:15:02.466120+00:00",
       "fetched_days": [
+        "2026-11-19",
         "2026-11-18"
       ],
-      "errors": [
-        {
-          "date": "2026-11-19",
-          "error": "ValueError: Unrecognized Sialia index layout"
-        }
-      ],
+      "errors": [],
       "lists": [
         "SouthBayBirds",
         "peninsula-birding",
@@ -32,10 +28,70 @@
     }
   },
   "stats": {
-    "total": 183,
-    "new_this_run": 0
+    "total": 188,
+    "new_this_run": 5
   },
   "items": [
+    {
+      "id": "sialia:1918487",
+      "title": "Harris's Sparrow @ Crissy Field 11/19/26 2nd Hand Report",
+      "source": "sialia",
+      "list": "SFBirds",
+      "area": "San Francisco",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1918487",
+      "reported_at": "2026-11-19T13:21:00",
+      "reported_at_display": "11/19/26 1:21 pm",
+      "kind": "reply",
+      "first_seen_at": "2026-11-19T22:15:02.466120+00:00"
+    },
+    {
+      "id": "sialia:1918484",
+      "title": "2025 National Christmas Bird Count Summary Released and reminder about 2026 SF Count which includes northern San Mateo County",
+      "source": "sialia",
+      "list": "peninsula-birding",
+      "area": "Peninsula",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1918484",
+      "reported_at": "2026-11-19T12:45:00",
+      "reported_at_display": "11/19/26 12:45 pm",
+      "kind": "post",
+      "first_seen_at": "2026-11-19T22:15:02.466120+00:00"
+    },
+    {
+      "id": "sialia:1918477",
+      "title": "Harris's Sparrow @ Crissy Field 11/19/26 2nd Hand Report",
+      "source": "sialia",
+      "list": "SFBirds",
+      "area": "San Francisco",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1918477",
+      "reported_at": "2026-11-19T11:55:00",
+      "reported_at_display": "11/19/26 11:55 am",
+      "kind": "post",
+      "first_seen_at": "2026-11-19T22:15:02.466120+00:00"
+    },
+    {
+      "id": "sialia:1918466",
+      "title": "Pine Siskin flock has arrived at my home in Sonoma",
+      "source": "sialia",
+      "list": "northbaybirds",
+      "area": "North Bay",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1918466",
+      "reported_at": "2026-11-19T09:13:00",
+      "reported_at_display": "11/19/26 9:13 am",
+      "kind": "reply",
+      "first_seen_at": "2026-11-19T22:15:02.466120+00:00"
+    },
+    {
+      "id": "sialia:1918464",
+      "title": "Pine Siskin flock has arrived at my home in Sonoma",
+      "source": "sialia",
+      "list": "northbaybirds",
+      "area": "North Bay",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1918464",
+      "reported_at": "2026-11-19T08:54:00",
+      "reported_at_display": "11/19/26 8:54 am",
+      "kind": "post",
+      "first_seen_at": "2026-11-19T22:15:02.466120+00:00"
+    },
     {
       "id": "sialia:1918412",
       "title": "Sausalito Pelagic Friday, 11/20",
