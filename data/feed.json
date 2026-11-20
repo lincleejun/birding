@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-19T22:15:02.466120+00:00",
+  "generated_at": "2026-11-20T03:31:09.288437+00:00",
   "retention_days": 30,
   "order": "reported_at descending; source wall time, timezone unspecified",
   "sources": {
     "sialia": {
       "status": "ok",
-      "last_attempt_at": "2026-11-19T22:15:02.466120+00:00",
-      "last_success_at": "2026-11-19T22:15:02.466120+00:00",
+      "last_attempt_at": "2026-11-20T03:31:09.288437+00:00",
+      "last_success_at": "2026-11-20T03:31:09.288437+00:00",
       "fetched_days": [
         "2026-11-19",
         "2026-11-18"
@@ -28,10 +28,46 @@
     }
   },
   "stats": {
-    "total": 188,
-    "new_this_run": 5
+    "total": 191,
+    "new_this_run": 3
   },
   "items": [
+    {
+      "id": "sialia:1918513",
+      "title": "Finally backyard Evening Grosbeaks in Napa!",
+      "source": "sialia",
+      "list": "northbaybirds",
+      "area": "North Bay",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1918513",
+      "reported_at": "2026-11-19T17:29:00",
+      "reported_at_display": "11/19/26 5:29 pm",
+      "kind": "post",
+      "first_seen_at": "2026-11-20T03:31:09.288437+00:00"
+    },
+    {
+      "id": "sialia:1918512",
+      "title": "Lesser Nighthawk @ Lake Merced Concrete Bridge 11/19/26",
+      "source": "sialia",
+      "list": "SFBirds",
+      "area": "San Francisco",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1918512",
+      "reported_at": "2026-11-19T17:13:00",
+      "reported_at_display": "11/19/26 5:13 pm",
+      "kind": "post",
+      "first_seen_at": "2026-11-20T03:31:09.288437+00:00"
+    },
+    {
+      "id": "sialia:1918511",
+      "title": "Lesser Nighthawk Continues!!!",
+      "source": "sialia",
+      "list": "SFBirds",
+      "area": "San Francisco",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1918511",
+      "reported_at": "2026-11-19T17:12:00",
+      "reported_at_display": "11/19/26 5:12 pm",
+      "kind": "post",
+      "first_seen_at": "2026-11-20T03:31:09.288437+00:00"
+    },
     {
       "id": "sialia:1918487",
       "title": "Harris's Sparrow @ Crissy Field 11/19/26 2nd Hand Report",
