@@ -1,18 +1,22 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-20T21:14:40.283012+00:00",
+  "generated_at": "2026-11-21T02:30:48.999695+00:00",
   "retention_days": 30,
   "order": "reported_at descending; source wall time, timezone unspecified",
   "sources": {
     "sialia": {
-      "status": "ok",
-      "last_attempt_at": "2026-11-20T21:14:40.283012+00:00",
+      "status": "partial",
+      "last_attempt_at": "2026-11-21T02:30:48.999695+00:00",
       "last_success_at": "2026-11-20T21:14:40.283012+00:00",
       "fetched_days": [
-        "2026-11-20",
         "2026-11-19"
       ],
-      "errors": [],
+      "errors": [
+        {
+          "date": "2026-11-20",
+          "error": "UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf1 in position 17937: invalid continuation byte"
+        }
+      ],
       "lists": [
         "SouthBayBirds",
         "peninsula-birding",
@@ -29,7 +33,7 @@
   },
   "stats": {
     "total": 187,
-    "new_this_run": 3
+    "new_this_run": 0
   },
   "items": [
     {
