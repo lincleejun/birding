@@ -1,20 +1,22 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-21T02:30:48.999695+00:00",
+  "generated_at": "2026-11-21T11:19:45.822955+00:00",
   "retention_days": 30,
   "order": "reported_at descending; source wall time, timezone unspecified",
   "sources": {
     "sialia": {
-      "status": "partial",
-      "last_attempt_at": "2026-11-21T02:30:48.999695+00:00",
+      "status": "error",
+      "last_attempt_at": "2026-11-21T11:19:45.822955+00:00",
       "last_success_at": "2026-11-20T21:14:40.283012+00:00",
-      "fetched_days": [
-        "2026-11-19"
-      ],
+      "fetched_days": [],
       "errors": [
         {
+          "date": "2026-11-21",
+          "error": "ValueError: Unrecognized Sialia index layout"
+        },
+        {
           "date": "2026-11-20",
-          "error": "UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf1 in position 17937: invalid continuation byte"
+          "error": "UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf1 in position 19622: invalid continuation byte"
         }
       ],
       "lists": [
@@ -32,7 +34,7 @@
     }
   },
   "stats": {
-    "total": 187,
+    "total": 176,
     "new_this_run": 0
   },
   "items": [
@@ -2147,138 +2149,6 @@
       "reported_at_display": "10/22/26 11:46 am",
       "kind": "post",
       "first_seen_at": "2026-10-22T22:25:28.600923+00:00"
-    },
-    {
-      "id": "sialia:1916195",
-      "title": "ID help from audio",
-      "source": "sialia",
-      "list": "EBB-Sightings",
-      "area": "East Bay",
-      "source_url": "https://digest-test.sialia.com/?rm=message;id=1916195",
-      "reported_at": "2026-10-21T18:23:00",
-      "reported_at_display": "10/21/26 6:23 pm",
-      "kind": "reply",
-      "first_seen_at": "2026-10-22T01:35:29.433151+00:00"
-    },
-    {
-      "id": "sialia:1916193",
-      "title": "ID help from audio",
-      "source": "sialia",
-      "list": "EBB-Sightings",
-      "area": "East Bay",
-      "source_url": "https://digest-test.sialia.com/?rm=message;id=1916193",
-      "reported_at": "2026-10-21T18:00:00",
-      "reported_at_display": "10/21/26 6:00 pm",
-      "kind": "reply",
-      "first_seen_at": "2026-10-22T01:35:29.433151+00:00"
-    },
-    {
-      "id": "sialia:1916190",
-      "title": "ID help from audio",
-      "source": "sialia",
-      "list": "EBB-Sightings",
-      "area": "East Bay",
-      "source_url": "https://digest-test.sialia.com/?rm=message;id=1916190",
-      "reported_at": "2026-10-21T17:32:00",
-      "reported_at_display": "10/21/26 5:32 pm",
-      "kind": "reply",
-      "first_seen_at": "2026-10-22T01:35:29.433151+00:00"
-    },
-    {
-      "id": "sialia:1916182",
-      "title": "ID help from audio",
-      "source": "sialia",
-      "list": "EBB-Sightings",
-      "area": "East Bay",
-      "source_url": "https://digest-test.sialia.com/?rm=message;id=1916182",
-      "reported_at": "2026-10-21T16:37:00",
-      "reported_at_display": "10/21/26 4:37 pm",
-      "kind": "reply",
-      "first_seen_at": "2026-10-22T01:35:29.433151+00:00"
-    },
-    {
-      "id": "sialia:1916179",
-      "title": "ID help from audio",
-      "source": "sialia",
-      "list": "EBB-Sightings",
-      "area": "East Bay",
-      "source_url": "https://digest-test.sialia.com/?rm=message;id=1916179",
-      "reported_at": "2026-10-21T16:25:00",
-      "reported_at_display": "10/21/26 4:25 pm",
-      "kind": "reply",
-      "first_seen_at": "2026-10-22T01:35:29.433151+00:00"
-    },
-    {
-      "id": "sialia:1916178",
-      "title": "SCVBA field trip to Hellyer CP",
-      "source": "sialia",
-      "list": "SouthBayBirds",
-      "area": "South Bay",
-      "source_url": "https://digest-test.sialia.com/?rm=message;id=1916178",
-      "reported_at": "2026-10-21T16:03:00",
-      "reported_at_display": "10/21/26 4:03 pm",
-      "kind": "post",
-      "first_seen_at": "2026-10-22T01:35:29.433151+00:00"
-    },
-    {
-      "id": "sialia:1916175",
-      "title": "ID help from audio",
-      "source": "sialia",
-      "list": "EBB-Sightings",
-      "area": "East Bay",
-      "source_url": "https://digest-test.sialia.com/?rm=message;id=1916175",
-      "reported_at": "2026-10-21T15:38:00",
-      "reported_at_display": "10/21/26 3:38 pm",
-      "kind": "reply",
-      "first_seen_at": "2026-10-22T01:35:29.433151+00:00"
-    },
-    {
-      "id": "sialia:1916170",
-      "title": "Hooded Mergansers at Edith Morley Park, Campbell",
-      "source": "sialia",
-      "list": "SouthBayBirds",
-      "area": "South Bay",
-      "source_url": "https://digest-test.sialia.com/?rm=message;id=1916170",
-      "reported_at": "2026-10-21T14:54:00",
-      "reported_at_display": "10/21/26 2:54 pm",
-      "kind": "post",
-      "first_seen_at": "2026-10-21T22:26:04.066830+00:00"
-    },
-    {
-      "id": "sialia:1916157",
-      "title": "ID help from audio",
-      "source": "sialia",
-      "list": "EBB-Sightings",
-      "area": "East Bay",
-      "source_url": "https://digest-test.sialia.com/?rm=message;id=1916157",
-      "reported_at": "2026-10-21T12:18:00",
-      "reported_at_display": "10/21/26 12:18 pm",
-      "kind": "post",
-      "first_seen_at": "2026-10-21T22:26:04.066830+00:00"
-    },
-    {
-      "id": "sialia:1916154",
-      "title": "Recent bird photos, a giveaway, and a request",
-      "source": "sialia",
-      "list": "peninsula-birding",
-      "area": "Peninsula",
-      "source_url": "https://digest-test.sialia.com/?rm=message;id=1916154",
-      "reported_at": "2026-10-21T11:35:00",
-      "reported_at_display": "10/21/26 11:35 am",
-      "kind": "post",
-      "first_seen_at": "2026-10-21T22:26:04.066830+00:00"
-    },
-    {
-      "id": "sialia:1916145",
-      "title": "SEPTEMBER 2026 Cumulative Bird Report for Santa Clara County",
-      "source": "sialia",
-      "list": "SouthBayBirds",
-      "area": "South Bay",
-      "source_url": "https://digest-test.sialia.com/?rm=message;id=1916145",
-      "reported_at": "2026-10-21T07:58:00",
-      "reported_at_display": "10/21/26 7:58 am",
-      "kind": "post",
-      "first_seen_at": "2026-10-21T18:43:44.347116+00:00"
     }
   ]
 }
