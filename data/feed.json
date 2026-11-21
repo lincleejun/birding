@@ -1,19 +1,17 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-21T11:19:45.822955+00:00",
+  "generated_at": "2026-11-21T19:25:11.207226+00:00",
   "retention_days": 30,
   "order": "reported_at descending; source wall time, timezone unspecified",
   "sources": {
     "sialia": {
-      "status": "error",
-      "last_attempt_at": "2026-11-21T11:19:45.822955+00:00",
+      "status": "partial",
+      "last_attempt_at": "2026-11-21T19:25:11.207226+00:00",
       "last_success_at": "2026-11-20T21:14:40.283012+00:00",
-      "fetched_days": [],
+      "fetched_days": [
+        "2026-11-21"
+      ],
       "errors": [
-        {
-          "date": "2026-11-21",
-          "error": "ValueError: Unrecognized Sialia index layout"
-        },
         {
           "date": "2026-11-20",
           "error": "UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf1 in position 19622: invalid continuation byte"
@@ -34,10 +32,22 @@
     }
   },
   "stats": {
-    "total": 176,
-    "new_this_run": 0
+    "total": 177,
+    "new_this_run": 1
   },
   "items": [
+    {
+      "id": "sialia:1918597",
+      "title": "Continuing Rarities",
+      "source": "sialia",
+      "list": "SFBirds",
+      "area": "San Francisco",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1918597",
+      "reported_at": "2026-11-21T07:56:00",
+      "reported_at_display": "11/21/26 7:56 am",
+      "kind": "post",
+      "first_seen_at": "2026-11-21T19:25:11.207226+00:00"
+    },
     {
       "id": "sialia:1918534",
       "title": "Pacific Flyway Shorebird Survey 2026 - Join the network!",
