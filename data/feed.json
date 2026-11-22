@@ -1,22 +1,18 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-22T08:05:46.684290+00:00",
+  "generated_at": "2026-11-22T16:22:17.818617+00:00",
   "retention_days": 30,
   "order": "reported_at descending; source wall time, timezone unspecified",
   "sources": {
     "sialia": {
-      "status": "partial",
-      "last_attempt_at": "2026-11-22T08:05:46.684290+00:00",
-      "last_success_at": "2026-11-20T21:14:40.283012+00:00",
+      "status": "ok",
+      "last_attempt_at": "2026-11-22T16:22:17.818617+00:00",
+      "last_success_at": "2026-11-22T16:22:17.818617+00:00",
       "fetched_days": [
+        "2026-11-22",
         "2026-11-21"
       ],
-      "errors": [
-        {
-          "date": "2026-11-22",
-          "error": "ValueError: Unrecognized Sialia index layout"
-        }
-      ],
+      "errors": [],
       "lists": [
         "SouthBayBirds",
         "peninsula-birding",
@@ -32,10 +28,22 @@
     }
   },
   "stats": {
-    "total": 176,
-    "new_this_run": 0
+    "total": 177,
+    "new_this_run": 1
   },
   "items": [
+    {
+      "id": "sialia:1918667",
+      "title": "Mountain Plover up the beach from Abbotts",
+      "source": "sialia",
+      "list": "northbaybirds",
+      "area": "North Bay",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1918667",
+      "reported_at": "2026-11-22T07:02:00",
+      "reported_at_display": "11/22/26 7:02 am",
+      "kind": "post",
+      "first_seen_at": "2026-11-22T16:22:17.818617+00:00"
+    },
     {
       "id": "sialia:1918622",
       "title": "A raptor morning at Coyote Valley Open Space",
