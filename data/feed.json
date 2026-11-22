@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-21T19:25:11.207226+00:00",
+  "generated_at": "2026-11-22T00:24:13.339306+00:00",
   "retention_days": 30,
   "order": "reported_at descending; source wall time, timezone unspecified",
   "sources": {
     "sialia": {
       "status": "partial",
-      "last_attempt_at": "2026-11-21T19:25:11.207226+00:00",
+      "last_attempt_at": "2026-11-22T00:24:13.339306+00:00",
       "last_success_at": "2026-11-20T21:14:40.283012+00:00",
       "fetched_days": [
         "2026-11-21"
@@ -32,10 +32,46 @@
     }
   },
   "stats": {
-    "total": 177,
-    "new_this_run": 1
+    "total": 180,
+    "new_this_run": 3
   },
   "items": [
+    {
+      "id": "sialia:1918622",
+      "title": "A raptor morning at Coyote Valley Open Space",
+      "source": "sialia",
+      "list": "SouthBayBirds",
+      "area": "South Bay",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1918622",
+      "reported_at": "2026-11-21T13:30:00",
+      "reported_at_display": "11/21/26 1:30 pm",
+      "kind": "post",
+      "first_seen_at": "2026-11-22T00:24:13.339306+00:00"
+    },
+    {
+      "id": "sialia:1918618",
+      "title": "Evening Grosbeaks @ Harker",
+      "source": "sialia",
+      "list": "SouthBayBirds",
+      "area": "South Bay",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1918618",
+      "reported_at": "2026-11-21T13:11:00",
+      "reported_at_display": "11/21/26 1:11 pm",
+      "kind": "post",
+      "first_seen_at": "2026-11-22T00:24:13.339306+00:00"
+    },
+    {
+      "id": "sialia:1918613",
+      "title": "EVENING GROSBEAK at Sunnyvale Home Depot",
+      "source": "sialia",
+      "list": "SouthBayBirds",
+      "area": "South Bay",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1918613",
+      "reported_at": "2026-11-21T11:30:00",
+      "reported_at_display": "11/21/26 11:30 am",
+      "kind": "post",
+      "first_seen_at": "2026-11-22T00:24:13.339306+00:00"
+    },
     {
       "id": "sialia:1918597",
       "title": "Continuing Rarities",
