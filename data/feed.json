@@ -1,20 +1,20 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-22T00:24:13.339306+00:00",
+  "generated_at": "2026-11-22T08:05:46.684290+00:00",
   "retention_days": 30,
   "order": "reported_at descending; source wall time, timezone unspecified",
   "sources": {
     "sialia": {
       "status": "partial",
-      "last_attempt_at": "2026-11-22T00:24:13.339306+00:00",
+      "last_attempt_at": "2026-11-22T08:05:46.684290+00:00",
       "last_success_at": "2026-11-20T21:14:40.283012+00:00",
       "fetched_days": [
         "2026-11-21"
       ],
       "errors": [
         {
-          "date": "2026-11-20",
-          "error": "UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf1 in position 19622: invalid continuation byte"
+          "date": "2026-11-22",
+          "error": "ValueError: Unrecognized Sialia index layout"
         }
       ],
       "lists": [
@@ -32,8 +32,8 @@
     }
   },
   "stats": {
-    "total": 180,
-    "new_this_run": 3
+    "total": 176,
+    "new_this_run": 0
   },
   "items": [
     {
@@ -2147,54 +2147,6 @@
       "reported_at_display": "10/23/26 11:42 am",
       "kind": "post",
       "first_seen_at": "2026-10-23T22:18:17.573157+00:00"
-    },
-    {
-      "id": "sialia:1916281",
-      "title": "Yellow-browed Warbler details",
-      "source": "sialia",
-      "list": "peninsula-birding",
-      "area": "Peninsula",
-      "source_url": "https://digest-test.sialia.com/?rm=message;id=1916281",
-      "reported_at": "2026-10-22T19:23:00",
-      "reported_at_display": "10/22/26 7:23 pm",
-      "kind": "post",
-      "first_seen_at": "2026-10-23T07:39:12.389557+00:00"
-    },
-    {
-      "id": "sialia:1916260",
-      "title": "Putative YELLOW-BROWED WARBLER",
-      "source": "sialia",
-      "list": "peninsula-birding",
-      "area": "Peninsula",
-      "source_url": "https://digest-test.sialia.com/?rm=message;id=1916260",
-      "reported_at": "2026-10-22T16:05:00",
-      "reported_at_display": "10/22/26 4:05 pm",
-      "kind": "reply",
-      "first_seen_at": "2026-10-23T01:36:04.263454+00:00"
-    },
-    {
-      "id": "sialia:1916239",
-      "title": "Putative YELLOW-BROWED WARBLER",
-      "source": "sialia",
-      "list": "peninsula-birding",
-      "area": "Peninsula",
-      "source_url": "https://digest-test.sialia.com/?rm=message;id=1916239",
-      "reported_at": "2026-10-22T12:09:00",
-      "reported_at_display": "10/22/26 12:09 pm",
-      "kind": "reply",
-      "first_seen_at": "2026-10-22T22:25:28.600923+00:00"
-    },
-    {
-      "id": "sialia:1916236",
-      "title": "Putative YELLOW-BROWED WARBLER",
-      "source": "sialia",
-      "list": "peninsula-birding",
-      "area": "Peninsula",
-      "source_url": "https://digest-test.sialia.com/?rm=message;id=1916236",
-      "reported_at": "2026-10-22T11:46:00",
-      "reported_at_display": "10/22/26 11:46 am",
-      "kind": "post",
-      "first_seen_at": "2026-10-22T22:25:28.600923+00:00"
     }
   ]
 }
