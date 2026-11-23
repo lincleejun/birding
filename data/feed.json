@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-22T22:30:19.877943+00:00",
+  "generated_at": "2026-11-23T03:45:27.193645+00:00",
   "retention_days": 30,
   "order": "reported_at descending; source wall time, timezone unspecified",
   "sources": {
     "sialia": {
       "status": "partial",
-      "last_attempt_at": "2026-11-22T22:30:19.877943+00:00",
+      "last_attempt_at": "2026-11-23T03:45:27.193645+00:00",
       "last_success_at": "2026-11-22T16:22:17.818617+00:00",
       "fetched_days": [
         "2026-11-21"
@@ -14,7 +14,7 @@
       "errors": [
         {
           "date": "2026-11-22",
-          "error": "UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf1 in position 14825: invalid continuation byte"
+          "error": "UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf1 in position 17500: invalid continuation byte"
         }
       ],
       "lists": [
