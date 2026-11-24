@@ -1,22 +1,18 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-24T13:54:19.174444+00:00",
+  "generated_at": "2026-11-24T23:30:09.803788+00:00",
   "retention_days": 30,
   "order": "reported_at descending; source wall time, timezone unspecified",
   "sources": {
     "sialia": {
-      "status": "partial",
-      "last_attempt_at": "2026-11-24T13:54:19.174444+00:00",
-      "last_success_at": "2026-11-22T16:22:17.818617+00:00",
+      "status": "ok",
+      "last_attempt_at": "2026-11-24T23:30:09.803788+00:00",
+      "last_success_at": "2026-11-24T23:30:09.803788+00:00",
       "fetched_days": [
+        "2026-11-24",
         "2026-11-23"
       ],
-      "errors": [
-        {
-          "date": "2026-11-24",
-          "error": "ValueError: Unrecognized Sialia index layout"
-        }
-      ],
+      "errors": [],
       "lists": [
         "SouthBayBirds",
         "peninsula-birding",
@@ -32,10 +28,22 @@
     }
   },
   "stats": {
-    "total": 178,
-    "new_this_run": 0
+    "total": 179,
+    "new_this_run": 1
   },
   "items": [
+    {
+      "id": "sialia:1918856",
+      "title": "Parkway Lakes",
+      "source": "sialia",
+      "list": "SouthBayBirds",
+      "area": "South Bay",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1918856",
+      "reported_at": "2026-11-24T13:44:00",
+      "reported_at_display": "11/24/26 1:44 pm",
+      "kind": "post",
+      "first_seen_at": "2026-11-24T23:30:09.803788+00:00"
+    },
     {
       "id": "sialia:1918802",
       "title": "Field Notes: SCVBA Trip to Bear Creek Redwoods",
