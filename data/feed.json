@@ -1,20 +1,20 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-24T02:17:54.306599+00:00",
+  "generated_at": "2026-11-24T13:54:19.174444+00:00",
   "retention_days": 30,
   "order": "reported_at descending; source wall time, timezone unspecified",
   "sources": {
     "sialia": {
       "status": "partial",
-      "last_attempt_at": "2026-11-24T02:17:54.306599+00:00",
+      "last_attempt_at": "2026-11-24T13:54:19.174444+00:00",
       "last_success_at": "2026-11-22T16:22:17.818617+00:00",
       "fetched_days": [
         "2026-11-23"
       ],
       "errors": [
         {
-          "date": "2026-11-22",
-          "error": "UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf1 in position 19298: invalid continuation byte"
+          "date": "2026-11-24",
+          "error": "ValueError: Unrecognized Sialia index layout"
         }
       ],
       "lists": [
@@ -32,8 +32,8 @@
     }
   },
   "stats": {
-    "total": 182,
-    "new_this_run": 10
+    "total": 178,
+    "new_this_run": 0
   },
   "items": [
     {
@@ -2171,54 +2171,6 @@
       "reported_at_display": "10/25/26 12:06 pm",
       "kind": "post",
       "first_seen_at": "2026-10-25T19:43:24.088540+00:00"
-    },
-    {
-      "id": "sialia:1916440",
-      "title": "Hellyer and backyard birds",
-      "source": "sialia",
-      "list": "SouthBayBirds",
-      "area": "South Bay",
-      "source_url": "https://digest-test.sialia.com/?rm=message;id=1916440",
-      "reported_at": "2026-10-24T19:05:00",
-      "reported_at_display": "10/24/26 7:05 pm",
-      "kind": "post",
-      "first_seen_at": "2026-10-25T06:17:15.255102+00:00"
-    },
-    {
-      "id": "sialia:1916437",
-      "title": "Field Notes: SCVBA trip to Hayward Regional Shoreline",
-      "source": "sialia",
-      "list": "SouthBayBirds",
-      "area": "South Bay",
-      "source_url": "https://digest-test.sialia.com/?rm=message;id=1916437",
-      "reported_at": "2026-10-24T18:24:00",
-      "reported_at_display": "10/24/26 6:24 pm",
-      "kind": "post",
-      "first_seen_at": "2026-10-25T06:17:15.255102+00:00"
-    },
-    {
-      "id": "sialia:1916431",
-      "title": "Lewis's Woodpecker and Lark Sparrows at Fort Mason",
-      "source": "sialia",
-      "list": "SFBirds",
-      "area": "San Francisco",
-      "source_url": "https://digest-test.sialia.com/?rm=message;id=1916431",
-      "reported_at": "2026-10-24T16:57:00",
-      "reported_at_display": "10/24/26 4:57 pm",
-      "kind": "post",
-      "first_seen_at": "2026-10-25T01:15:41.444155+00:00"
-    },
-    {
-      "id": "sialia:1916420",
-      "title": "TJ Martin Park",
-      "source": "sialia",
-      "list": "SouthBayBirds",
-      "area": "South Bay",
-      "source_url": "https://digest-test.sialia.com/?rm=message;id=1916420",
-      "reported_at": "2026-10-24T15:39:00",
-      "reported_at_display": "10/24/26 3:39 pm",
-      "kind": "post",
-      "first_seen_at": "2026-10-25T01:15:41.444155+00:00"
     }
   ]
 }
