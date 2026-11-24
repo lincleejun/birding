@@ -1,19 +1,17 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-23T14:51:20.484122+00:00",
+  "generated_at": "2026-11-24T02:17:54.306599+00:00",
   "retention_days": 30,
   "order": "reported_at descending; source wall time, timezone unspecified",
   "sources": {
     "sialia": {
-      "status": "error",
-      "last_attempt_at": "2026-11-23T14:51:20.484122+00:00",
+      "status": "partial",
+      "last_attempt_at": "2026-11-24T02:17:54.306599+00:00",
       "last_success_at": "2026-11-22T16:22:17.818617+00:00",
-      "fetched_days": [],
+      "fetched_days": [
+        "2026-11-23"
+      ],
       "errors": [
-        {
-          "date": "2026-11-23",
-          "error": "ValueError: Unrecognized Sialia index layout"
-        },
         {
           "date": "2026-11-22",
           "error": "UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf1 in position 19298: invalid continuation byte"
@@ -34,10 +32,130 @@
     }
   },
   "stats": {
-    "total": 172,
-    "new_this_run": 0
+    "total": 182,
+    "new_this_run": 10
   },
   "items": [
+    {
+      "id": "sialia:1918802",
+      "title": "Field Notes: SCVBA Trip to Bear Creek Redwoods",
+      "source": "sialia",
+      "list": "SouthBayBirds",
+      "area": "South Bay",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1918802",
+      "reported_at": "2026-11-23T18:07:00",
+      "reported_at_display": "11/23/26 6:07 pm",
+      "kind": "post",
+      "first_seen_at": "2026-11-24T02:17:54.306599+00:00"
+    },
+    {
+      "id": "sialia:1918801",
+      "title": "Shorebird survey - Alviso",
+      "source": "sialia",
+      "list": "SouthBayBirds",
+      "area": "South Bay",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1918801",
+      "reported_at": "2026-11-23T17:13:00",
+      "reported_at_display": "11/23/26 5:13 pm",
+      "kind": "post",
+      "first_seen_at": "2026-11-24T02:17:54.306599+00:00"
+    },
+    {
+      "id": "sialia:1918770",
+      "title": "Update Palo Alto Baylands the park is open, but they just don’t want you bringing your car in, but you can walk in",
+      "source": "sialia",
+      "list": "SouthBayBirds",
+      "area": "South Bay",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1918770",
+      "reported_at": "2026-11-23T12:18:00",
+      "reported_at_display": "11/23/26 12:18 pm",
+      "kind": "post",
+      "first_seen_at": "2026-11-24T02:17:54.306599+00:00"
+    },
+    {
+      "id": "sialia:1918761",
+      "title": "Palo Alto Baylands will be open in one hour",
+      "source": "sialia",
+      "list": "SouthBayBirds",
+      "area": "South Bay",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1918761",
+      "reported_at": "2026-11-23T11:08:00",
+      "reported_at_display": "11/23/26 11:08 am",
+      "kind": "post",
+      "first_seen_at": "2026-11-24T02:17:54.306599+00:00"
+    },
+    {
+      "id": "sialia:1918755",
+      "title": "Palo Alto Baylands closed",
+      "source": "sialia",
+      "list": "SouthBayBirds",
+      "area": "South Bay",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1918755",
+      "reported_at": "2026-11-23T09:31:00",
+      "reported_at_display": "11/23/26 9:31 am",
+      "kind": "reply",
+      "first_seen_at": "2026-11-24T02:17:54.306599+00:00"
+    },
+    {
+      "id": "sialia:1918752",
+      "title": "Palo Alto Baylands closed",
+      "source": "sialia",
+      "list": "SouthBayBirds",
+      "area": "South Bay",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1918752",
+      "reported_at": "2026-11-23T08:51:00",
+      "reported_at_display": "11/23/26 8:51 am",
+      "kind": "reply",
+      "first_seen_at": "2026-11-24T02:17:54.306599+00:00"
+    },
+    {
+      "id": "sialia:1918751",
+      "title": "Palo Alto Baylands closed",
+      "source": "sialia",
+      "list": "SouthBayBirds",
+      "area": "South Bay",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1918751",
+      "reported_at": "2026-11-23T08:12:00",
+      "reported_at_display": "11/23/26 8:12 am",
+      "kind": "reply",
+      "first_seen_at": "2026-11-24T02:17:54.306599+00:00"
+    },
+    {
+      "id": "sialia:1918750",
+      "title": "Palo Alto Baylands closed",
+      "source": "sialia",
+      "list": "SouthBayBirds",
+      "area": "South Bay",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1918750",
+      "reported_at": "2026-11-23T08:05:00",
+      "reported_at_display": "11/23/26 8:05 am",
+      "kind": "reply",
+      "first_seen_at": "2026-11-24T02:17:54.306599+00:00"
+    },
+    {
+      "id": "sialia:1918749",
+      "title": "Palo Alto Baylands closed",
+      "source": "sialia",
+      "list": "SouthBayBirds",
+      "area": "South Bay",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1918749",
+      "reported_at": "2026-11-23T07:53:00",
+      "reported_at_display": "11/23/26 7:53 am",
+      "kind": "post",
+      "first_seen_at": "2026-11-24T02:17:54.306599+00:00"
+    },
+    {
+      "id": "sialia:1918744",
+      "title": "Noyo Pelagics -November 30th",
+      "source": "sialia",
+      "list": "northbaybirds",
+      "area": "North Bay",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1918744",
+      "reported_at": "2026-11-23T07:07:00",
+      "reported_at_display": "11/23/26 7:07 am",
+      "kind": "post",
+      "first_seen_at": "2026-11-24T02:17:54.306599+00:00"
+    },
     {
       "id": "sialia:1918667",
       "title": "Mountain Plover up the beach from Abbotts",
