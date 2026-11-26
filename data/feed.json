@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-25T19:23:36.622131+00:00",
+  "generated_at": "2026-11-26T02:53:41.572278+00:00",
   "retention_days": 30,
   "order": "reported_at descending; source wall time, timezone unspecified",
   "sources": {
     "sialia": {
       "status": "ok",
-      "last_attempt_at": "2026-11-25T19:23:36.622131+00:00",
-      "last_success_at": "2026-11-25T19:23:36.622131+00:00",
+      "last_attempt_at": "2026-11-26T02:53:41.572278+00:00",
+      "last_success_at": "2026-11-26T02:53:41.572278+00:00",
       "fetched_days": [
         "2026-11-25",
         "2026-11-24"
@@ -28,10 +28,58 @@
     }
   },
   "stats": {
-    "total": 179,
+    "total": 183,
     "new_this_run": 4
   },
   "items": [
+    {
+      "id": "sialia:1918955",
+      "title": "SF county Sausalito Pelagic this Saturday",
+      "source": "sialia",
+      "list": "SFBirds",
+      "area": "San Francisco",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1918955",
+      "reported_at": "2026-11-25T17:03:00",
+      "reported_at_display": "11/25/26 5:03 pm",
+      "kind": "post",
+      "first_seen_at": "2026-11-26T02:53:41.572278+00:00"
+    },
+    {
+      "id": "sialia:1918943",
+      "title": "Sad news",
+      "source": "sialia",
+      "list": "northbaybirds",
+      "area": "North Bay",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1918943",
+      "reported_at": "2026-11-25T14:25:00",
+      "reported_at_display": "11/25/26 2:25 pm",
+      "kind": "post",
+      "first_seen_at": "2026-11-26T02:53:41.572278+00:00"
+    },
+    {
+      "id": "sialia:1918940",
+      "title": "Harvey-Bear entrance to Coyote Lake",
+      "source": "sialia",
+      "list": "SouthBayBirds",
+      "area": "South Bay",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1918940",
+      "reported_at": "2026-11-25T13:51:00",
+      "reported_at_display": "11/25/26 1:51 pm",
+      "kind": "post",
+      "first_seen_at": "2026-11-26T02:53:41.572278+00:00"
+    },
+    {
+      "id": "sialia:1918921",
+      "title": "Princeton Bald Eagle/ Tropical Kingbird",
+      "source": "sialia",
+      "list": "peninsula-birding",
+      "area": "Peninsula",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1918921",
+      "reported_at": "2026-11-25T11:41:00",
+      "reported_at_display": "11/25/26 11:41 am",
+      "kind": "post",
+      "first_seen_at": "2026-11-26T02:53:41.572278+00:00"
+    },
     {
       "id": "sialia:1918909",
       "title": "new bird",
