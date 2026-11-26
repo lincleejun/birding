@@ -1,22 +1,18 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-26T12:48:09.487879+00:00",
+  "generated_at": "2026-11-26T22:24:17.263205+00:00",
   "retention_days": 30,
   "order": "reported_at descending; source wall time, timezone unspecified",
   "sources": {
     "sialia": {
-      "status": "partial",
-      "last_attempt_at": "2026-11-26T12:48:09.487879+00:00",
-      "last_success_at": "2026-11-26T02:53:41.572278+00:00",
+      "status": "ok",
+      "last_attempt_at": "2026-11-26T22:24:17.263205+00:00",
+      "last_success_at": "2026-11-26T22:24:17.263205+00:00",
       "fetched_days": [
+        "2026-11-26",
         "2026-11-25"
       ],
-      "errors": [
-        {
-          "date": "2026-11-26",
-          "error": "ValueError: Unrecognized Sialia index layout"
-        }
-      ],
+      "errors": [],
       "lists": [
         "SouthBayBirds",
         "peninsula-birding",
@@ -32,10 +28,46 @@
     }
   },
   "stats": {
-    "total": 171,
-    "new_this_run": 1
+    "total": 174,
+    "new_this_run": 3
   },
   "items": [
+    {
+      "id": "sialia:1919011",
+      "title": "Cassins Finches",
+      "source": "sialia",
+      "list": "SouthBayBirds",
+      "area": "South Bay",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1919011",
+      "reported_at": "2026-11-26T13:20:00",
+      "reported_at_display": "11/26/26 1:20 pm",
+      "kind": "post",
+      "first_seen_at": "2026-11-26T22:24:17.263205+00:00"
+    },
+    {
+      "id": "sialia:1918982",
+      "title": "Swamp Sparrows at Alviso Marina",
+      "source": "sialia",
+      "list": "SouthBayBirds",
+      "area": "South Bay",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1918982",
+      "reported_at": "2026-11-26T08:52:00",
+      "reported_at_display": "11/26/26 8:52 am",
+      "kind": "reply",
+      "first_seen_at": "2026-11-26T22:24:17.263205+00:00"
+    },
+    {
+      "id": "sialia:1918967",
+      "title": "Northern Shovler x Gadwall hybrid",
+      "source": "sialia",
+      "list": "SouthBayBirds",
+      "area": "South Bay",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1918967",
+      "reported_at": "2026-11-26T05:39:00",
+      "reported_at_display": "11/26/26 5:39 am",
+      "kind": "post",
+      "first_seen_at": "2026-11-26T22:24:17.263205+00:00"
+    },
     {
       "id": "sialia:1918964",
       "title": "Reminder: The Christmas Bird Count in Santa Clara County",
