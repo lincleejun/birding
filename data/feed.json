@@ -1,22 +1,18 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-27T15:13:01.977714+00:00",
+  "generated_at": "2026-11-27T23:31:34.434606+00:00",
   "retention_days": 30,
   "order": "reported_at descending; source wall time, timezone unspecified",
   "sources": {
     "sialia": {
-      "status": "partial",
-      "last_attempt_at": "2026-11-27T15:13:01.977714+00:00",
-      "last_success_at": "2026-11-27T05:06:32.506258+00:00",
+      "status": "ok",
+      "last_attempt_at": "2026-11-27T23:31:34.434606+00:00",
+      "last_success_at": "2026-11-27T23:31:34.434606+00:00",
       "fetched_days": [
+        "2026-11-27",
         "2026-11-26"
       ],
-      "errors": [
-        {
-          "date": "2026-11-27",
-          "error": "ValueError: Unrecognized Sialia index layout"
-        }
-      ],
+      "errors": [],
       "lists": [
         "SouthBayBirds",
         "peninsula-birding",
@@ -32,10 +28,58 @@
     }
   },
   "stats": {
-    "total": 161,
-    "new_this_run": 0
+    "total": 165,
+    "new_this_run": 4
   },
   "items": [
+    {
+      "id": "sialia:1919063",
+      "title": "Cassins Finches",
+      "source": "sialia",
+      "list": "SouthBayBirds",
+      "area": "South Bay",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1919063",
+      "reported_at": "2026-11-27T15:00:00",
+      "reported_at_display": "11/27/26 3:00 pm",
+      "kind": "reply",
+      "first_seen_at": "2026-11-27T23:31:34.434606+00:00"
+    },
+    {
+      "id": "sialia:1919041",
+      "title": "Black throated Gray Warbler at Mission College",
+      "source": "sialia",
+      "list": "SouthBayBirds",
+      "area": "South Bay",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1919041",
+      "reported_at": "2026-11-27T11:14:00",
+      "reported_at_display": "11/27/26 11:14 am",
+      "kind": "post",
+      "first_seen_at": "2026-11-27T23:31:34.434606+00:00"
+    },
+    {
+      "id": "sialia:1919037",
+      "title": "Palm warbler in Burlingame",
+      "source": "sialia",
+      "list": "peninsula-birding",
+      "area": "Peninsula",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1919037",
+      "reported_at": "2026-11-27T10:31:00",
+      "reported_at_display": "11/27/26 10:31 am",
+      "kind": "post",
+      "first_seen_at": "2026-11-27T23:31:34.434606+00:00"
+    },
+    {
+      "id": "sialia:1919034",
+      "title": "new bird?",
+      "source": "sialia",
+      "list": "northbaybirds",
+      "area": "North Bay",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1919034",
+      "reported_at": "2026-11-27T09:07:00",
+      "reported_at_display": "11/27/26 9:07 am",
+      "kind": "post",
+      "first_seen_at": "2026-11-27T23:31:34.434606+00:00"
+    },
     {
       "id": "sialia:1919011",
       "title": "Cassins Finches",
