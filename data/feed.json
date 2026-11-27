@@ -1,18 +1,22 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-27T05:06:32.506258+00:00",
+  "generated_at": "2026-11-27T15:13:01.977714+00:00",
   "retention_days": 30,
   "order": "reported_at descending; source wall time, timezone unspecified",
   "sources": {
     "sialia": {
-      "status": "ok",
-      "last_attempt_at": "2026-11-27T05:06:32.506258+00:00",
+      "status": "partial",
+      "last_attempt_at": "2026-11-27T15:13:01.977714+00:00",
       "last_success_at": "2026-11-27T05:06:32.506258+00:00",
       "fetched_days": [
-        "2026-11-26",
-        "2026-11-25"
+        "2026-11-26"
       ],
-      "errors": [],
+      "errors": [
+        {
+          "date": "2026-11-27",
+          "error": "ValueError: Unrecognized Sialia index layout"
+        }
+      ],
       "lists": [
         "SouthBayBirds",
         "peninsula-birding",
@@ -28,7 +32,7 @@
     }
   },
   "stats": {
-    "total": 174,
+    "total": 161,
     "new_this_run": 0
   },
   "items": [
@@ -1963,162 +1967,6 @@
       "reported_at_display": "10/28/26 7:36 am",
       "kind": "reply",
       "first_seen_at": "2026-10-28T18:54:54.960456+00:00"
-    },
-    {
-      "id": "sialia:1916684",
-      "title": "Birding this winter and Kelvin Wave affected Tides Another observation.",
-      "source": "sialia",
-      "list": "EBB-Sightings",
-      "area": "East Bay",
-      "source_url": "https://digest-test.sialia.com/?rm=message;id=1916684",
-      "reported_at": "2026-10-27T21:32:00",
-      "reported_at_display": "10/27/26 9:32 pm",
-      "kind": "reply",
-      "first_seen_at": "2026-10-28T05:52:37.404267+00:00"
-    },
-    {
-      "id": "sialia:1916682",
-      "title": "Lapland Longspur",
-      "source": "sialia",
-      "list": "EBB-Sightings",
-      "area": "East Bay",
-      "source_url": "https://digest-test.sialia.com/?rm=message;id=1916682",
-      "reported_at": "2026-10-27T21:21:00",
-      "reported_at_display": "10/27/26 9:21 pm",
-      "kind": "post",
-      "first_seen_at": "2026-10-28T05:52:37.404267+00:00"
-    },
-    {
-      "id": "sialia:1916681",
-      "title": "Birding this winter and Kelvin Wave affected Tides",
-      "source": "sialia",
-      "list": "EBB-Sightings",
-      "area": "East Bay",
-      "source_url": "https://digest-test.sialia.com/?rm=message;id=1916681",
-      "reported_at": "2026-10-27T20:56:00",
-      "reported_at_display": "10/27/26 8:56 pm",
-      "kind": "reply",
-      "first_seen_at": "2026-10-28T05:52:37.404267+00:00"
-    },
-    {
-      "id": "sialia:1916679",
-      "title": "Channel Island orange crowned warbler question",
-      "source": "sialia",
-      "list": "EBB-Sightings",
-      "area": "East Bay",
-      "source_url": "https://digest-test.sialia.com/?rm=message;id=1916679",
-      "reported_at": "2026-10-27T20:44:00",
-      "reported_at_display": "10/27/26 8:44 pm",
-      "kind": "post",
-      "first_seen_at": "2026-10-28T05:52:37.404267+00:00"
-    },
-    {
-      "id": "sialia:1916680",
-      "title": "Birding this winter and Kelvin Wave affected Tides",
-      "source": "sialia",
-      "list": "EBB-Sightings",
-      "area": "East Bay",
-      "source_url": "https://digest-test.sialia.com/?rm=message;id=1916680",
-      "reported_at": "2026-10-27T20:38:00",
-      "reported_at_display": "10/27/26 8:38 pm",
-      "kind": "post",
-      "first_seen_at": "2026-10-28T05:52:37.404267+00:00"
-    },
-    {
-      "id": "sialia:1916672",
-      "title": "Tropical Kingbird at Fort Mason",
-      "source": "sialia",
-      "list": "SFBirds",
-      "area": "San Francisco",
-      "source_url": "https://digest-test.sialia.com/?rm=message;id=1916672",
-      "reported_at": "2026-10-27T17:00:00",
-      "reported_at_display": "10/27/26 5:00 pm",
-      "kind": "post",
-      "first_seen_at": "2026-10-28T05:52:37.404267+00:00"
-    },
-    {
-      "id": "sialia:1916663",
-      "title": "Evening Grosbeaks at Markham Nature Area, Concord",
-      "source": "sialia",
-      "list": "EBB-Sightings",
-      "area": "East Bay",
-      "source_url": "https://digest-test.sialia.com/?rm=message;id=1916663",
-      "reported_at": "2026-10-27T16:37:00",
-      "reported_at_display": "10/27/26 4:37 pm",
-      "kind": "post",
-      "first_seen_at": "2026-10-27T23:49:57.248231+00:00"
-    },
-    {
-      "id": "sialia:1916657",
-      "title": "Lark Bunting continues",
-      "source": "sialia",
-      "list": "peninsula-birding",
-      "area": "Peninsula",
-      "source_url": "https://digest-test.sialia.com/?rm=message;id=1916657",
-      "reported_at": "2026-10-27T15:45:00",
-      "reported_at_display": "10/27/26 3:45 pm",
-      "kind": "post",
-      "first_seen_at": "2026-10-27T23:49:57.248231+00:00"
-    },
-    {
-      "id": "sialia:1916641",
-      "title": "GRACES",
-      "source": "sialia",
-      "list": "peninsula-birding",
-      "area": "Peninsula",
-      "source_url": "https://digest-test.sialia.com/?rm=message;id=1916641",
-      "reported_at": "2026-10-27T13:40:00",
-      "reported_at_display": "10/27/26 1:40 pm",
-      "kind": "post",
-      "first_seen_at": "2026-10-27T23:49:57.248231+00:00"
-    },
-    {
-      "id": "sialia:1916642",
-      "title": "O’Connor Pond",
-      "source": "sialia",
-      "list": "peninsula-birding",
-      "area": "Peninsula",
-      "source_url": "https://digest-test.sialia.com/?rm=message;id=1916642",
-      "reported_at": "2026-10-27T13:31:00",
-      "reported_at_display": "10/27/26 1:31 pm",
-      "kind": "post",
-      "first_seen_at": "2026-10-27T23:49:57.248231+00:00"
-    },
-    {
-      "id": "sialia:1916640",
-      "title": "SUMMER Tanager Corona Hill 10/27/26",
-      "source": "sialia",
-      "list": "SFBirds",
-      "area": "San Francisco",
-      "source_url": "https://digest-test.sialia.com/?rm=message;id=1916640",
-      "reported_at": "2026-10-27T13:30:00",
-      "reported_at_display": "10/27/26 1:30 pm",
-      "kind": "post",
-      "first_seen_at": "2026-10-27T23:49:57.248231+00:00"
-    },
-    {
-      "id": "sialia:1916636",
-      "title": "Bald Eagle just now",
-      "source": "sialia",
-      "list": "SFBirds",
-      "area": "San Francisco",
-      "source_url": "https://digest-test.sialia.com/?rm=message;id=1916636",
-      "reported_at": "2026-10-27T13:29:00",
-      "reported_at_display": "10/27/26 1:29 pm",
-      "kind": "post",
-      "first_seen_at": "2026-10-27T23:49:57.248231+00:00"
-    },
-    {
-      "id": "sialia:1916627",
-      "title": "Misc. observations from the coast 10/26/26",
-      "source": "sialia",
-      "list": "peninsula-birding",
-      "area": "Peninsula",
-      "source_url": "https://digest-test.sialia.com/?rm=message;id=1916627",
-      "reported_at": "2026-10-27T11:38:00",
-      "reported_at_display": "10/27/26 11:38 am",
-      "kind": "post",
-      "first_seen_at": "2026-10-27T19:28:03.085721+00:00"
     }
   ]
 }
