@@ -1,16 +1,16 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-28T07:59:03.438530+00:00",
+  "generated_at": "2026-11-28T16:56:57.035987+00:00",
   "retention_days": 30,
   "order": "reported_at descending; source wall time, timezone unspecified",
   "sources": {
     "sialia": {
       "status": "ok",
-      "last_attempt_at": "2026-11-28T07:59:03.438530+00:00",
-      "last_success_at": "2026-11-28T07:59:03.438530+00:00",
+      "last_attempt_at": "2026-11-28T16:56:57.035987+00:00",
+      "last_success_at": "2026-11-28T16:56:57.035987+00:00",
       "fetched_days": [
-        "2026-11-27",
-        "2026-11-26"
+        "2026-11-28",
+        "2026-11-27"
       ],
       "errors": [],
       "lists": [
@@ -28,8 +28,8 @@
     }
   },
   "stats": {
-    "total": 170,
-    "new_this_run": 5
+    "total": 162,
+    "new_this_run": 0
   },
   "items": [
     {
@@ -1975,102 +1975,6 @@
       "reported_at_display": "10/29/26 10:50 am",
       "kind": "post",
       "first_seen_at": "2026-10-29T19:00:58.230610+00:00"
-    },
-    {
-      "id": "sialia:1916755",
-      "title": "Possible Wilson’s Snipe at Tilden Botanic Garden",
-      "source": "sialia",
-      "list": "EBB-Sightings",
-      "area": "East Bay",
-      "source_url": "https://digest-test.sialia.com/?rm=message;id=1916755",
-      "reported_at": "2026-10-28T18:36:00",
-      "reported_at_display": "10/28/26 6:36 pm",
-      "kind": "post",
-      "first_seen_at": "2026-10-29T05:57:02.486479+00:00"
-    },
-    {
-      "id": "sialia:1916749",
-      "title": "If you haven't seen enough Lewis's Woodpeckers this fall, head to Lake Berryessa",
-      "source": "sialia",
-      "list": "northbaybirds",
-      "area": "North Bay",
-      "source_url": "https://digest-test.sialia.com/?rm=message;id=1916749",
-      "reported_at": "2026-10-28T16:44:00",
-      "reported_at_display": "10/28/26 4:44 pm",
-      "kind": "post",
-      "first_seen_at": "2026-10-29T05:57:02.486479+00:00"
-    },
-    {
-      "id": "sialia:1916727",
-      "title": "Bubb pond",
-      "source": "sialia",
-      "list": "SouthBayBirds",
-      "area": "South Bay",
-      "source_url": "https://digest-test.sialia.com/?rm=message;id=1916727",
-      "reported_at": "2026-10-28T13:35:00",
-      "reported_at_display": "10/28/26 1:35 pm",
-      "kind": "post",
-      "first_seen_at": "2026-10-28T23:17:35.940480+00:00"
-    },
-    {
-      "id": "sialia:1916713",
-      "title": "Red -naped Sapsucker",
-      "source": "sialia",
-      "list": "SFBirds",
-      "area": "San Francisco",
-      "source_url": "https://digest-test.sialia.com/?rm=message;id=1916713",
-      "reported_at": "2026-10-28T10:26:00",
-      "reported_at_display": "10/28/26 10:26 am",
-      "kind": "post",
-      "first_seen_at": "2026-10-28T18:54:54.960456+00:00"
-    },
-    {
-      "id": "sialia:1916700",
-      "title": "Birding this winter and Kelvin Wave affected Tides Another observation.",
-      "source": "sialia",
-      "list": "EBB-Sightings",
-      "area": "East Bay",
-      "source_url": "https://digest-test.sialia.com/?rm=message;id=1916700",
-      "reported_at": "2026-10-28T08:16:00",
-      "reported_at_display": "10/28/26 8:16 am",
-      "kind": "reply",
-      "first_seen_at": "2026-10-28T18:54:54.960456+00:00"
-    },
-    {
-      "id": "sialia:1916698",
-      "title": "Birding this winter and Kelvin Wave affected Tides Another observation.",
-      "source": "sialia",
-      "list": "EBB-Sightings",
-      "area": "East Bay",
-      "source_url": "https://digest-test.sialia.com/?rm=message;id=1916698",
-      "reported_at": "2026-10-28T07:59:00",
-      "reported_at_display": "10/28/26 7:59 am",
-      "kind": "reply",
-      "first_seen_at": "2026-10-28T18:54:54.960456+00:00"
-    },
-    {
-      "id": "sialia:1916696",
-      "title": "Birding this winter and Kelvin Wave affected Tides Another observation.",
-      "source": "sialia",
-      "list": "EBB-Sightings",
-      "area": "East Bay",
-      "source_url": "https://digest-test.sialia.com/?rm=message;id=1916696",
-      "reported_at": "2026-10-28T07:53:00",
-      "reported_at_display": "10/28/26 7:53 am",
-      "kind": "reply",
-      "first_seen_at": "2026-10-28T18:54:54.960456+00:00"
-    },
-    {
-      "id": "sialia:1916695",
-      "title": "Birding this winter and Kelvin Wave affected Tides Another observation.",
-      "source": "sialia",
-      "list": "EBB-Sightings",
-      "area": "East Bay",
-      "source_url": "https://digest-test.sialia.com/?rm=message;id=1916695",
-      "reported_at": "2026-10-28T07:36:00",
-      "reported_at_display": "10/28/26 7:36 am",
-      "kind": "reply",
-      "first_seen_at": "2026-10-28T18:54:54.960456+00:00"
     }
   ]
 }
