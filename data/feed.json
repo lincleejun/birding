@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-27T23:31:34.434606+00:00",
+  "generated_at": "2026-11-28T07:59:03.438530+00:00",
   "retention_days": 30,
   "order": "reported_at descending; source wall time, timezone unspecified",
   "sources": {
     "sialia": {
       "status": "ok",
-      "last_attempt_at": "2026-11-27T23:31:34.434606+00:00",
-      "last_success_at": "2026-11-27T23:31:34.434606+00:00",
+      "last_attempt_at": "2026-11-28T07:59:03.438530+00:00",
+      "last_success_at": "2026-11-28T07:59:03.438530+00:00",
       "fetched_days": [
         "2026-11-27",
         "2026-11-26"
@@ -28,10 +28,70 @@
     }
   },
   "stats": {
-    "total": 165,
-    "new_this_run": 4
+    "total": 170,
+    "new_this_run": 5
   },
   "items": [
+    {
+      "id": "sialia:1919085",
+      "title": "2 Kingbirds, Vermillion Flycatcher - A3W",
+      "source": "sialia",
+      "list": "SouthBayBirds",
+      "area": "South Bay",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1919085",
+      "reported_at": "2026-11-27T22:12:00",
+      "reported_at_display": "11/27/26 10:12 pm",
+      "kind": "post",
+      "first_seen_at": "2026-11-28T07:59:03.438530+00:00"
+    },
+    {
+      "id": "sialia:1919080",
+      "title": "How to use coordinates -- Re: [southbaybirds] Black throated Gray Warbler at Mission College",
+      "source": "sialia",
+      "list": "SouthBayBirds",
+      "area": "South Bay",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1919080",
+      "reported_at": "2026-11-27T19:23:00",
+      "reported_at_display": "11/27/26 7:23 pm",
+      "kind": "post",
+      "first_seen_at": "2026-11-28T07:59:03.438530+00:00"
+    },
+    {
+      "id": "sialia:1919078",
+      "title": "Zone-tailed Hawk, PRS",
+      "source": "sialia",
+      "list": "northbaybirds",
+      "area": "North Bay",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1919078",
+      "reported_at": "2026-11-27T19:15:00",
+      "reported_at_display": "11/27/26 7:15 pm",
+      "kind": "post",
+      "first_seen_at": "2026-11-28T07:59:03.438530+00:00"
+    },
+    {
+      "id": "sialia:1919067",
+      "title": "Black throated Gray Warbler at Mission College",
+      "source": "sialia",
+      "list": "SouthBayBirds",
+      "area": "South Bay",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1919067",
+      "reported_at": "2026-11-27T16:57:00",
+      "reported_at_display": "11/27/26 4:57 pm",
+      "kind": "reply",
+      "first_seen_at": "2026-11-28T07:59:03.438530+00:00"
+    },
+    {
+      "id": "sialia:1919065",
+      "title": "Black throated Gray Warbler at Mission College",
+      "source": "sialia",
+      "list": "SouthBayBirds",
+      "area": "South Bay",
+      "source_url": "https://digest-test.sialia.com/?rm=message;id=1919065",
+      "reported_at": "2026-11-27T16:39:00",
+      "reported_at_display": "11/27/26 4:39 pm",
+      "kind": "reply",
+      "first_seen_at": "2026-11-28T07:59:03.438530+00:00"
+    },
     {
       "id": "sialia:1919063",
       "title": "Cassins Finches",
